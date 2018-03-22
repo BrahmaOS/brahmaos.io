@@ -1,0 +1,127 @@
+#section-colors {
+position: fixed;
+width: 220px;
+height: 300px;
+top: 150px;
+background: #f9f9f9;
+color: #565555;
+border: 1px solid #ccc;
+border-radius: 2px;
+z-index: 10021;
+transition: all 1s;
+}
+
+.color-panel .color-wrap {
+overflow: hidden;
+margin: auto;
+margin-top: 22px;
+width: 70%;
+}
+
+.panel-open { 
+left: -2px;
+}
+
+.panel-close {
+left: -220px;
+}
+
+.color-panel h3 {
+display: inline-block;
+font-size: 18px;
+line-height: 1.4;
+border-bottom: 1px solid #ccc;
+margin-bottom: 15px;
+}
+
+.panel-ticker {
+position: absolute;
+cursor: pointer;
+font-size: 28px;
+height: 48px;
+width: 55px;
+top: 38px;
+right: -55px;
+background: #f9f9f9;
+padding: 10px;
+border-top: 1px solid #ccc;
+border-right: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+}
+
+.pallet-row {
+float:left;
+width: 100%;
+display:block;
+margin-bottom: 14px;
+}
+
+.pallet-row .color-pallet {
+display: inline-block;
+float: left;
+height: 20px;
+width: 44px;
+margin-right: 10px;
+}
+
+.pallet-row .color-pallet:last-child {
+margin-right: 0;
+}
+
+.color-red {
+background: #FC331C;
+}
+
+.color-blue {
+background: #148AA5;
+}
+
+.color-green {
+background: #00AB66;
+}
+
+.color-gray {
+background: #666666;
+}
+
+.color-orange {
+background: #EA8825;
+}
+
+.color-violet {
+background: #8C489F;
+}
+
+.color-blue-light {
+background: #008ED6;
+}
+
+.color-yellow {
+background: #E5C41A;
+}
+
+.color-brown {
+background: #9C8061;
+}
+
+.color-lime {
+background: #ABE61E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
