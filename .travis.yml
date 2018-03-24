@@ -10,7 +10,7 @@ before_install:
 - cat ~/.ssh/config
 after_success:
 - ssh tokyo "cd /www/brahmaos.io/ && sudo git pull"
-- ssh london "cd /www/brahmaos.io/ && sudo git pull"
+- ssh london "cd /www/brahmaos.io/ &&  git pull"
 env:
 - APP_DEBUG=false
 addons:
