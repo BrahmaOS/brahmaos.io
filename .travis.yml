@@ -9,8 +9,8 @@ before_install:
 - echo -e "Host tokyo\n\thostname ${hostname_tokyo}\n\tport ${port_tokyo}\n\tuser ${user_tokyo}\n\tIdentityFile  ~/.ssh/brahmaos.pem\nHost london\n\thostname ${hostname_london}\n\tport ${port_london}\n\tuser ${user_london}\n\tIdentityFile  ~/.ssh/brahmaos.pem" > ~/.ssh/config
 - cat ~/.ssh/config
 after_success:
-- ssh tokyo "sudo cd /www/brahmaos.io/ && sudo git pull"
-- ssh london "sudo cd /www/brahmaos.io/ && sudo git pull"
+- ssh tokyo "cd /www/brahmaos.io/ && sudo git pull"
+- ssh london "cd /www/brahmaos.io/ && sudo git pull"
 env:
 - APP_DEBUG=false
 addons:
