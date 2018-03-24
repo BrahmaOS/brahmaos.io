@@ -14,5 +14,5 @@ env:
 - APP_DEBUG=false
 addons:
   ssh_known_hosts:
-  - $hostname_tokyo
-  - $hostname_london
+  - 13.230.159.122
+  - 159.65.22.214
