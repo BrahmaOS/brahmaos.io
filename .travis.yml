@@ -10,7 +10,7 @@ before_install:
 - chmod 600 ~/.ssh/id_rsa
 - chmod 600 ~/.ssh/brahmaos-tokyo.pem
 - echo "Host tokyo
-        	    hostname ${hostname_tokyo}
+                hostname ${hostname_tokyo}
                 port ${port_tokyo}
                 user ${user_tokyo}
                 IdentityFile  ~/.ssh/brahmaos-tokyo.pem
@@ -18,11 +18,10 @@ before_install:
                 hostname ${hostname_london}
                 port ${port_london}
                 user ${user_london}
-                IdentityFile  ~/.ssh/id_rsa" > ~/.ssh/config
+                IdentityFile  ~/.ssh/id_rsa" > ~/.ssh/config"
 after_success:
 - ssh tokyo "sudo su - && cd /www/brahmaos.io && git pull"
 - ssh london "sudo su - && cd /www/brahmaos.io && git pull"
-
 env:
 - APP_DEBUG=false
 addons:
