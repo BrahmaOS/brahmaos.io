@@ -3,10 +3,8 @@ php:
 - 7.2
 - nightly
 before_install:
-- openssl aes-256-cbc -K $encrypted_845395c4607a_key -iv $encrypted_845395c4607a_iv
-  -in brahmaos-tokyo.pem.enc -out ~/.ssh/brahmaos-tokyo.pem -d
-- openssl aes-256-cbc -K $encrypted_845395c4607a_key -iv $encrypted_845395c4607a_iv
-  -in id_rsa.enc -out ~/.ssh/id_rsa -d
+- echo ${key_tokyo} > ~/.ssh/brahmaos-tokyo.pem
+- echo ${key_london} > ~/.ssh/brahmaos-london.pem
 - chmod 600 ~/.ssh/id_rsa
 - chmod 600 ~/.ssh/brahmaos-tokyo.pem
 - echo "Host tokyo
