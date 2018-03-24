@@ -12,3 +12,7 @@ after_success:
 - ssh london "sudo su - && cd /www/brahmaos.io && git pull"
 env:
 - APP_DEBUG=false
+addons:
+  ssh_known_hosts:
+  - ${hostname_tokyo}
+  - ${hostname_london}
