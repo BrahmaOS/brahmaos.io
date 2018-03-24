@@ -20,8 +20,8 @@ before_install:
                 user ${user_london}
                 IdentityFile  ~/.ssh/id_rsa" > ~/.ssh/config
 after_success:
-- ssh tokyo "sudo su - && cd /www/test && git pull"
-- ssh london "sudo su - && cd /www/test && git pull"
+- ssh tokyo "sudo su - && cd /www/brahmaos.io && git pull"
+- ssh london "sudo su - && cd /www/brahmaos.io && git pull"
 
 env:
 - APP_DEBUG=false
