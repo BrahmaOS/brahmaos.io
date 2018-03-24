@@ -6,16 +6,17 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_845395c4607a_key -iv $encrypted_845395c4607a_iv
   -in brahmaos.pem.enc -out ~/.ssh/brahmaos.pem -d
 - chmod 600 ~/.ssh/brahmaos.pem
+- echo $hostname_tokyo $port_tokyo $user_tokyo
 - echo "Host tokyo
               hostname ${hostname_tokyo}
               port ${port_tokyo}
               user ${user_tokyo}
-              IdentityFile  ~/.ssh/brahmaos-tokyo.pem
+              IdentityFile  ~/.ssh/brahmaos.pem
         Host london
               hostname ${hostname_london}
               port ${port_london}
               user ${user_london}
-              IdentityFile  ~/.ssh/id_rsa" > ~/.ssh/config
+              IdentityFile  ~/.ssh/brahmaos.pem" > ~/.ssh/config
 after_success:
 - ssh tokyo "sudo su - && cd /www/brahmaos.io && git pull"
 - ssh london "sudo su - && cd /www/brahmaos.io && git pull"
