@@ -3,24 +3,21 @@ php:
 - 7.2
 - nightly
 before_install:
-- echo ${key_tokyo} > ~/.ssh/brahmaos-tokyo.pem
-- echo ${key_london} > ~/.ssh/brahmaos-london.pem
-- chmod 600 ~/.ssh/id_rsa
-- chmod 600 ~/.ssh/brahmaos-tokyo.pem
+- openssl aes-256-cbc -K $encrypted_845395c4607a_key -iv $encrypted_845395c4607a_iv
+  -in brahmaos.pem.enc -out ~/.ssh/brahmaos.pem -d
+- chmod 600 ~/.ssh/brahmaos.pem
 - echo "Host tokyo
-                hostname ${hostname_tokyo}
-                port ${port_tokyo}
-                user ${user_tokyo}
-                IdentityFile  ~/.ssh/brahmaos-tokyo.pem
+              hostname ${hostname_tokyo}
+              port ${port_tokyo}
+              user ${user_tokyo}
+              IdentityFile  ~/.ssh/brahmaos-tokyo.pem
         Host london
-                hostname ${hostname_london}
-                port ${port_london}
-                user ${user_london}
-                IdentityFile  ~/.ssh/id_rsa" > ~/.ssh/config"
+              hostname ${hostname_london}
+              port ${port_london}
+              user ${user_london}
+              IdentityFile  ~/.ssh/id_rsa" > ~/.ssh/config
 after_success:
 - ssh tokyo "sudo su - && cd /www/brahmaos.io && git pull"
 - ssh london "sudo su - && cd /www/brahmaos.io && git pull"
 env:
 - APP_DEBUG=false
-addons:
-  ssh_known_hosts: 35.201.219.121
