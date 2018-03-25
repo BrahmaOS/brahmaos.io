@@ -605,7 +605,7 @@
                         <div class="phase phase0 animated"  data-animation="fadeInUp" data-animation-delay="1400">
                             <div class="arrow-left arrow0"></div>
                             <h1>Phrase 0</h1>
-                            <p class="roadmap-time">Q2-Q3 2018</p>
+                            <p class="roadmap-time">Q2-Q4 2018</p>
                             <h2>Overall Objective</h2>
                             <p>To realize a basic and decentralized MVP version with a Brahma Wallets account which support a part of Android followers.</p>
                             <h2>Brahma OS</h2>
@@ -639,7 +639,7 @@
                     <div class="phase phase0 animated"  data-animation="fadeInUp" data-animation-delay="1400">
 
                         <h1>Phrase 0</h1>
-                        <p class="roadmap-time">Q2-Q3 2018</p>
+                        <p class="roadmap-time">Q2-Q4 2018</p>
                         <h2>Overall Objective</h2>
                         <p>To realize a basic and decentralized MVP version with a Brahma Wallets account which support a part of Android followers.</p>
                         <h2>Brahma OS</h2>
@@ -707,6 +707,10 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-12 center token-distribution">
+                The roadmap will be regularly updated, please refer to our official website for future updates.
+            </div>
+
             <!-- Single Service Ends -->
         </div>
     </div>
