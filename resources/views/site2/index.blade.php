@@ -557,8 +557,9 @@
                         <div class="phase phase1 animated"  data-animation="fadeInUp" data-animation-delay="2100">
 
                             <div class="arrow-right arrow1">
-                                <div class="arrow-line"></div>
-                                <div class="arrow"></div>
+                                {{--<div class="arrow-line"></div>--}}
+                                {{--<div class="arrow"></div>--}}
+                                <div class="arrow-circle"></div>
                             </div>
 
                             <h1>Phrase 1</h1>
@@ -599,11 +600,18 @@
                             </ul>
 
                         </div>
+
+                        <div class="phase-last"></div>
                     </div>
 
                     <div class="col-md-6 roadmap-right">
                         <div class="phase phase0 animated"  data-animation="fadeInUp" data-animation-delay="1400">
-                            <div class="arrow-left arrow0"></div>
+                            <div class="arrow-left arrow0">
+                                <div class="arrow-circle"></div>
+                                {{--<div class="arrow"></div>--}}
+                            </div>
+
+
                             <h1>Phrase 0</h1>
                             <p class="roadmap-time">Q2-Q4 2018</p>
                             <h2>Overall Objective</h2>

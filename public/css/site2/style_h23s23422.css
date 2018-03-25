@@ -377,9 +377,12 @@ left: calc(50% - 110px);
 #section-roadmap {
     background: rgba(0,0,0,0.5);
 }
-
 .arrow-left{
-    display: none;
+	display: flex;
+	align-items: center;
+}
+.arrow-left .arrow{
+    /*display: none;*/
     width: 0;
     height: 0;
     border-top: 6px solid transparent;
@@ -402,7 +405,15 @@ left: calc(50% - 110px);
     height: 2px;
     background: rgba(255, 255, 255, 0.7);
 }
-
+.arrow-circle{
+	/*margin:0 30px;*/
+	width: 16px;
+	height: 16px;
+	background: #dc6f25;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
 
 .roadmap{
     font-weight: normal;
@@ -474,28 +485,50 @@ left: calc(50% - 110px);
     }
 	.roadmap-left{
         border-right: 2px solid rgba(255,255,255, 0.5);
-        padding-right: 60px
+		padding-bottom: 30px;
+        padding-right: 60px;
+		position: relative;
     }
     .arrow0{
-        display: block;
+        display: flex;
         position: absolute;
-        left: -35px;
+        left: -69px;
         top: 15px;
-        order:0;
     }
     .arrow1{
         display: flex;
         position: absolute;
-        right: -35px;
+        right: -69px;
         top: 15px;
         order: 1;
     }
+	.arrow0 .arrow-circle{
+		margin-right: 30px;
+	}
     .arrow1 .arrow-line{
         width: 150px;
     }
+	.arrow1 .arrow-circle{
+		margin-left: 30px;
+	}
     .phase1{
         margin-top: 150px;
     }
+	.phase-last{
+		width: 50px;
+		height: 50px;
+		background-image: url('/images/site2/roadmap/logo.png');
+		background-size: 50px 50px;
+		background-position: center;
+		background-repeat: no-repeat;
+		/*background: #dc6f25;*/
+		-moz-border-radius: 25px;
+		-webkit-border-radius: 25px;
+		border-radius: 25px;
+		position: absolute;
+		right: -25px;
+		bottom: -50px;
+	}
 }
 
 
