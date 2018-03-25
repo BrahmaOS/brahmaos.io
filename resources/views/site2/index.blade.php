@@ -567,7 +567,6 @@
 </section>
 <!--=== Services section Ends ===-->
 
-
 <section id="section-distribution" class="services-wrap">
     {{--<div class="container pricing">--}}
         <div class="row">
@@ -714,38 +713,4 @@
     </div>
 </section>
 
-
-{{--<!--=== Video section Starts ===-->--}}
-{{--<section id="section-video" class="section-video-wrap">--}}
-    {{--<div class="section-overlay"></div>--}}
-    {{--<div class="container big-video center animated" data-animation="fadeInLeft" data-animation-delay="700">--}}
-        {{--<div class="row">--}}
-            {{--<div class="col-md-12 section-title">--}}
-                {{--<h3>Describe with a video</h3>--}}
-            {{--</div>--}}
-            {{--<div class="col-md-10 col-md-offset-1 video-content">--}}
-                {{--<video--}}
-                        {{--id="my-player"--}}
-                        {{--class="video-js"--}}
-                        {{--controls--}}
-                        {{--preload="auto"--}}
-                        {{--poster="//vjs.zencdn.net/v/oceans.png"--}}
-                        {{--data-setup='{}'--}}
-                {{-->--}}
-                    {{--<source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"></source>--}}
-                    {{--<source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm"></source>--}}
-                    {{--<source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg"></source>--}}
-                    {{--<p class="vjs-no-js">--}}
-                        {{--To view this video please enable JavaScript, and consider upgrading to a--}}
-                        {{--web browser that--}}
-                        {{--<a href="http://videojs.com/html5-video-support/" target="_blank">--}}
-                            {{--supports HTML5 video--}}
-                        {{--</a>--}}
-                    {{--</p>--}}
-                {{--</video>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-{{--</section>--}}
-<!--=== Video section Ends ===-->
 @endsection
