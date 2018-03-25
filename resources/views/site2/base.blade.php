@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="/css/site2/jquery.bxslider.css"/>
 
     <!--=== Main Stylesheets ===-->
-    <link rel="stylesheet" href="/css/site2/style.css"/>
+    <link rel="stylesheet" href="/css/site2/style_h23n123uasd.css"/>
     {{--<link rel="stylesheet" href="{{asset('css/site2/responsive.css')}}"/>--}}
 
     <!--=== Color Scheme, three colors are available red.css, orange.css and gray.css ===-->
