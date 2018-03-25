@@ -3,7 +3,7 @@
 @section('content')
 <a href="" id="top"></a>
 
-    <!--=== Header section Starts ===-->
+<!--=== Header section Starts ===-->
 <div id="header" class="header-section">
     <!-- sticky-bar Starts-->
     <div class="sticky-bar-wrap">
@@ -19,7 +19,6 @@
                             <span class="icon-bar"></span>
                         </button>
                         <!--=== Site Name ===-->
-                        {{--<a class="site-name navbar-brand" href="#"><span>E</span>gret</a>--}}
                         <a class="site-name navbar-brand" href="">
                             <img src="/logo-512-2.png" style="margin-top: -10px" alt="">
                         </a>
@@ -28,18 +27,14 @@
                     <!-- Main Navigation menu Starts -->
                     <div class="collapse navbar-collapse navbar-responsive-collapse n-nav">
                         <ul class="nav navbar-nav navbar-right">
-                            {{--<li class="current"><a href="/">Home</a></li>--}}
                             <li><a href="#section-pricing">OS Demand</a></li>
-                            {{--<li><a href="#section-services">Services</a></li>--}}
-                            {{--<li><a href="#section-video">Describe</a></li>--}}
-                            <li><a href="#section-team">Members</a></li>
+                            <li><a href="#section-members">Members</a></li>
                             <li><a href="#section-distribution">Token Distribution</a></li>
+                            <li><a href="#section-roadmap">Roadmap</a></li>
                             <li><a href="#section-Partners">Partners</a></li>
                             <li><a href="#section-Media">Media</a></li>
                             <li><a href="#section-contact">Contact</a></li>
                             <li><a href="https://medium.com/brahmalabs" target="_blank">Blog</a></li>
-                            {{--<li><a href="#section-screenshots">Screenshots</a></li>--}}
-                            {{--<li><a href="#section-pricing">Pricing</a></li>--}}
                         </ul>
                     </div>
                     <!-- Main Navigation menu ends-->
@@ -196,7 +191,7 @@
 </section>
 
 <!--=== Services section Starts ===-->
-<section id="section-team" class="services-wrap">
+<section id="section-members" class="services-wrap">
     <div class="container services">
         <div class="row" style="margin-bottom: 10px">
 
@@ -323,54 +318,11 @@
                 </div>
                 <!-- Single Service Ends -->
             </div>
-
-
-            <!-- Single Service Starts -->
-            {{--<div class="col-md-6 col-sm-6 service animated" data-animation="fadeInUp" data-animation-delay="700">--}}
-                {{--<div class="service-desc">--}}
-                    {{--<h4 class="service-title color-scheme">--}}
-                        {{--<span class="team-member">--}}
-                            {{--Mikhail Semeniuk <span style="color: #666">|</span>--}}
-                            {{--<span style="font-size: 16px">Adviser</span>--}}
-                        {{--</span>--}}
-                    {{--</h4>--}}
-                    {{--<p class="service-description justify">--}}
-                        {{--Mikhail Semeniuk has achieved Masters Degree in the Financial Mathematics in University of--}}
-                        {{--Minnesota – Twin Cities, he is a Pricing Expert in Shift Technologies and global lead with a--}}
-                        {{--strong background in Platform Analytics and Statistician in various business intelligence, a--}}
-                        {{--proven track record for successfully delivering end to end analytics architecture process.--}}
-                    {{--</p>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-            <!-- Single Service Ends -->
-
-            <!-- Single Service Starts -->
-            {{--<div class="col-md-6 col-sm-6 service animated" data-animation="fadeInUp" data-animation-delay="700">--}}
-                {{--<div class="service-desc">--}}
-                    {{--<h4 class="service-title color-scheme">--}}
-                        {{--<span class="team-member">--}}
-                        {{--Xingchu Liu <span style="color: #666">|</span>--}}
-                            {{--<span style="font-size: 16px">Blockchain protocol architect</span>--}}
-                        {{--</span>--}}
-                    {{--</h4>--}}
-                    {{--<p class="service-description justify">--}}
-                        {{--Xingchu Liu has achieved PHD in Texas A&M University and Master and Bachelor Degree in--}}
-                        {{--Tsinghua University. Accomplished leader and innovator with a deep expertise in the--}}
-                        {{--application of analytics, business intelligence, machine learning, data mining, and--}}
-                        {{--artificial intelligence in a variety of industries - retail, e-commerce, technology,--}}
-                        {{--wholesale, manufacturing, and distribution. Over 12 years of experience in the design,--}}
-                        {{--development, and implementation of analytics decision support solutions.--}}
-                    {{--</p>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-            <!-- Single Service ends -->
-
-
+            <div style="clear: both"></div>
             <div class="col-md-12">
                 <div class="col-md-12 center section-title" data-animation="fadeInUp" data-animation-delay="700" style="margin-bottom: 40px">
                     <h4 data-animation="fadeInUp" data-animation-delay="700">Team responsibility</h4>
                 </div>
-
                 <div class="col-md-12">
                     <!-- Single Service Starts -->
                     <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
@@ -533,13 +485,13 @@
                     <!-- Single Service Ends -->
                     <!-- Single Service Starts -->
                     <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                        <div class="service-desc">
+                        <div class="service-desc center">
                             <h4 class="service-title color-scheme">
-                        <span class="team-member">
-                            Kaiko
-                        </span>
+                                <span class="team-member">
+                                    Kaiko
+                                </span>
                             </h4>
-                            <p class="service-description Team" style="text-align: left">
+                            <p class="service-description">
                                 In charge of visual effects, UI designer.
                             </p>
                         </div>
@@ -547,13 +499,13 @@
                     <!-- Single Service Ends -->
                     <!-- Single Service Starts -->
                     <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                        <div class="service-desc">
+                        <div class="service-desc center">
                             <h4 class="service-title color-scheme">
-                        <span class="team-member">
-                            others
-                        </span>
+                                <span class="team-member">
+                                    others
+                                </span>
                             </h4>
-                            <p class="service-description Team" style="text-align: left">
+                            <p class="service-description">
                                 Overseas team profile to be updated.
                             </p>
                         </div>
@@ -571,7 +523,7 @@
     {{--<div class="container pricing">--}}
         <div class="row">
 
-            <div class="col-md-10 col-md-offset-1 center section-title" style="margin-top: 70px; margin-bottom: 0px; z-index: 5">
+            <div class="col-md-12 center section-title" style="margin-top: 70px; margin-bottom: 0px; z-index: 5">
                 <h3 style="color: #666" data-animation="fadeInUp" data-animation-delay="700">Token Distribution</h3>
             </div>
 
@@ -588,6 +540,179 @@
         </div>
     {{--</div>--}}
 </section>
+
+<section id="section-roadmap" class="services-wrap">
+    {{--<div class="container pricing">--}}
+    <div class="roadmap container">
+        <div class="row">
+
+            <div class="col-md-12 center section-title" style="margin-top: 70px; margin-bottom: 0px; z-index: 5">
+                <h3 class="roadmap-title" data-animation="fadeInUp" data-animation-delay="700">Roadmap</h3>
+            </div>
+
+            <!-- Single Service Starts -->
+            <div class="col-md-12 distribution animated token-distribution" data-animation="fadeInUp" data-animation-delay="700">
+                <div class="roadmap-text roadmap-text-pc">
+                    <div class="col-md-6">
+                        <div class="phase phase1 animated"  data-animation="fadeInUp" data-animation-delay="2100">
+
+                            <div class="arrow-right arrow1">
+                                <div class="arrow-line"></div>
+                                <div class="arrow"></div>
+                            </div>
+
+                            <h1>Phrase 1</h1>
+                            <p class="roadmap-time">Q3-Q4 2018</p>
+                            <h2>Brahma Wallet</h2>
+                            <p>
+                                Brahma Wallet provides users with functions such as wallet management,
+                                asset management, and transaction management. It also operates as Service and is open to upper applications.
+                            </p>
+
+                            <h3>Backlog</h3>
+                            <ul class="disc-list">
+                                <li>Wallet management</li>
+                                <li style="list-style: none">
+                                    <ul class="disc-list">
+                                        <li>To create wallets, supporting passwords and mnemonics;</li>
+                                        <li>To backup wallet;</li>
+                                        <li>To delete wallets;</li>
+                                        <li>To edit wallet (only wallet name and password change);</li>
+                                        <li>To export private key and Keystore;</li>
+                                    </ul>
+                                </li>
+                                <li>Asset management</li>
+                                <li style="list-style: none">
+                                    <ul class="disc-list">
+                                        <li>Display of ETH and other Token asset information;</li>
+                                        <li>To add or remove impressions of Token asset information;</li>
+                                    </ul>
+                                </li>
+                                <li>Transaction management</li>
+                                <li style="list-style: none">
+                                    <ul class="disc-list">
+                                        <li>Receipt (supporting two-dimensional code);</li>
+                                        <li>Transfer (supporting ETH accounts and sending Tokens by smart contracts);</li>
+                                        <li>Historical transaction records;</li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 roadmap-right">
+                        <div class="phase phase0 animated"  data-animation="fadeInUp" data-animation-delay="1400">
+                            <div class="arrow-left arrow0"></div>
+                            <h1>Phrase 0</h1>
+                            <p class="roadmap-time">Q2-Q3 2018</p>
+                            <h2>Overall Objective</h2>
+                            <p>To realize a basic and decentralized MVP version with a Brahma Wallets account which support a part of Android followers.</p>
+                            <h2>Brahma OS</h2>
+                            <p>For the Brahma OS in Phrase One, our mission (and also our iterative rhythm) is as follows： </p>
+                            <ul class="disc-list">
+                                <li>To complete the Ethereum blockchain technology stack that implements the LES protocol;</li>
+                                <li>To complete the Android system source code (Android Framework) cutting and partial module reconstruction;</li>
+                                <li>To optimize the model selected for the drive adaptation part;</li>
+                            </ul>
+                            <div class="roadmap-level-2">
+                                <h3>Backlog</h3>
+                                <ul class="disc-list">
+                                    <li>Cutting or reconstructing all centralized module and framework component code based on Android system source code</li>
+                                    <li>Ethereum Relayer of Brahma Chain, which supports Ethereum blockchain's LES protocol and opens related capabilities and services for Ethereum blockchains for upper-level applications, including:</li>
+                                    <li style="list-style: none">
+                                        <ul class="disc-list">
+                                            <li>Ethereum account management;</li>
+                                            <li>Blockchain management</li>
+                                            <li>Transfers and transaction records;</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="roadmap-text roadmap-text-mobile">
+                    <!-- pc -->
+                    <div class="phase phase0 animated"  data-animation="fadeInUp" data-animation-delay="1400">
+
+                        <h1>Phrase 0</h1>
+                        <p class="roadmap-time">Q2-Q3 2018</p>
+                        <h2>Overall Objective</h2>
+                        <p>To realize a basic and decentralized MVP version with a Brahma Wallets account which support a part of Android followers.</p>
+                        <h2>Brahma OS</h2>
+                        <p>For the Brahma OS in Phrase One, our mission (and also our iterative rhythm) is as follows： </p>
+                        <ul class="disc-list">
+                            <li>To complete the Ethereum blockchain technology stack that implements the LES protocol;</li>
+                            <li>To complete the Android system source code (Android Framework) cutting and partial module reconstruction;</li>
+                            <li>To optimize the model selected for the drive adaptation part;</li>
+                        </ul>
+                        <div class="roadmap-level-2">
+                            <h3>Backlog</h3>
+                            <ul class="disc-list">
+                                <li>Cutting or reconstructing all centralized module and framework component code based on Android system source code</li>
+                                <li>Ethereum Relayer of Brahma Chain, which supports Ethereum blockchain's LES protocol and opens related capabilities and services for Ethereum blockchains for upper-level applications, including:</li>
+                                <li style="list-style: none">
+                                    <ul class="disc-list">
+                                        <li>Ethereum account management;</li>
+                                        <li>Blockchain management</li>
+                                        <li>Transfers and transaction records;</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- mobile -->
+                    <div class="phase phase1 animated"  data-animation="fadeInUp" data-animation-delay="1400">
+                        <h1>Phrase 1</h1>
+                        <p class="roadmap-time">Q3-Q4 2018</p>
+                        <h2>Brahma Wallet</h2>
+                        <p>
+                            Brahma Wallet provides users with functions such as wallet management,
+                            asset management, and transaction management. It also operates as Service and is open to upper applications.
+                        </p>
+
+                        <h3>Backlog</h3>
+                        <ul class="disc-list">
+                            <li>Wallet management</li>
+                            <li style="list-style: none">
+                                <ul class="disc-list">
+                                    <li>To create wallets, supporting passwords and mnemonics;</li>
+                                    <li>To backup wallet;</li>
+                                    <li>To delete wallets;</li>
+                                    <li>To edit wallet (only wallet name and password change);</li>
+                                    <li>To export private key and Keystore;</li>
+                                </ul>
+                            </li>
+                            <li>Asset management</li>
+                            <li style="list-style: none">
+                                <ul class="disc-list">
+                                    <li>Display of ETH and other Token asset information;</li>
+                                    <li>To add or remove impressions of Token asset information;</li>
+                                </ul>
+                            </li>
+                            <li>Transaction management</li>
+                            <li style="list-style: none">
+                                <ul class="disc-list">
+                                    <li>Receipt (supporting two-dimensional code);</li>
+                                    <li>Transfer (supporting ETH accounts and sending Tokens by smart contracts);</li>
+                                    <li>Historical transaction records;</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Single Service Ends -->
+        </div>
+    </div>
+    {{--</div>--}}
+</section>
+
 
 <section id="section-Partners" class="services-wrap" style="background: #1c1a21;" >
     <div class="container pricing Partners">
