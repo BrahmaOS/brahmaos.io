@@ -470,8 +470,11 @@ left: calc(50% - 110px);
         display: none;
     }
     .roadmap-right{
-        border-left: 2px solid rgba(255,255,255, 0.5);
         padding-left: 60px
+    }
+	.roadmap-left{
+        border-right: 2px solid rgba(255,255,255, 0.5);
+        padding-right: 60px
     }
     .arrow0{
         display: block;
@@ -483,7 +486,7 @@ left: calc(50% - 110px);
     .arrow1{
         display: flex;
         position: absolute;
-        right: 15px;
+        right: -35px;
         top: 15px;
         order: 1;
     }

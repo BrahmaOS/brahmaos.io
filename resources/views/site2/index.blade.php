@@ -553,7 +553,7 @@
             <!-- Single Service Starts -->
             <div class="col-md-12 distribution animated token-distribution" data-animation="fadeInUp" data-animation-delay="700">
                 <div class="roadmap-text roadmap-text-pc">
-                    <div class="col-md-6">
+                    <div class="col-md-6 roadmap-left">
                         <div class="phase phase1 animated"  data-animation="fadeInUp" data-animation-delay="2100">
 
                             <div class="arrow-right arrow1">
