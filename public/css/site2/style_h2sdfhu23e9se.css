@@ -148,7 +148,7 @@ font-weight: 700;
 }
 
 .section-overlay {
-	background: rgba(0, 0, 0, .5) !important;
+	background: rgba(0, 0, 0, .5);
 	z-index: 5;
 	width: 100%;
 }
@@ -603,6 +603,33 @@ left: calc(50% - 110px);
 .members .guy .detail-btn:active:focus{
     outline: none;
 }
+
+.members-details .team-member{
+	color:#fff;
+}
+.members-details p{
+    color: #fff;
+}
+.members-details .members-photo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 0 auto;
+    /*bottom: 60px;*/
+    /*background-image:;*/
+    border: 1px solid #D3AB5A;
+    z-index: 9999;
+}
+.members-details .member-name{
+
+}
+
+.member-Lorna-Chen{
+
+}
+
+
 
 /* ================ Token Distribution Section ================ */
 

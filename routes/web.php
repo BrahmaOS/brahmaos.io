@@ -27,3 +27,8 @@ Route::get('/abstract/2.html', function () {
 Route::get('/abstract/3.html', function () {
 	return view('site2.abstract3');
 });
+
+Route::get('/members-details.html', function () {
+	return view('site2.Members-details');
+});
+

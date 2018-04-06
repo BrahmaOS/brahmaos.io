@@ -196,7 +196,7 @@
                         <div class="detail">
                             <h4 class="service-title color-scheme">
                             <span class="team-member">
-                            Lin mennie <span style="color: #666">|</span> <span style="font-size: 16px">CEO</span>
+                            Lorna Chen <span style="color: #666">|</span> <span style="font-size: 16px">CEO</span>
                             </span>
                             </h4>
                             <p class="service-description justify">
