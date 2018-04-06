@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Api;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -16,7 +16,6 @@ class UserController extends Controller
 	 */
 	public function authenticate(Request $request)
 	{
-
 		$validator = Validator::make($request->all(), [
 			'email' => 'required|exists:brahmaos.user,email',
 			'password' => 'required',
@@ -31,7 +30,9 @@ class UserController extends Controller
 
 		if (Auth::attempt(['email' => $email, 'password' => $password, 'is_active'=>1], $remember)) {
 			// 这个用户被记住了...
-			return ['code'=>0, 'msg'=>'success', 'data'=>['location'=>url('/abstract/1.html')]];
+			session(['uid'=>Auth::user()->user_id]);
+//			return	redirect('/members-details.html');
+			return ['code'=>0, 'msg'=>'success', 'data'=>['location'=>url('/members-details.html')]];
 		} else {
 			return ['code'=>400, 'msg'=>'email or password error', 'data'=>[]];
 		}

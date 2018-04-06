@@ -321,7 +321,7 @@ color:#ccc !important;
 	line-height: 62px;
 	margin-top: 240px;
 	margin-bottom: 48px;
-	color:#fff !important;
+	color:#fff;
 	font-weight: 700;
 	text-transform:uppercase;
 }
@@ -607,29 +607,58 @@ left: calc(50% - 110px);
 .members-details .team-member{
 	color:#fff;
 }
+
 .members-details p{
     color: #fff;
 }
-.members-details .members-photo{
+
+.all-members{
+    background: #fff;
+    padding-bottom: 50px;
+}
+
+.all-members .item{
+    margin-top: 30px;
+}
+
+.all-members .members{
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.all-members .members-details .detail{
+    min-height: 350px;
+}
+
+.all-members .members-details .members-photo{
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background-color: red;
+    background-color: #fff;
     margin: 0 auto;
     /*bottom: 60px;*/
     /*background-image:;*/
-    border: 1px solid #D3AB5A;
+    /*border: 1px solid #D3AB5A;*/
+    border:none;
     z-index: 9999;
 }
-.members-details .member-name{
 
+.all-members .members-details .member-name, .all-members .members .team-name{
+    margin-top: 20px;
+    /*color: #D3AB5A;*/
+    color: #000;
 }
 
-.member-Lorna-Chen{
-
+.all-members .members-details .member-position{
+    font-size: 14px;
+    /*color: #D3AB5A;*/
+    color: #000;
 }
 
-
+.all-members .members-details p, .all-members .members p{
+    color: #000;
+    font-weight: 200;
+}
 
 /* ================ Token Distribution Section ================ */
 
@@ -852,14 +881,24 @@ left: calc(50% - 110px);
 .sign-in{
 	color: #666;
 }
+.sign-in .modal-dialog{
+    width: 400px;
+}
+@media (max-width: 720px){
+    .sign-in .modal-dialog{
+        width: 95%;
+    }
+}
 .sign-in .header{
     margin-top: 50px;
     border-bottom: none;
 }
+
 .sign-in .title{
 	color: #D3AB5A;
     font-size: 28px;
 }
+
 .sign-in .logo{
     height: 100px;
     width: 100px;
@@ -873,6 +912,7 @@ left: calc(50% - 110px);
     border: 1px solid #D3AB5A;
     z-index: 9999;
 }
+
 .sign-in .submit{
     font-size: 14px;
     margin-top: 30px;
@@ -880,9 +920,11 @@ left: calc(50% - 110px);
     color: #fff;
     background-color: #D3AB5A;
 }
+
 .sign-in input:focus{
     border-color: #D3AB5A;
 }
+
 .sign-in input{
     margin-bottom: 30px;
 }

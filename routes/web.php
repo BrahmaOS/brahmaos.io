@@ -14,6 +14,12 @@
 
 Route::get('/', function () {
 	return view('site2.index');
+//	session(['uid'=>1]);
+//	var_dump(cookie());
+//	var_dump(session('uid'));
+});
+Route::get('/login', function () {
+	return view('site2.index');
 });
 
 Route::get('/abstract/1.html', function () {
@@ -28,7 +34,11 @@ Route::get('/abstract/3.html', function () {
 	return view('site2.abstract3');
 });
 
-Route::get('/members-details.html', function () {
-	return view('site2.Members-details');
+Route::group(['middleware'=>'allow'], function (){
+	Route::get('/members-details.html', function () {
+		return view('site2.Members-details');
+	});
 });
+
+Route::post('/sign-in', 'UserController@authenticate');
 

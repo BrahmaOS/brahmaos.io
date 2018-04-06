@@ -854,7 +854,7 @@
 
 <!-- Modal -->
 <div class="sign-in modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document" style="margin-top: 200px; width: 400px">
+    <div class="modal-dialog" role="document" style="margin-top: 200px;">
         <div class="modal-content">
             <div class="logo"></div>
             <div class="modal-header center header">
@@ -864,14 +864,14 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="email" placeholder="Email address">
+                        <input type="email"  name="email" class="form-control" id="email" placeholder="Email address">
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" id="password" placeholder="Password">
+                        <input type="password" name="password" class="form-control" id="password" placeholder="Password">
                     </div>
                     <div class="checkbox">
                         <label>
-                            <input type="checkbox" id="remember"> Remember me
+                            <input type="checkbox" name="remember" id="remember"> Remember me
                         </label>
                     </div>
                     <button type="button" id="submmit" class="btn btn-default btn-lg btn-block submit" style="border-radius: 20px;">SIGN IN</button>
@@ -883,30 +883,55 @@
         </div>
     </div>
 </div>
-<script>
-    $(function(){
-        // 提交
-        $('#submmit').click(function(){
-            // email
-            var email = $('#email').val();
-            var password = $('#password').val();
-            var remember = 0;
-            if ($('#remember').prop('checked')){
-                remember = 1;
-            }
+<script>  $(function(){
+		// 提交
+		$('#submmit').click(function(){
+			// email
+			var email = $('#email').val();
+			var password = $('#password').val();
+			var remember = 0;
+			if ($('#remember').prop('checked')){
+				remember = 1;
+			}
 
-            var data = {email : email, password: password, remember: remember}
 
-            if (email && password){
-				$.post('/api/sign-in',data , function(data){
-					if (data.code !== 0){
-						$('#error-message').html(data.msg);
-					} else {
-						window.location.href = data.data['location'];
-                    }
-				});
-            }
-        })
-    })
+			var data = {email : email, password: password, remember: remember}
+
+console.log(data);
+			if (email && password){
+
+				$.ajax({
+					url: "/sign-in",
+					type: 'POST',
+					xhrFields: {
+						withCredentials: true // 这里设置了withCredentials
+					},
+					crossDomain: true,
+					data: data,
+					credentials: 'same-origin',
+					success: function(data,status,xhr) {
+						xhr.getResponseHeader('Set-Cookie');
+						if (data.code !== 0){
+							$('#error-message').html(data.msg);
+						} else {
+							window.location.href = data.data['location'];
+						}
+					},
+					error: function(err) {
+						console.error(err)
+					}
+				})
+
+				// $.post('/api/sign-in',data , function(data){
+				// 	if (data.code !== 0){
+				// 		$('#error-message').html(data.msg);
+				// 	} else {
+				// 		window.location.href = data.data['location'];
+				//    }
+				// });
+			}
+		})
+	})
+
 </script>
 @endsection
