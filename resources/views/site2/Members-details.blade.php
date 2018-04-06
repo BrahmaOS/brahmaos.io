@@ -209,7 +209,7 @@
             <div class="section-overlay"></div>
             <div class="container">
                 <div class="row">
-                    <h1 class="well-come" style="float: none;margin-bottom: 70px;margin-top: 100px">Team Responsibility</h1>
+                    <h1 class="well-come" style="float: none;margin-bottom: 70px;margin-top: 100px;font-size: 28px">Team Responsibility</h1>
                 </div>
             </div>
         </div>

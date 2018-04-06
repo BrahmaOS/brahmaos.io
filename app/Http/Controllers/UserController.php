@@ -30,8 +30,6 @@ class UserController extends Controller
 
 		if (Auth::attempt(['email' => $email, 'password' => $password, 'is_active'=>1], $remember)) {
 			// 这个用户被记住了...
-			session(['uid'=>Auth::user()->user_id]);
-//			return	redirect('/members-details.html');
 			return ['code'=>0, 'msg'=>'success', 'data'=>['location'=>url('/members-details.html')]];
 		} else {
 			return ['code'=>400, 'msg'=>'email or password error', 'data'=>[]];

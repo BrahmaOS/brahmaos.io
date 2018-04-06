@@ -21,5 +21,4 @@ Route::group(['namespace'=>'Api'], function (){
 	Route::get('/count', 'CountController@countUtmSource');
 	Route::get('/count/day', 'CountController@countUtmSourceDay');
 	Route::post('/sign-in', 'UserController@authenticate');
-	Route::post('/encrypt', 'UserController@encrypt');
 });
