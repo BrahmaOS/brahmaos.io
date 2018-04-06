@@ -1,7 +1,7 @@
 language: php
-#php:
-#- 7.2
-#- nightly
+php:
+- 7.0
+- nightly
 before_install:
 - openssl aes-256-cbc -K $encrypted_845395c4607a_key -iv $encrypted_845395c4607a_iv
   -in brahmaos.pem.enc -out ~/.ssh/brahmaos.pem -d
