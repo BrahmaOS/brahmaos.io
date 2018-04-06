@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit6f2de401bef4df308ddf5b4d9910327b
+class ComposerStaticInit4a5cbd6a29d602499978d1d37797809a
 {
     public static $files = array (
         '1d1b89d124cc9cb8219922c9d5569199' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest.php',
@@ -13,8 +13,8 @@ class ComposerStaticInit6f2de401bef4df308ddf5b4d9910327b
         '023d27dca8066ef29e6739335ea73bad' => __DIR__ . '/..' . '/symfony/polyfill-php70/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
-        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
+        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
     );
@@ -3854,10 +3854,10 @@ class ComposerStaticInit6f2de401bef4df308ddf5b4d9910327b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit6f2de401bef4df308ddf5b4d9910327b::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit6f2de401bef4df308ddf5b4d9910327b::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit6f2de401bef4df308ddf5b4d9910327b::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit6f2de401bef4df308ddf5b4d9910327b::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit4a5cbd6a29d602499978d1d37797809a::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit4a5cbd6a29d602499978d1d37797809a::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit4a5cbd6a29d602499978d1d37797809a::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit4a5cbd6a29d602499978d1d37797809a::$classMap;
 
         }, null, ClassLoader::class);
     }
