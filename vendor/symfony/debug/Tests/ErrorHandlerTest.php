@@ -35,7 +35,7 @@ class ErrorHandlerTest extends TestCase
 
             $newHandler = new ErrorHandler();
 
-            $this->assertSame($newHandler, ErrorHandler::register($newHandler, false));
+            $this->assertSame($handler, ErrorHandler::register($newHandler, false));
             $h = set_error_handler('var_dump');
             restore_error_handler();
             $this->assertSame(array($handler, 'handleError'), $h);
@@ -544,5 +544,19 @@ class ErrorHandlerTest extends TestCase
             restore_error_handler();
             restore_exception_handler();
         }
+    }
+
+    /**
+     * @expectedException \Exception
+     * @group no-hhvm
+     */
+    public function testCustomExceptionHandler()
+    {
+        $handler = new ErrorHandler();
+        $handler->setExceptionHandler(function ($e) use ($handler) {
+            $handler->handleException($e);
+        });
+
+        $handler->handleException(new \Exception());
     }
 }
