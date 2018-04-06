@@ -28,15 +28,13 @@
     <link rel="stylesheet" href="/css/site2/jquery.bxslider.css"/>
 
     <!--=== Main Stylesheets ===-->
-    <link rel="stylesheet" href="/css/site2/style_h23s087654.css"/>
+    <link rel="stylesheet" href="/css/site2/style_h2sdfhu23e9se.css"/>
     {{--<link rel="stylesheet" href="{{asset('css/site2/responsive.css')}}"/>--}}
 
     <!--=== Color Scheme, three colors are available red.css, orange.css and gray.css ===-->
     <link rel="stylesheet" id="scheme-source" href="/css/site2/schemes/gray.css"/>
     @yield("css")
-    <script type="text/javascript" src="/js/site2/jquery-1.11.1.min.js"></script>
-    <link href="/css/site2/video-js.min.css" rel="stylesheet">
-    <script src="/js/site2/video.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/1.11.2/jquery.js"></script>
     <style>
         .site-name {
             color: #fff;

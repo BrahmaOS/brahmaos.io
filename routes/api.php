@@ -14,10 +14,12 @@ use Illuminate\Http\Request;
 */
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+	return $request->user();
 });
 
 Route::group(['namespace'=>'Api'], function (){
 	Route::get('/count', 'CountController@countUtmSource');
 	Route::get('/count/day', 'CountController@countUtmSourceDay');
+	Route::post('/sign-in', 'UserController@authenticate');
+	Route::post('/encrypt', 'UserController@encrypt');
 });

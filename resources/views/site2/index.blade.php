@@ -3,9 +3,7 @@
 @section('content')
 <a href="" id="top"></a>
 
-<!--=== Header section Starts ===-->
 <div id="header" class="header-section">
-    <!-- sticky-bar Starts-->
     <div class="sticky-bar-wrap">
         <div class="sticky-section">
             <div id="topbar-hold" class="nav-hold container">
@@ -24,11 +22,10 @@
                         </a>
                     </div>
 
-                    <!-- Main Navigation menu Starts -->
                     <div class="collapse navbar-collapse navbar-responsive-collapse n-nav">
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#section-pricing">OS Demand</a></li>
-                            <li><a href="#section-members">Members</a></li>
+                            <li><a href="#section-members" data-toggle="modal" data-target="#myModal">Members</a></li>
                             <li><a href="#section-distribution">Token Distribution</a></li>
                             <li><a href="#section-roadmap">Roadmap</a></li>
                             <li><a href="#section-Partners">Partners</a></li>
@@ -37,15 +34,11 @@
                             <li><a href="https://medium.com/brahmalabs" target="_blank">Blog</a></li>
                         </ul>
                     </div>
-                    <!-- Main Navigation menu ends-->
                 </nav>
             </div>
         </div>
     </div>
-    <!-- sticky-bar Ends-->
-    <!--=== Header section Ends ===-->
 
-    <!--=== Home Section Starts ===-->
     <div id="section-home" class="home-section-wrap center">
         <div class="section-overlay"></div>
         <div class="container home">
@@ -71,7 +64,6 @@
             </div>
         </div>
     </div>
-    <!--=== Home Section Ends ===-->
 </div>
 
 <section id="section-pricing" class="pricing-wrap">
@@ -190,141 +182,180 @@
     </div>
 </section>
 
-<!--=== Services section Starts ===-->
 <section id="section-members" class="services-wrap">
-    <div class="container services">
-        <div class="row" style="margin-bottom: 10px">
-
+    <div class="container members">
+        <div class="row" style="margin-bottom: 50px">
+            <!--  members  --->
             <div class="col-md-12 center section-title">
                 <h3 data-animation="fadeInUp" data-animation-delay="700">Members</h3>
             </div>
             <div class="col-md-12">
-                <!-- Single Service Starts -->
-                <div class="col-md-6 col-sm-6 service animated" data-animation="fadeInLeft" data-animation-delay="700">
-                    <div class="service-desc">
 
-                        <h4 class="service-title color-scheme">
-                        <span class="team-member">
-                            Lorna Chen <span style="color: #666">|</span>
-                            <span style="font-size: 16px">Founder</span>
-                        </span>
-                        </h4>
-                        <p class="service-description justify">
-                            12 years’ experiences in the Internet industry, 6 times start-up experiences, outstanding ability in economic design of product.
-                            Important position in top Internet company.
-                            Work on the product background of billions of users.
-                            Rich asset investment operating experiences in international projects over the past few years.
-                        </p>
+                <div class="col-md-4 service animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="service-desc guy">
+                        <div class="detail">
+                            <h4 class="service-title color-scheme">
+                            <span class="team-member">
+                            Lin mennie <span style="color: #666">|</span> <span style="font-size: 16px">CEO</span>
+                            </span>
+                            </h4>
+                            <p class="service-description justify">
+                                Ex-JP Morgan, Bank of New York Mellon , Bank of Tokyo Mitsubishi.
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
                     </div>
                 </div>
-                <!-- Single Service Ends -->
 
-                <!-- Single Service Starts -->
-                <div class="col-md-6 col-sm-6 service animated" data-animation="fadeInLeft" data-animation-delay="700">
-                    <div class="service-desc">
+                <div class="col-md-4 service animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="service-desc guy">
+                        <div class="detail">
+                            <h4 class="service-title color-scheme">
+                                <span class="team-member">
+                                Steven Hu <span style="color: #666">|</span> <span style="font-size: 16px">CTO</span>
+                                </span>
+                            </h4>
+                            <p class="service-description justify">
+                                10 years experiences in architecture design and R&D management in the telecommunication industry and the Internet industry.
+                            </p>
+                        </div>
 
-                        <h4 class="service-title color-scheme">
-                        <span class="team-member">
-                            Steven Hu <span style="color: #666">|</span>
-                            <span style="font-size: 16px">CTO</span>
-                        </span>
-                        </h4>
-                        <p class="service-description justify">
-                            10 years’ experiences in architecture design and R&D management in the telecommunication industry and the Internet industry.
-                            In charge of the the architecture design work in the programmable virtual router team.
-                            Participate in distributed architecture design in the initial stage.
-                            Consumer BG, in charge of the R&D management and design of the IM system and cloud note system.
-                        </p>
+                        <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
                     </div>
                 </div>
-                <!-- Single Service Ends -->
+
+                <div class="col-md-4 service animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="service-desc guy">
+                        <div class="detail">
+                            <h4 class="service-title color-scheme">
+                                <span class="team-member">
+                                Marinos Tsokas <span style="color: #666">|</span> <span style="font-size: 16px">CMO</span>
+                                </span>
+                            </h4>
+                            <p class="service-description justify">
+                                Ex-CMO of Vodaphone
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                    </div>
+                </div>
+
             </div>
             <div class="col-md-12">
-                <!-- Single Service Starts -->
-                <div class="col-md-6 col-sm-6 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                    <div class="service-desc">
-                        <h4 class="service-title color-scheme">
-                        <span class="team-member">
-                        Trevor Smith <span style="color: #666">|</span>
-                            <span style="font-size: 16px">OS architect</span>
-                        </span>
-                        </h4>
-                        <p class="service-description justify">
-                            Trevor Smith has achieved PHD degree in University of Edinburgh. 
-                            He is one of the few early iOS developers worked on Salesforce and Oracle. He also worked on early prototypes of iOS and Android app for start-up and successfully leading the product launch and acquisition. 
-                            Trevor is also specialized on website design and computer algorithm and is currently working decentralized blockchain technology research.
-                        </p>
+
+                <div class="col-md-4 service animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="service-desc guy">
+                        <div class="detail">
+                            <h4 class="service-title color-scheme">
+                            <span class="team-member">
+                            Elaine Shehu <span style="color: #666">|</span> <span style="font-size: 16px">Tech Advisor</span>
+                            </span>
+                            </h4>
+                            <p class="service-description justify">
+                                Ex-head of IT strategy on blockchain related projects with Deutsche Bank.
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
                     </div>
                 </div>
-                <!-- Single Service ends -->
 
-                <!-- Single Service Starts -->
-                <div class="col-md-6 col-sm-6 service animated" data-animation="fadeInLeft" data-animation-delay="700">
-
-                    <div class="service-desc">
-                        <h4 class="service-title color-scheme">
-                        <span class="team-member">
-                            Shu Collins <span style="color: #666">|</span>
-                            <span style="font-size: 16px">Economic Model Architect</span>
-                        </span>
-                        </h4>
-                        <p class="service-description justify">
-                            Shu Colins achieved her Master of Science in statistics in University of Oxford, UK. 
-                            She has over 10 years of work experience on data science, machine learning and AI in automotive, gaming, technology,  entertainment and digital insurance industries. 
-                            She had lead data science projects in multiple fortune 500 companies or IPO companies like British Gas, Royal bank of Scotland, and specialized in blockchain application and cryptocurrency.
-                        </p>
+                <div class="col-md-4 service animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="service-desc guy">
+                        <div class="detail">
+                            <h4 class="service-title color-scheme">
+                            <span class="team-member">
+                            Liu Xingchu <span style="color: #666">|</span> <span style="font-size: 16px">Engineer Lead</span>
+                            </span>
+                            </h4>
+                            <p class="service-description justify">
+                                Expert in data analytics, business intelligence and artificial intelligence.
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
                     </div>
                 </div>
-                <!-- Single Service Ends -->
+
+                <div class="col-md-4 service animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="service-desc guy">
+                        <div class="detail">
+                            <h4 class="service-title color-scheme">
+                            <span class="team-member">
+                            Trevor Smith <span style="color: #666">|</span> <span style="font-size: 16px">OS Architect</span>
+                            </span>
+                            </h4>
+                            <p class="service-description justify">
+                                Ex-Sales Force, Oracle
+                                <br>
+                                PHD (University of Edinburgh)
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                    </div>
+                </div>
+
             </div>
             <div class="col-md-12">
-                <!-- Single Service Starts -->
-                <div class="col-md-6 col-sm-6 service animated" data-animation="fadeInRight" data-animation-delay="700">
-                    <div class="service-desc">
 
-                        <h4 class="service-title color-scheme">
-                        <span class="team-member">
-                            Srikanth Bodla <span style="color: #666">|</span>
-                            <span style="font-size: 16px">DNA graph manager</span>
-                        </span>
-                        </h4>
-                        <p class="service-description justify">
-                            Srikanth Bodla is a Solutions Architect/Project lead with a strong background in Business
-                            Intelligence & Data Warehousing,
-                            a proven track record for successfully delivering end to end Solutions addressing problems &
-                            requirements and a passion for emerging technologies Qlikview, Big Data, SAP Hana, SAP BI/BW
-                            technologies and the Apache Hadoop Ecosystem
-                        </p>
+                <div class="col-md-4 service animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="service-desc guy">
+                        <div class="detail">
+                            <h4 class="service-title color-scheme">
+                            <span class="team-member">
+                            Srikanth Bodla <span style="color: #666">|</span> <span style="font-size: 16px">DNA Graph Manager</span>
+                            </span>
+                            </h4>
+                            <p class="service-description justify">
+                                Qlikview, Big Data, SAP Hana, SAP BI/BW technologies.
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
                     </div>
                 </div>
-                <!-- Single Service Ends -->
 
-                <!-- Single Service Starts -->
-                <div class="col-md-6 col-sm-6 service animated" data-animation="fadeInLeft" data-animation-delay="700">
-                    <div class="service-desc">
-
-                        <h4 class="service-title color-scheme">
-                        <span class="team-member">
-                            KJ <span style="color: #666">|</span>
-                            <span style="font-size: 16px">Researcher</span>
-                        </span>
-                        </h4>
-                        <p class="service-description justify">
-                            12 years’ experiences in architecture design in distributed database system and P2P network.
-                            Research directions including Blockchain capacity, data shard and ecosystem.
-                            He has got strong experience in both technology and research.
-                        </p>
+                <div class="col-md-4 service animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="service-desc guy">
+                        <div class="detail">
+                            <h4 class="service-title color-scheme">
+                            <span class="team-member">
+                            Shu Collins <span style="color: #666">|</span> <span style="font-size: 16px">Economic Model Architect</span>
+                            </span>
+                            </h4>
+                            <p class="service-description justify">
+                                Data Scientist at British Gas, Royal bank of Scotland
+                                Master of Science (statistics) in Oxford University.
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
                     </div>
                 </div>
-                <!-- Single Service Ends -->
+
+                <div class="col-md-4 service animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="service-desc guy">
+                        <div class="detail">
+                            <h4 class="service-title color-scheme">
+                            <span class="team-member">
+                            KJ <span style="color: #666">|</span> <span style="font-size: 16px">Researcher</span>
+                            </span>
+                            </h4>
+                            <p class="service-description justify">
+                                Distributed database system and P2P network scientist. Researcher in Blockchain capacity, data sharding and ecosystem.
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                    </div>
+                </div>
+
             </div>
+
             <div style="clear: both"></div>
+
             <div class="col-md-12">
-                <div class="col-md-12 center section-title" data-animation="fadeInUp" data-animation-delay="700" style="margin-bottom: 40px">
+
+                <div class="col-md-12 center section-title" data-animation="fadeInUp" data-animation-delay="700" style="margin-bottom: 40px; margin-top: 50px">
                     <h4 data-animation="fadeInUp" data-animation-delay="700">Team responsibility</h4>
                 </div>
+
                 <div class="col-md-12">
-                    <!-- Single Service Starts -->
                     <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="service-desc">
                             <h4 class="service-title color-scheme">
@@ -338,9 +369,6 @@
                             </p>
                         </div>
                     </div>
-                    <!-- Single Service Ends -->
-
-                    <!-- Single Service Starts -->
                     <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="service-desc">
                             <h4 class="service-title color-scheme">
@@ -354,9 +382,6 @@
                             </p>
                         </div>
                     </div>
-                    <!-- Single Service Ends -->
-
-                    <!-- Single Service Starts -->
                     <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="service-desc">
                             <h4 class="service-title color-scheme">
@@ -369,9 +394,6 @@
                             </p>
                         </div>
                     </div>
-                    <!-- Single Service Ends -->
-
-                    <!-- Single Service Starts -->
                     <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="service-desc">
                             <h4 class="service-title color-scheme">
@@ -384,12 +406,9 @@
                             </p>
                         </div>
                     </div>
-                    <!-- Single Service Ends -->
                 </div>
 
                 <div class="col-md-12">
-
-                    <!-- Single Service Starts -->
                     <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="service-desc">
                             <h4 class="service-title color-scheme">
@@ -404,8 +423,6 @@
                             </p>
                         </div>
                     </div>
-                    <!-- Single Service Ends -->
-                    <!-- Single Service Starts -->
                     <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="service-desc">
                             <h4 class="service-title color-scheme">
@@ -419,8 +436,6 @@
                             </p>
                         </div>
                     </div>
-                    <!-- Single Service Ends -->
-                    <!-- Single Service Starts -->
                     <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="service-desc">
                             <h4 class="service-title color-scheme">
@@ -434,8 +449,6 @@
                             </p>
                         </div>
                     </div>
-                    <!-- Single Service Ends -->
-                    <!-- Single Service Starts -->
                     <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="service-desc">
                             <h4 class="service-title color-scheme">
@@ -449,11 +462,9 @@
                             </p>
                         </div>
                     </div>
-                    <!-- Single Service Ends -->
                 </div>
 
                 <div class="col-md-12">
-                    <!-- Single Service Starts -->
                     <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="service-desc">
                             <h4 class="service-title color-scheme">
@@ -467,8 +478,6 @@
                             </p>
                         </div>
                     </div>
-                    <!-- Single Service Ends -->
-                    <!-- Single Service Starts -->
                     <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="service-desc">
                             <h4 class="service-title color-scheme">
@@ -482,8 +491,6 @@
                             </p>
                         </div>
                     </div>
-                    <!-- Single Service Ends -->
-                    <!-- Single Service Starts -->
                     <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="service-desc center">
                             <h4 class="service-title color-scheme">
@@ -496,8 +503,6 @@
                             </p>
                         </div>
                     </div>
-                    <!-- Single Service Ends -->
-                    <!-- Single Service Starts -->
                     <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="service-desc center">
                             <h4 class="service-title color-scheme">
@@ -510,14 +515,11 @@
                             </p>
                         </div>
                     </div>
-                    <!-- Single Service Ends -->
                 </div>
             </div>
-
         </div>
     </div>
 </section>
-<!--=== Services section Ends ===-->
 
 <section id="section-distribution" class="services-wrap">
     {{--<div class="container pricing">--}}
@@ -725,7 +727,6 @@
     {{--</div>--}}
 </section>
 
-
 <section id="section-Partners" class="services-wrap" style="background: #1c1a21;" >
     <div class="container pricing Partners">
         <div class="row">
@@ -850,4 +851,61 @@
     </div>
 </section>
 
+
+<!-- Modal -->
+<div class="sign-in modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document" style="margin-top: 200px; width: 400px">
+        <div class="modal-content">
+            <div class="logo"></div>
+            <div class="modal-header center header">
+                <h4 class="modal-title title" id="myModalLabel">SIGN IN</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Email address">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" id="remember"> Remember me
+                        </label>
+                    </div>
+                    <button type="button" id="submmit" class="btn btn-default btn-lg btn-block submit" style="border-radius: 20px;">SIGN IN</button>
+                    <div class="has-error center">
+                        <label class="control-label" for="inputError1" id="error-message"></label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+        // 提交
+        $('#submmit').click(function(){
+            // email
+            var email = $('#email').val();
+            var password = $('#password').val();
+            var remember = 0;
+            if ($('#remember').prop('checked')){
+                remember = 1;
+            }
+
+            var data = {email : email, password: password, remember: remember}
+
+            if (email && password){
+				$.post('/api/sign-in',data , function(data){
+					if (data.code !== 0){
+						$('#error-message').html(data.msg);
+					} else {
+						window.location.href = data.data['location'];
+                    }
+				});
+            }
+        })
+    })
+</script>
 @endsection
