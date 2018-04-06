@@ -25,7 +25,7 @@
                     <div class="collapse navbar-collapse navbar-responsive-collapse n-nav">
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#section-pricing">OS Demand</a></li>
-                            <li><a href="#section-members" data-toggle="modal" data-target="#myModal">Members</a></li>
+                            <li><a href="#section-members">Members</a></li>
                             <li><a href="#section-distribution">Token Distribution</a></li>
                             <li><a href="#section-roadmap">Roadmap</a></li>
                             <li><a href="#section-Partners">Partners</a></li>
@@ -858,6 +858,7 @@
         <div class="modal-content">
             <div class="logo"></div>
             <div class="modal-header center header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -50px"><span aria-hidden="true">&times;</span></button>
                 <h4 class="modal-title title" id="myModalLabel">SIGN IN</h4>
             </div>
             <div class="modal-body">

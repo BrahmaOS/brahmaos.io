@@ -16,11 +16,6 @@
     <link rel="stylesheet" href="/css/site2/linea-icon.css"/>
     <link rel="stylesheet" href="/css/site2/fancy-buttons.css"/>
 
-    <!--=== Google Fonts ===-->
-    {{--<link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>--}}
-    {{--<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300,700,400' rel='stylesheet' type='text/css'>--}}
-    {{--<link href='http://fonts.googleapis.com/css?family=Raleway:600,400,300' rel='stylesheet' type='text/css'>--}}
-    {{--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>--}}
     <!--=== Other CSS files ===-->
     <link rel="stylesheet" href="/css/site2/animate.css"/>
     <link rel="stylesheet" href="/css/site2/jquery.vegas.css"/>
@@ -29,9 +24,7 @@
 
     <!--=== Main Stylesheets ===-->
     <link rel="stylesheet" href="/css/site2/style_h2sdfhu23e9se.css"/>
-    {{--<link rel="stylesheet" href="{{asset('css/site2/responsive.css')}}"/>--}}
 
-    <!--=== Color Scheme, three colors are available red.css, orange.css and gray.css ===-->
     <link rel="stylesheet" id="scheme-source" href="/css/site2/schemes/gray.css"/>
     @yield("css")
     <script src="https://cdn.bootcss.com/jquery/1.11.2/jquery.js"></script>
@@ -81,7 +74,6 @@
         <div class="row">
             <div class="col-lg-12">
                 <h4 class="footer-title"><!-- Footer Title -->
-                    {{--<a class="site-name" href="#"><span>E</span>gret</a>--}}
                     <a class="site-name navbar-brand" href="">
                         <img src="/logo-512-2.png" style="" alt="">
                     </a>
