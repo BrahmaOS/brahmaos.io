@@ -9,7 +9,7 @@
             <div class="section-overlay"></div>
             <div class="container">
                 <div class="navbar-header" style="z-index: 100000; margin-top: 20px">
-                    <a class="site-name navbar-brand" href="">
+                    <a class="site-name navbar-brand" href="/">
                         <img src="/logo-512-2.png" style="margin-top: -10px" alt="">
                     </a>
                 </div>

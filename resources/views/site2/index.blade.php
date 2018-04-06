@@ -203,7 +203,13 @@
                                 Ex-JP Morgan, Bank of New York Mellon , Bank of Tokyo Mitsubishi.
                             </p>
                         </div>
+                        @if(\Illuminate\Support\Facades\Auth::check())
+                        <a href="/members-details.html">
+                            <button type="button" class="btn btn-default detail-btn" >Detail</button>
+                        </a>
+                        @else
                         <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                        @endif
                     </div>
                 </div>
 
@@ -219,8 +225,13 @@
                                 10 years experiences in architecture design and R&D management in the telecommunication industry and the Internet industry.
                             </p>
                         </div>
-
-                        <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                        @if(\Illuminate\Support\Facades\Auth::check())
+                            <a href="/members-details.html">
+                                <button type="button" class="btn btn-default detail-btn" >Detail</button>
+                            </a>
+                        @else
+                            <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                        @endif
                     </div>
                 </div>
 
@@ -236,7 +247,13 @@
                                 Ex-CMO of Vodaphone
                             </p>
                         </div>
-                        <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                        @if(\Illuminate\Support\Facades\Auth::check())
+                            <a href="/members-details.html">
+                                <button type="button" class="btn btn-default detail-btn" >Detail</button>
+                            </a>
+                        @else
+                            <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                        @endif
                     </div>
                 </div>
 
@@ -255,7 +272,13 @@
                                 Ex-head of IT strategy on blockchain related projects with Deutsche Bank.
                             </p>
                         </div>
-                        <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                        @if(\Illuminate\Support\Facades\Auth::check())
+                            <a href="/members-details.html">
+                                <button type="button" class="btn btn-default detail-btn" >Detail</button>
+                            </a>
+                        @else
+                            <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                        @endif
                     </div>
                 </div>
 
@@ -271,7 +294,13 @@
                                 Expert in data analytics, business intelligence and artificial intelligence.
                             </p>
                         </div>
-                        <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                        @if(\Illuminate\Support\Facades\Auth::check())
+                            <a href="/members-details.html">
+                                <button type="button" class="btn btn-default detail-btn" >Detail</button>
+                            </a>
+                        @else
+                            <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                        @endif
                     </div>
                 </div>
 
@@ -289,7 +318,13 @@
                                 PHD (University of Edinburgh)
                             </p>
                         </div>
-                        <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                        @if(\Illuminate\Support\Facades\Auth::check())
+                            <a href="/members-details.html">
+                                <button type="button" class="btn btn-default detail-btn" >Detail</button>
+                            </a>
+                        @else
+                            <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                        @endif
                     </div>
                 </div>
 
@@ -308,7 +343,13 @@
                                 Qlikview, Big Data, SAP Hana, SAP BI/BW technologies.
                             </p>
                         </div>
-                        <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                        @if(\Illuminate\Support\Facades\Auth::check())
+                            <a href="/members-details.html">
+                                <button type="button" class="btn btn-default detail-btn" >Detail</button>
+                            </a>
+                        @else
+                            <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                        @endif
                     </div>
                 </div>
 
@@ -325,7 +366,13 @@
                                 Master of Science (statistics) in Oxford University.
                             </p>
                         </div>
-                        <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                        @if(\Illuminate\Support\Facades\Auth::check())
+                            <a href="/members-details.html">
+                                <button type="button" class="btn btn-default detail-btn" >Detail</button>
+                            </a>
+                        @else
+                            <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                        @endif
                     </div>
                 </div>
 
@@ -341,7 +388,13 @@
                                 Distributed database system and P2P network scientist. Researcher in Blockchain capacity, data sharding and ecosystem.
                             </p>
                         </div>
-                        <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                        @if(\Illuminate\Support\Facades\Auth::check())
+                            <a href="/members-details.html">
+                                <button type="button" class="btn btn-default detail-btn" >Detail</button>
+                            </a>
+                        @else
+                            <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
+                        @endif
                     </div>
                 </div>
 
@@ -897,7 +950,7 @@
 
 			var data = {email : email, password: password, remember: remember}
 
-console.log(data);
+			$('#submmit').attr('disabled', 'disabled')
 			if (email && password){
 
 				$.ajax({
@@ -916,6 +969,7 @@ console.log(data);
 						} else {
 							window.location.href = data.data['location'];
 						}
+						$('#submmit').attr('disabled', false)
 					},
 					error: function(err) {
 						console.error(err)
