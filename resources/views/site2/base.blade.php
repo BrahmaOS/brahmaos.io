@@ -74,7 +74,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h4 class="footer-title"><!-- Footer Title -->
-                    <a class="site-name navbar-brand" href="">
+                    <a class="site-name navbar-brand" href="/">
                         <img src="/logo-512-2.png" style="" alt="">
                     </a>
                 </h4>
