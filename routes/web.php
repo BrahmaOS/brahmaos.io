@@ -13,10 +13,8 @@
 
 
 Route::get('/', function () {
-	return view('site2.index');
-//	session(['uid'=>1]);
-//	var_dump(cookie());
-//	var_dump(session('uid'));
+	$allow = Auth::check() && Auth::user()->is_activate;
+	return view('site2.index', ['allow'=>$allow]);
 });
 Route::get('/login', function () {
 	return view('site2.index');

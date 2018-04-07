@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Auth;
 use Validator;
+use Illuminate\Support\Facades\Cookie;
 
 class UserController extends Controller
 {
@@ -30,6 +31,17 @@ class UserController extends Controller
 
 		if (Auth::attempt(['email' => $email, 'password' => $password, 'is_active'=>1], $remember)) {
 			// 这个用户被记住了...
+
+			// set remember me expire time 7 days
+			$rememberTokenExpireMinutes = 604800;
+
+			// first we need to get the "remember me" cookie's key, this key is generate by laravel randomly
+			// it looks like: remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d
+			$rememberTokenName = Auth::getRecallerName();
+
+			// reset that cookie's expire time
+			Cookie::queue($rememberTokenName, Cookie::get($rememberTokenName), $rememberTokenExpireMinutes);
+
 			return ['code'=>0, 'msg'=>'success', 'data'=>['location'=>url('/members-details.html')]];
 		} else {
 			return ['code'=>400, 'msg'=>'email or password error', 'data'=>[]];

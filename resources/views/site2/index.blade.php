@@ -203,7 +203,7 @@
                                 Ex-JP Morgan, Bank of New York Mellon , Bank of Tokyo Mitsubishi.
                             </p>
                         </div>
-                        @if(\Illuminate\Support\Facades\Auth::check())
+                        @if($allow)
                         <a href="/members-details.html">
                             <button type="button" class="btn btn-default detail-btn" >Detail</button>
                         </a>
@@ -225,7 +225,7 @@
                                 10 years experiences in architecture design and R&D management in the telecommunication industry and the Internet industry.
                             </p>
                         </div>
-                        @if(\Illuminate\Support\Facades\Auth::check())
+                        @if($allow)
                             <a href="/members-details.html">
                                 <button type="button" class="btn btn-default detail-btn" >Detail</button>
                             </a>
@@ -247,7 +247,7 @@
                                 Ex-CMO of Vodaphone
                             </p>
                         </div>
-                        @if(\Illuminate\Support\Facades\Auth::check())
+                        @if($allow)
                             <a href="/members-details.html">
                                 <button type="button" class="btn btn-default detail-btn" >Detail</button>
                             </a>
@@ -272,7 +272,7 @@
                                 Ex-head of IT strategy on blockchain related projects with Deutsche Bank.
                             </p>
                         </div>
-                        @if(\Illuminate\Support\Facades\Auth::check())
+                        @if($allow)
                             <a href="/members-details.html">
                                 <button type="button" class="btn btn-default detail-btn" >Detail</button>
                             </a>
@@ -294,7 +294,7 @@
                                 Expert in data analytics, business intelligence and artificial intelligence.
                             </p>
                         </div>
-                        @if(\Illuminate\Support\Facades\Auth::check())
+                        @if($allow)
                             <a href="/members-details.html">
                                 <button type="button" class="btn btn-default detail-btn" >Detail</button>
                             </a>
@@ -318,7 +318,7 @@
                                 PHD (University of Edinburgh)
                             </p>
                         </div>
-                        @if(\Illuminate\Support\Facades\Auth::check())
+                        @if($allow)
                             <a href="/members-details.html">
                                 <button type="button" class="btn btn-default detail-btn" >Detail</button>
                             </a>
@@ -343,7 +343,7 @@
                                 Qlikview, Big Data, SAP Hana, SAP BI/BW technologies.
                             </p>
                         </div>
-                        @if(\Illuminate\Support\Facades\Auth::check())
+                        @if($allow)
                             <a href="/members-details.html">
                                 <button type="button" class="btn btn-default detail-btn" >Detail</button>
                             </a>
@@ -366,7 +366,7 @@
                                 Master of Science (statistics) in Oxford University.
                             </p>
                         </div>
-                        @if(\Illuminate\Support\Facades\Auth::check())
+                        @if($allow)
                             <a href="/members-details.html">
                                 <button type="button" class="btn btn-default detail-btn" >Detail</button>
                             </a>
@@ -388,7 +388,7 @@
                                 Distributed database system and P2P network scientist. Researcher in Blockchain capacity, data sharding and ecosystem.
                             </p>
                         </div>
-                        @if(\Illuminate\Support\Facades\Auth::check())
+                        @if($allow)
                             <a href="/members-details.html">
                                 <button type="button" class="btn btn-default detail-btn" >Detail</button>
                             </a>

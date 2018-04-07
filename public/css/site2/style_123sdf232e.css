@@ -593,9 +593,10 @@ left: calc(50% - 110px);
 }
 
 .members .guy .detail-btn{
-    background-color: #D3AB5A;
+    /*background-color: #D3AB5A;*/
+    background-color: #1c1a21;
     border: 1px solid #D3AB5A;;
-    color: #fff;
+    color: #D3AB5A;
     width: 100px;
     border-radius: 20px;
 }
