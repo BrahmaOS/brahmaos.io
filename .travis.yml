@@ -8,6 +8,7 @@ before_install:
 - chmod 600 ~/.ssh/brahmaos.pem
 - echo -e "Host tokyo\n\thostname ${hostname_tokyo}\n\tport ${port_tokyo}\n\tuser ${user_tokyo}\n\tIdentityFile  ~/.ssh/brahmaos.pem\nHost london\n\thostname ${hostname_london}\n\tport ${port_london}\n\tuser ${user_london}\n\tIdentityFile  ~/.ssh/brahmaos.pem" > ~/.ssh/config
 - cat ~/.ssh/config
+- composer install
 after_success:
 - ssh tokyo "cd /www/brahmaos.io/ && sudo git pull"
 - ssh london "cd /www/brahmaos.io/ &&  git pull"
