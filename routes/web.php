@@ -12,30 +12,16 @@
 */
 
 
-Route::get('/', function () {
-	$allow = Auth::check() && Auth::user()->is_activate;
-	return view('site2.index', ['allow'=>$allow]);
-});
-Route::get('/login', function () {
-	return view('site2.index');
-});
+Route::get('/', 'WebController@index');
 
-Route::get('/abstract/1.html', function () {
-	return view('site2.abstract1');
-});
+Route::get('/abstract/1.html', 'WebController@abstract_1');
 
-Route::get('/abstract/2.html', function () {
-	return view('site2.abstract2');
-});
+Route::get('/abstract/2.html', 'WebController@abstract_2');
 
-Route::get('/abstract/3.html', function () {
-	return view('site2.abstract3');
-});
+Route::get('/abstract/3.html', 'WebController@abstract_3');
 
 Route::group(['middleware'=>'allow'], function (){
-	Route::get('/members-details.html', function () {
-		return view('site2.Members-details');
-	});
+	Route::get('/members-details.html', 'WebController@members_details');
 });
 
 Route::post('/sign-in', 'UserController@authenticate');
