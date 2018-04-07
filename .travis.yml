@@ -12,8 +12,8 @@ before_install:
 - cp .env.example .env
 - php artisan key:generate
 after_success:
-- ssh tokyo "cd /www/brahmaos.io/ && sudo git pull"
-- ssh london "cd /www/brahmaos.io/ &&  git pull"
+- ssh tokyo "sh deploy.sh"
+- ssh london "sh deploy.sh"
 env:
 - APP_DEBUG=false
 addons:
