@@ -9,7 +9,7 @@ class WebController extends Controller
 {
     public function index()
     {
-	    $allow = Auth::check() && Auth::user()->is_activate;
+	    $allow = Auth::check() && Auth::user()->is_active;
 	    return view('site2.index', ['allow'=>$allow]);
     }
 
