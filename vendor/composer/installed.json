@@ -3962,5 +3962,191 @@
             "testing",
             "xunit"
         ]
+    },
+    {
+        "name": "symfony/dom-crawler",
+        "version": "v3.4.8",
+        "version_normalized": "3.4.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/dom-crawler.git",
+            "reference": "1a4cffeb059226ff6bee9f48acb388faf674afff"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/symfony/dom-crawler/1a4cffeb059226ff6bee9f48acb388faf674afff.zip",
+            "reference": "1a4cffeb059226ff6bee9f48acb388faf674afff",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "symfony/polyfill-mbstring": "~1.0"
+        },
+        "require-dev": {
+            "symfony/css-selector": "~2.8|~3.0|~4.0"
+        },
+        "suggest": {
+            "symfony/css-selector": ""
+        },
+        "time": "2018-03-19T22:32:39+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\DomCrawler\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony DomCrawler Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "encore/laravel-admin",
+        "version": "v1.5.10",
+        "version_normalized": "1.5.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/z-song/laravel-admin.git",
+            "reference": "0b3050f3b172fac39b677c096bb87c447b24b2a4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/z-song/laravel-admin/0b3050f3b172fac39b677c096bb87c447b24b2a4.zip",
+            "reference": "0b3050f3b172fac39b677c096bb87c447b24b2a4",
+            "shasum": ""
+        },
+        "require": {
+            "laravel/framework": "~5.5",
+            "php": ">=7.0.0",
+            "symfony/dom-crawler": "~3.1"
+        },
+        "require-dev": {
+            "fzaninotto/faker": "~1.4",
+            "intervention/image": "~2.3",
+            "laravel/browser-kit-testing": "^2.0",
+            "laravel/laravel": "~5.5",
+            "phpunit/phpunit": "~6.0",
+            "symfony/css-selector": "~3.1"
+        },
+        "suggest": {
+            "intervention/image": "Required to handling and manipulation upload images (~2.3).",
+            "spatie/eloquent-sortable": "Required to built orderable gird."
+        },
+        "time": "2018-03-27T16:20:07+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Encore\\Admin\\AdminServiceProvider"
+                ],
+                "aliases": {
+                    "Admin": "Encore\\Admin\\Facades\\Admin"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Encore\\Admin\\": "src/"
+            },
+            "files": [
+                "src/helpers.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "zsong",
+                "email": "zosong@126.com"
+            }
+        ],
+        "description": "laravel admin",
+        "homepage": "https://github.com/z-song/laravel-admin",
+        "keywords": [
+            "admin",
+            "form",
+            "grid",
+            "laravel"
+        ]
+    },
+    {
+        "name": "laravel-admin-ext/helpers",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/laravel-admin-extensions/helpers.git",
+            "reference": "17053511d502c490a37641a91a223536db3d4bdb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/laravel-admin-extensions/helpers/17053511d502c490a37641a91a223536db3d4bdb.zip",
+            "reference": "17053511d502c490a37641a91a223536db3d4bdb",
+            "shasum": ""
+        },
+        "require": {
+            "encore/laravel-admin": "1.5.*",
+            "laravel/framework": "5.5.*",
+            "php": ">=7.0.0"
+        },
+        "require-dev": {
+            "laravel/laravel": "5.5.*",
+            "phpunit/phpunit": "~6.0"
+        },
+        "time": "2017-09-05T08:38:56+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Encore\\Admin\\Helpers\\HelpersServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Encore\\Admin\\Helpers\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "z-song",
+                "email": "zosong@126.com"
+            }
+        ],
+        "description": "Helpers extension for laravel-admin",
+        "homepage": "https://github.com/laravel-admin-extensions/helpers",
+        "keywords": [
+            "helpers",
+            "laravel-admin"
+        ]
     }
 ]

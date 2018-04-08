@@ -20,5 +20,4 @@ use Illuminate\Http\Request;
 Route::group(['namespace'=>'Api'], function (){
 	Route::get('/count', 'CountController@countUtmSource');
 	Route::get('/count/day', 'CountController@countUtmSourceDay');
-	Route::post('/sign-in', 'UserController@authenticate');
 });

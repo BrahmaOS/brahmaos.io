@@ -31,6 +31,11 @@ class UserController extends Controller
 
 		if (Auth::attempt(['email' => $email, 'password' => $password, 'is_active'=>1], $remember)) {
 			// 这个用户被记住了...
+			$user = Auth::user();
+
+			$user->ip = $request->getClientIp();
+			$user->login_at = date('Y-m-d H:i:s');
+			$user->save();
 
 			// set remember me expire time 7 days
 			$rememberTokenExpireMinutes = 604800;
