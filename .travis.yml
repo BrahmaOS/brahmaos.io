@@ -6,14 +6,13 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_845395c4607a_key -iv $encrypted_845395c4607a_iv
   -in brahmaos.pem.enc -out ~/.ssh/brahmaos.pem -d
 - chmod 600 ~/.ssh/brahmaos.pem
-- echo -e "Host tokyo\n\thostname ${hostname_tokyo}\n\tport ${port_tokyo}\n\tuser ${user_tokyo}\n\tIdentityFile  ~/.ssh/brahmaos.pem\nHost london\n\thostname ${hostname_london}\n\tport ${port_london}\n\tuser ${user_london}\n\tIdentityFile  ~/.ssh/brahmaos.pem" > ~/.ssh/config
+- echo -e "Host tokyo\n\thostname ${hostname_tokyo}\n\tport ${port_tokyo}\n\tuser ${user_tokyo}\n\tIdentityFile  ~/.ssh/brahmaos.pem" > ~/.ssh/config
 - cat ~/.ssh/config
 - composer install
 - cp .env.example .env
 - php artisan key:generate
 after_success:
 - ssh tokyo "sh deploy.sh"
-- ssh london "sh deploy.sh"
 env:
 - APP_DEBUG=false
 addons:
