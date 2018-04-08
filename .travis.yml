@@ -17,5 +17,4 @@ env:
 - APP_DEBUG=false
 addons:
   ssh_known_hosts:
-  - 13.230.159.122
-  - 159.65.22.214
+  - 52.198.158.55
