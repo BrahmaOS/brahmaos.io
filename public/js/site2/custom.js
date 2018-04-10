@@ -17,7 +17,7 @@ $(window).ready(function() {
 	  backgrounds:[
 		{ src:'/images/site2/bg-slider/v2.jpeg', fade:1000 }
 	  ]
-	})();
+	});
 });
 
 
