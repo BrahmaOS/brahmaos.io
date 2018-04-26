@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="/css/site2/style_1234123823.css"/>
 
     <link rel="stylesheet" id="scheme-source" href="/css/site2/schemes/gray.css"/>
+    <link rel="stylesheet" id="scheme-source" href="/css/site2/video-js.min.css"/>
     @yield("css")
     <script src="https://cdn.bootcss.com/jquery/1.11.2/jquery.js"></script>
     <style>
@@ -33,7 +34,8 @@
             color: #fff;
             font-family: 'Raleway', sans-serif;
             font-size: 24px;
-            padding: 14px 15px 8px;
+            padding: 8px 15px 8px;
+            line-height: 40px;
             font-weight: 700;
             letter-spacing: 1px;
             text-transform: uppercase;
@@ -122,6 +124,8 @@
 <script type="text/javascript" src="/js/site2/jquery.nav.js"></script>
 <script type="text/javascript" src="/js/site2/jquery.appear.js"></script>
 <script type="text/javascript" src="/js/site2/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/js/site2/video.min.js"></script>
+<script type="text/javascript" src="/js/site2/video.min.js"></script>
 
 <!--==== Custom Script files ====-->
 <script type="text/javascript" src="/js/site2/custom.js"></script>
@@ -135,11 +139,6 @@
 				$("#back-to-top1").hide();
 			}
 		});
-		// $("#back-to-top1").click(function(e){
-		// 	// e.preventDefault();
-		// 	// console.log(12345678);
-		// 	// $('body').animate({scrollTop:0},1000);
-		// });
 	})
 </script>
 

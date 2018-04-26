@@ -3,7 +3,7 @@
 @section('content')
 <a href="" id="top"></a>
 
-<div id="header" class="header-section">
+<section id="header" class="header-section">
     <div class="sticky-bar-wrap">
         <div class="sticky-section">
             <div id="topbar-hold" class="nav-hold container">
@@ -40,31 +40,33 @@
     </div>
 
     <div id="section-home" class="home-section-wrap center">
-        <div class="section-overlay"></div>
+        {{--<div class="section-overlay"></div>--}}
         <div class="container home">
-            <div class="row">
+            <div class="center">
                 <h1 class="well-come" data-animation="fadeInUp" data-animation-delay="700">
-                    {{--<span style="border-bottom: 1px solid #fff; padding-bottom: 10px">--}}
+                    <span class="home-title">
                         Brahma OS
-                    {{--</span>--}}
+                    </span>
                 </h1>
+                <p class="intro-message" >
+                    Brahma OS is an operating system that hosts decentralized networks by enabling the deconstruction of existing services
+                    and the use of a wide range of decentralized services and components to ensure that users can safely and easily access services
+                    on the blockchain and application.
+                </p>
 
-                <div class="col-md-8 col-md-offset-2">
-                    <p class="intro-message" >
-                        Brahma OS is an operating system that hosts decentralized networks by enabling the deconstruction of existing services
-                        and the use of a wide range of decentralized services and components to ensure that users can safely and easily access services
-                        on the blockchain and application.
-                    </p>
-
-                    <div class="home-buttons" style="margin-bottom: 20px">
-                        <a href="/abstract/1.html" style="margin:5px 20px; min-width: 220px" target="_blank" class="fancy-button WhitePaper button-line button-white vertical">Online WhitePaper</a>
-                        <a href="/Brahma_Whitepaper_v1.0.0.pdf" style="margin:5px 20px; min-width: 220px" target="_blank" class="fancy-button WhitePaper button-line button-white vertical">Download WhitePaper</a>
-                    </div>
+                <div class="home-buttons">
+                    {{--<a href="/abstract/1.html" style="margin:5px 20px; min-width: 220px" target="_blank" class="fancy-button WhitePaper button-line button-white vertical">Online WhitePaper</a>--}}
+                    <a href="/Brahma_Whitepaper_v1.0.0.pdf" style="margin:5px 20px; min-width: 220px" target="_blank" class="fancy-button WhitePaper button-line button-white vertical">Download WhitePaper</a>
                 </div>
+
+                <video id="video1" class="video-js" controls preload="auto" width="640" height="264" poster="http://video-js.zencoder.com/oceans-clip.png" data-setup='{"example_option":true}'>
+                    <source id="sourceBox" src="/video/BrahmaV-no.mp4" type='video/mp4'>
+                    <p class="vjs-no-js">不支持播放</p>
+                </video>
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <section id="section-pricing" class="pricing-wrap">
     <div class="container pricing OS">
@@ -936,7 +938,25 @@
         </div>
     </div>
 </div>
-<script>  $(function(){
+<script>
+    $(function(){
+
+		autodivheight();
+		function autodivheight(){ //函数：获取尺寸
+			//获取浏览器窗口高度
+			var winHeight=0;
+			if (window.innerHeight)
+				winHeight = window.innerHeight;
+			else if ((document.body) && (document.body.clientHeight))
+				winHeight = document.body.clientHeight;
+			//通过深入Document内部对body进行检测，获取浏览器窗口高度
+			if (document.documentElement && document.documentElement.clientHeight)
+				winHeight = document.documentElement.clientHeight;
+			//DIV高度为浏览器窗口的高度
+			document.getElementById("header").style.height= winHeight +"px";
+		}
+		window.onresize=autodivheight; //浏览器窗口发生变化时同时变化DIV高度
+
 		// 提交
 		$('#submmit').click(function(){
 			// email

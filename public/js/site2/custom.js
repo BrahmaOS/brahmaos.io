@@ -13,11 +13,11 @@ Backgroung slider
 ----------------------------- */
 $(window).ready(function() {
 	'use strict';
-	$.vegas('slideshow', {
-	  backgrounds:[
-		{ src:'/images/site2/bg-slider/v2.jpeg', fade:1000 }
-	  ]
-	});
+	// $.vegas('slideshow', {
+	//   backgrounds:[
+	// 	{ src:'/images/site2/bg-slider/v2.jpeg', fade:1000 }
+	//   ]
+	// });
 });
 
 
