@@ -24,7 +24,7 @@
 
                     <div class="collapse navbar-collapse navbar-responsive-collapse n-nav">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#section-pricing">OS Demand</a></li>
+                            <li class="current"><a href="#section-pricing">OS Demand</a></li>
                             <li><a href="#section-members">Members</a></li>
                             <li><a href="#section-distribution">Token Distribution</a></li>
                             <li><a href="#section-roadmap">Roadmap</a></li>
@@ -40,7 +40,15 @@
     </div>
 
     <div id="section-home" class="home-section-wrap center">
-        {{--<div class="section-overlay"></div>--}}
+        <div class="wrap-video" id = "wrap-video">
+            <video id="brahmaos-video"  class="video-js vjs-big-play-centered vjs-fullscreen-control">
+                <source
+                        src="/storage/video/brahmaos.m3u8"
+                        type="application/x-mpegURL">
+            </video>
+        </div>
+
+        <div class="section-overlay"></div>
         <div class="container home">
             <div class="center">
                 <h1 class="well-come" data-animation="fadeInUp" data-animation-delay="700">
@@ -55,14 +63,9 @@
                 </p>
 
                 <div class="home-buttons">
-                    {{--<a href="/abstract/1.html" style="margin:5px 20px; min-width: 220px" target="_blank" class="fancy-button WhitePaper button-line button-white vertical">Online WhitePaper</a>--}}
                     <a href="/Brahma_Whitepaper_v1.0.0.pdf" style="margin:5px 20px; min-width: 220px" target="_blank" class="fancy-button WhitePaper button-line button-white vertical">Download WhitePaper</a>
+                    <span  class="fancy-button WhitePaper button-line button-white vertical " id="play-video">Play Video</span>
                 </div>
-
-                <video id="video1" class="video-js" controls preload="auto" width="640" height="264" poster="http://video-js.zencoder.com/oceans-clip.png" data-setup='{"example_option":true}'>
-                    <source id="sourceBox" src="/video/BrahmaV-no.mp4" type='video/mp4'>
-                    <p class="vjs-no-js">不支持播放</p>
-                </video>
             </div>
         </div>
     </div>
@@ -789,9 +792,6 @@
                 <div class="col-md-10 col-md-offset-1 center section-title" style="margin-bottom: 40px">
                     <h3 style="color: #ccc;text-transform: none" data-animation="fadeInUp" data-animation-delay="700">Partners and Advisors</h3>
                 </div>
-                {{--<div class="col-md-10 col-md-offset-1 center section-title" style="margin-bottom: 0px; z-index: 5">--}}
-                    {{--<h3 style="color: #666">Partners</h3>--}}
-                {{--</div>--}}
                 <div>
                     <img src="/images/site2/link/citibank.png" data-animation="fadeInUp" data-animation-delay="700" alt="">
                     <img src="/images/site2/link/14.png"  data-animation="fadeInUp" data-animation-delay="700"  alt="">
@@ -805,19 +805,6 @@
                     <a href="https://www.filecoinasia.com" target="_blank" class="animated"><img src="/images/site2/link/filecoin-logo.png" data-animation="fadeInUp" data-animation-delay="700" alt=""></a>
                     <a href="http://www.jinse.com" target="_blank" class="animated"><img src="/images/site2/link/jinse.png" data-animation="fadeInUp" data-animation-delay="700" alt=""></a>
                     <a href="http://www.huawei.com/" target="_blank" class="animated"><img src="/images/site2/link/3.png" data-animation="fadeInUp" data-animation-delay="700" alt=""></a>
-                    {{--<a href="https://www.lenovo.com.cn/" target="_blank" class="animated"><img src="/images/site2/link/2.png" data-animation="fadeInUp" data-animation-delay="700" alt=""></a>--}}
-                    {{--http://www.jpmorganchina.com.cn/country/CN/zh/jpmorgan/--}}
-                    {{--<a href="#" class="animated"><img src="/images/site2/link/13.png" data-animation-delay="700" alt=""></a>--}}
-                    {{--<a href="http://www.szmg.com.cn/" target="_blank" class="animated"><img src="/images/site2/link/1.png" data-animation="fadeInUp" data-animation-delay="700" alt=""></a>--}}
-                    {{--<a href="http://www.midea.com/" target="_blank" class="animated"><img src="/images/site2/link/4.png" data-animation="fadeInUp" data-animation-delay="700"  alt=""></a>--}}
-                    {{--<a href="http://www.evergrande.com/" target="_blank" class="animated"><img src="/images/site2/link/5.png" data-animation="fadeInUp" data-animation-delay="700"  alt=""></a>--}}
-                    {{--<a href="http://www.founder.com/" target="_blank" class="animated"><img src="/images/site2/link/6.png" data-animation="fadeInUp" data-animation-delay="700" alt=""></a>--}}
-                    {{--<a href="http://www.pku.edu.cn/" target="_blank" class="animated"><img src="/images/site2/link/7.png" data-animation="fadeInUp" data-animation-delay="700" alt=""></a>--}}
-                    {{--<a href="" target="_blank" class="animated"><img src="/images/site2/link/8.png" data-animation="fadeInUp" data-animation-delay="700" alt=""></a>--}}
-                    {{--<a href="http://www.stonexp.com/" target="_blank" class="animated"><img src="/images/site2/link/9.png" data-animation="fadeInUp" data-animation-delay="700"  alt=""></a>--}}
-                    {{--<a href="https://www.suning.com/" target="_blank" class="animated"><img src="/images/site2/link/11.png" data-animation="fadeInUp" data-animation-delay="700" alt=""></a>--}}
-                    {{--<a href="http://www.zte.com.cn/china/" target="_blank" class="animated"><img src="/images/site2/link/10.png" data-animation="fadeInUp" data-animation-delay="700" alt=""></a>--}}
-                    {{--<a href="" target="_blank" class="animated"><img src="/images/site2/link/12.png" data-animation="fadeInUp" data-animation-delay="700" alt=""></a>--}}
                 </div>
             </div>
             <!-- Single Service Ends -->
@@ -844,8 +831,6 @@
                     <a href="http://www.coinnewsasia.com/brahma-os-is-the-decentralized-value-operating-system-based-on-blockchain-tech/" target="_blank" data-animation-delay="700" class="media-img animated"><img src="/images/site2/media/Group 11.png"   alt=""></a>
                     <a href="https://coinjournal.net/pr-release/brahma-os-decentralized-value-operating-system-based-revolutionary-blockchain-technology/" target="_blank" data-animation-delay="700" class="media-img animated"><img src="/images/site2/media/Group 12.png"   alt=""></a>
                     <a href="https://news.bitcoin.com/pr-brahma-os-is-the-decentralized-value-operating-system-based-on-revolutionary-blockchain-technology/" target="_blank" data-animation-delay="700" class="media-img animated"><img src="/images/site2/media/Group 13.png"   alt=""></a>
-                    {{--<a href="http://new.qq.com/omn/20180222A08Q8N00" target="_blank" class="media-img"><img src="/images/site2/media/TXnews_logo.png" style="margin: 30px 50px"  alt=""></a>--}}
-                    {{--<a href="https://3g.k.sohu.com/t/n263723663?gotoId=263723663" target="_blank" class="media-img"><img src="/images/site2/media/sohu-logo.png" style="margin: 30px 50px"  alt=""></a>--}}
                 </div>
             </div>
             <!-- Single Service Ends -->
@@ -940,20 +925,29 @@
 </div>
 <script>
     $(function(){
+		var player = videojs('brahmaos-video');
+		player.play();
+		// player.enterFullWindow();
 
 		autodivheight();
 		function autodivheight(){ //函数：获取尺寸
 			//获取浏览器窗口高度
-			var winHeight=0;
-			if (window.innerHeight)
+			var winHeight, winWidth=0;
+			if (window.innerHeight){
 				winHeight = window.innerHeight;
-			else if ((document.body) && (document.body.clientHeight))
+				winWidth = window.innerWidth;
+            } else if ((document.body) && (document.body.clientHeight))
 				winHeight = document.body.clientHeight;
+			    winWidth = document.body.clientWidth;
 			//通过深入Document内部对body进行检测，获取浏览器窗口高度
 			if (document.documentElement && document.documentElement.clientHeight)
 				winHeight = document.documentElement.clientHeight;
+			    winWidth = document.documentElement.clientWidth;
 			//DIV高度为浏览器窗口的高度
 			document.getElementById("header").style.height= winHeight +"px";
+			// document.getElementById("brahmaos-video").style.width= winWidth +"px";
+			player.width(winWidth);
+			player.height(winHeight);
 		}
 		window.onresize=autodivheight; //浏览器窗口发生变化时同时变化DIV高度
 
@@ -1005,6 +999,18 @@
 				// });
 			}
 		})
+
+
+        $('#play-video').click(function(){
+			player.play();
+
+            // $('#wrap-video').css("zIndex", 7);
+            player.requestFullscreen();
+
+
+            console.log(player.isFullscreen());
+		});
+
 	})
 
 </script>

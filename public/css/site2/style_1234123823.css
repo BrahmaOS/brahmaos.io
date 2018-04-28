@@ -344,21 +344,31 @@ li.current a{
 
 /* --------------- Home section --------------- */
 
-
-.section-home {
-	/*position:relative;*/
-}
 #section-home{
-    background: #000;
-    width: 100%;
-    height: 100%;
+	/*background: #000;*/
+	width: 100%;
+	height: 100%;
+	position: relative;
 }
+
+#section-home .wrap-video{
+	position:absolute;
+	/*width: 90%;*/
+	z-index: -1;
+}
+
+#section-home .brahmaos-video{
+	/*position: absolute;*/
+	/*width: 90%;*/
+}
+
 
 .home {
 	min-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+	z-index:6;
 }
 .home>div{
     max-width: 80%;
@@ -413,10 +423,18 @@ li.current a{
 	/*font-weight: 400;*/
 }
 
+/* vjs-big-play-centered */
 
-
-
-
+/*.vjs-big-play-centered .vjs-big-play-button {*/
+	/*background: red!important;*/
+	/*z-index:7;*/
+/*}*/
+#play-video{
+	margin:5px 20px;
+	min-width: 220px;
+	/*border: 1px solid #fff;*/
+	border: .06666em solid #fff;
+}
 
 /* ===== roadmap section =====*/
 #section-roadmap {
