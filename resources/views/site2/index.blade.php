@@ -58,7 +58,7 @@
 
                     <div class="home-buttons" style="margin-bottom: 20px">
                         <a href="/abstract/1.html" style="margin:5px 20px; min-width: 220px" target="_blank" class="fancy-button WhitePaper button-line button-white vertical">Online WhitePaper</a>
-                        <a href="/Brahma_Whitepaper_v1.0.0.pdf" style="margin:5px 20px; min-width: 220px" target="_blank" class="fancy-button WhitePaper button-line button-white vertical">Download WhitePaper</a>
+                        <a href="/Brahma_Whitepaper_Latest.pdf" style="margin:5px 20px; min-width: 220px" target="_blank" class="fancy-button WhitePaper button-line button-white vertical">Download WhitePaper</a>
                     </div>
                 </div>
             </div>
