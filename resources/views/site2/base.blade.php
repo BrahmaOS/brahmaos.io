@@ -63,14 +63,15 @@
     </style>
 </head>
 <body>
-<!--=== Preloader section starts ===-->
+
 <section id="preloader" >
     <div class="loading-circle fa-spin"></div>
 </section>
-<!--=== Preloader section Ends ===-->
-@yield('content')
 
-<!--=== Footer section Starts ===-->
+<div id="root">
+    @yield('content')
+</div>
+
 <div id="section-footer" class="footer-wrap">
     <div class="container footer center">
         <div class="row">
@@ -100,33 +101,14 @@
 
 <a href="#top" id="back-to-top1"><i class="fa fa-chevron-up fa-lg"></i></a>
 
-
-<!--=== Footer section Ends ===-->
-
-<!--==== Js files ====-->
-<!--==== Essential files ====-->
-
 <script type="text/javascript" src="/js/site2/bootstrap.min.js"></script>
-{{--<script type="text/javascript" src="{{asset('js/site2/bootstrapValidator.min.js')}}"></script>--}}
-{{--<script type="text/javascript" src="{{asset('js/site2/modernizr.js')}}"></script>--}}
 <script type="text/javascript" src="/js/site2/jquery.easing.1.3.js"></script>
-
-<!--==== Slider and Card style plugin ====-->
-<script type="text/javascript" src="/js/site2/jquery.baraja.js"></script>
 <script type="text/javascript" src="/js/site2/jquery.vegas.min.js"></script>
-<script type="text/javascript" src="/js/site2/jquery.bxslider.min.js"></script>
-
-<!--==== MailChimp Widget plugin ====-->
-<script type="text/javascript" src="/js/site2/jquery.ajaxchimp.min.js"></script>
-
-<!--==== Scroll and navigation plugins ====-->
-<script type="text/javascript" src="/js/site2/jquery.nicescroll.min.js"></script>
 <script type="text/javascript" src="/js/site2/jquery.nav.js"></script>
 <script type="text/javascript" src="/js/site2/jquery.appear.js"></script>
-<script type="text/javascript" src="/js/site2/jquery.fitvids.js"></script>
 <script type="text/javascript" src="/js/site2/video.min.js"></script>
 <script type="text/javascript" src="/js/site2/videojs-contrib-hls.min.js"></script>
-<!--==== Custom Script files ====-->
+<script type="text/javascript" src="/js/site2/jquery.fullPage.min.js"></script>
 <script type="text/javascript" src="/js/site2/custom.js"></script>
 <script>
 	$(function () {

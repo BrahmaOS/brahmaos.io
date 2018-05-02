@@ -4,7 +4,7 @@
 <a href="" id="top"></a>
 {{--<img id="brahmaos-background section-overlay" src="/images/site2/bg-slider/v2.jpeg" style="position: fixed; top: 0; width: 2082.63px; height: 983px; bottom: auto; right: auto;">--}}
 
-<section id="header" class="header-section">
+<section id="header" class="header-section section">
     <div class="sticky-bar-wrap">
         <div class="sticky-section">
             <div id="topbar-hold" class="nav-hold container">
@@ -42,7 +42,7 @@
 
     <div id="section-home" class="home-section-wrap center">
         <div class="wrap-video" id = "wrap-video" >
-            <video id="brahmaos-video" class="video-js">
+            <video id="brahmaos-video" class="video-js" controls>
                 <source
                         src="/storage/video/brahmaos.m3u8"
                         type="application/x-mpegURL">
@@ -72,7 +72,7 @@
     </div>
 </section>
 
-<section id="section-pricing" class="pricing-wrap">
+<section id="section-pricing" class="pricing-wrap section ">
     <div class="container pricing OS">
         <div class="row center">
             <div class="center section-title" style="margin-bottom: 70px">
@@ -188,7 +188,7 @@
     </div>
 </section>
 
-<section id="section-members" class="services-wrap">
+<section id="section-members" class="services-wrap section">
     <div class="container members">
         <div class="row" style="margin-bottom: 50px">
             <!--  members  --->
@@ -580,7 +580,7 @@
     </div>
 </section>
 
-<section id="section-distribution" class="services-wrap">
+<section id="section-distribution" class="services-wrap section">
     {{--<div class="container pricing">--}}
         <div class="row">
 
@@ -602,7 +602,7 @@
     {{--</div>--}}
 </section>
 
-<section id="section-roadmap" class="services-wrap">
+<section id="section-roadmap" class="services-wrap section">
     {{--<div class="container pricing">--}}
     <div class="roadmap container">
         <div class="row">
@@ -786,7 +786,7 @@
     {{--</div>--}}
 </section>
 
-<section id="section-Partners" class="services-wrap" style="background: #1c1a21;" >
+<section id="section-Partners" class="services-wrap section" style="background: #1c1a21;" >
     <div class="container pricing Partners">
         <div class="row">
             <div class="subcontent center">
@@ -813,7 +813,7 @@
     </div>
 </section>
 
-<section id="section-Media" class="services-wrap" style="background: #fff;" >
+<section id="section-Media" class="services-wrap section" style="background: #fff;" >
     <div class="container pricing Partners " style="padding-top: 70px; padding-bottom: 70px">
         <div class="row">
             <div class="subcontent center" style="">
@@ -839,7 +839,7 @@
     </div>
 </section>
 
-<section id="section-contact" class="services-wrap" style="background: #1c1a21;" >
+<section id="section-contact" class="services-wrap section" style="background: #1c1a21;" >
     <div class="container pricing Partners " style="padding-top: 70px; padding-bottom: 70px">
         <div class="row">
             <div class="subcontent center" style="">
