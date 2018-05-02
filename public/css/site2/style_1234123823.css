@@ -354,7 +354,7 @@ li.current a{
 #section-home .wrap-video{
 	position:absolute;
 	/*width: 90%;*/
-	z-index: -1;
+	z-index: 1;
 }
 
 #section-home .brahmaos-video{

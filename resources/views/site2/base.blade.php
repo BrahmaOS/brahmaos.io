@@ -125,7 +125,7 @@
 <script type="text/javascript" src="/js/site2/jquery.appear.js"></script>
 <script type="text/javascript" src="/js/site2/jquery.fitvids.js"></script>
 <script type="text/javascript" src="/js/site2/video.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.14.1/videojs-contrib-hls.min.js"></script>
+<script type="text/javascript" src="/js/site2/videojs-contrib-hls.min.js"></script>
 <!--==== Custom Script files ====-->
 <script type="text/javascript" src="/js/site2/custom.js"></script>
 <script>

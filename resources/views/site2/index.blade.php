@@ -2,6 +2,7 @@
 
 @section('content')
 <a href="" id="top"></a>
+{{--<img id="brahmaos-background section-overlay" src="/images/site2/bg-slider/v2.jpeg" style="position: fixed; top: 0; width: 2082.63px; height: 983px; bottom: auto; right: auto;">--}}
 
 <section id="header" class="header-section">
     <div class="sticky-bar-wrap">
@@ -40,16 +41,16 @@
     </div>
 
     <div id="section-home" class="home-section-wrap center">
-        <div class="wrap-video" id = "wrap-video">
-            <video id="brahmaos-video"  class="video-js vjs-big-play-centered vjs-fullscreen-control">
+        <div class="wrap-video" id = "wrap-video" >
+            <video id="brahmaos-video" controls class="video-js">
                 <source
                         src="/storage/video/brahmaos.m3u8"
                         type="application/x-mpegURL">
             </video>
         </div>
 
-        <div class="section-overlay"></div>
-        <div class="container home">
+        <div class="section-overlay video-overlay" style="display: none"></div>
+        <div class="container home" id="home" style="display: none" >
             <div class="center">
                 <h1 class="well-come" data-animation="fadeInUp" data-animation-delay="700">
                     <span class="home-title">
@@ -891,7 +892,6 @@
     </div>
 </section>
 
-
 <!-- Modal -->
 <div class="sign-in modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document" style="margin-top: 200px;">
@@ -926,8 +926,29 @@
 <script>
     $(function(){
 		var player = videojs('brahmaos-video');
-		player.play();
-		// player.enterFullWindow();
+		player.on('timeupdate', function () {
+			// 如果 currentTime() === duration()，则视频已播放完毕
+			if (player.duration() !== 0 && player.currentTime() === player.duration()) {
+				// 播放结束
+                $('#home').css("display", 'flex');
+                $('#brahmaos-video').css("display", 'none');
+                $('.video-overlay').css("display", 'block');
+			}
+		});
+
+
+		$('#play-video').click(function(){
+			player.play();
+
+			$('#home').css("display", 'none');
+			$('#brahmaos-video').css("display", 'block');
+			$('.video-overlay').css("display", 'none');
+
+			player.requestFullscreen();
+		});
+		// $('#brahmaos-video').css("display", 'none');
+
+		// player.play();
 
 		autodivheight();
 		function autodivheight(){ //函数：获取尺寸
@@ -945,7 +966,7 @@
 			    winWidth = document.documentElement.clientWidth;
 			//DIV高度为浏览器窗口的高度
 			document.getElementById("header").style.height= winHeight +"px";
-			// document.getElementById("brahmaos-video").style.width= winWidth +"px";
+			document.getElementById("brahmaos-video").style.width= winWidth +"px";
 			player.width(winWidth);
 			player.height(winHeight);
 		}
@@ -1001,15 +1022,6 @@
 		})
 
 
-        $('#play-video').click(function(){
-			player.play();
-
-            // $('#wrap-video').css("zIndex", 7);
-            player.requestFullscreen();
-
-
-            console.log(player.isFullscreen());
-		});
 
 	})
 
