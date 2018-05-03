@@ -262,7 +262,7 @@
                                     CMO
                                 </h4>
                                 <p class="service-description justify">
-                                    Ex-CMO of Vodaphone.
+                                    Ex-CMO of Vodafone.
                                     Award-winning professional with success driving customer engagement via the production of analysis and insight on customers’ behaviours and trends.
                                     Holds a MBA with Cambridge Universiity.
                                 </p>
