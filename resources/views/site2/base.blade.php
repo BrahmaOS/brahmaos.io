@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="/css/site2/jquery.bxslider.css"/>
 
     <!--=== Main Stylesheets ===-->
-    <link rel="stylesheet" href="/css/site2/style_121239273742.css"/>
+    <link rel="stylesheet" href="/css/site2/style_1234123.css"/>
 
     <link rel="stylesheet" id="scheme-source" href="/css/site2/schemes/gray.css"/>
     @yield("css")

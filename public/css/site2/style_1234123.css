@@ -650,7 +650,7 @@ left: calc(50% - 110px);
 }
 
 .all-members .members{
-    background-color: #fff;
+    /*background-color: #fff;*/
     margin-top: 40px;
 }
 
