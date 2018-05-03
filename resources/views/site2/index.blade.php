@@ -195,7 +195,7 @@
                     <div class="col-md-6 service animated item" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="service-desc members-details">
                             <div class="detail">
-                                <div class="members-photo"><img src="/images/site2/members/Bella Liu.jpg" alt=""></div>
+                                <div class="members-photo"><img src="/images/site2/members/Bella Liu.png" alt=""></div>
                                 <h4 class="service-title member-name">
                                     Bella liu
                                 </h4>
