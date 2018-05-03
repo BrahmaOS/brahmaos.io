@@ -29,7 +29,7 @@
     @yield("css")
     <script src="https://cdn.bootcss.com/jquery/1.11.2/jquery.js"></script>
 </head>
-<body>s
+<body>
 <!--=== Preloader section starts ===-->
 <section id="preloader" >
     <div class="loading-circle fa-spin"></div>
