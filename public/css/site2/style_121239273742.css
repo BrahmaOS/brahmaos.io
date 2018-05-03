@@ -221,8 +221,35 @@ font-weight: 700;
 	color: #fff;
 }
 
+.site-name {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	padding: 14px 15px 8px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
 
-
+#back-to-top1{
+	position:fixed;
+	bottom:40px;
+	right:30px;
+	width: 40px;
+	height: 40px;
+	margin: 0;
+	/*border:1px solid #f4645f;*/
+	border-radius: 4px;
+	/*background: #f4645f;*/
+	/*background: linear-gradient(to bottom, #6b00ce, #114cf6 );*/
+	background: rgba(216, 216, 216, 0.9);
+	color:rgba(0, 0, 0, 0.3);
+	text-align: center;
+	z-index: 100;
+}
+#back-to-top1 > i {
+	margin-top: 10px;
+}
 /* ================ Header Section ================ */
 
 .header-section {
@@ -614,7 +641,7 @@ left: calc(50% - 110px);
 }
 
 .all-members{
-    background: #fff;
+    background: #1c1a21;
     padding-bottom: 50px;
 }
 
@@ -635,29 +662,29 @@ left: calc(50% - 110px);
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background-color: #fff;
+    /*background-color: #fff;*/
     margin: 0 auto;
     /*bottom: 60px;*/
     /*background-image:;*/
     /*border: 1px solid #D3AB5A;*/
     border:none;
+	overflow: hidden;
     z-index: 9999;
 }
 
 .all-members .members-details .member-name, .all-members .members .team-name{
     margin-top: 20px;
     /*color: #D3AB5A;*/
-    color: #000;
+    /*color: #000;*/
 }
 
 .all-members .members-details .member-position{
     font-size: 14px;
     /*color: #D3AB5A;*/
-    color: #000;
+    /*color: #000;*/
 }
 
 .all-members .members-details p, .all-members .members p{
-    color: #000;
     font-weight: 200;
 }
 
