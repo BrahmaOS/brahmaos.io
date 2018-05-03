@@ -89,8 +89,12 @@ $(function(){
 		}
 	});
 	
-	// $('#root').fullpage();
-	
+	// 快速换屏
+	$('#root').fullpage({
+		// scrollBar:true,
+		scrollingSpeed: 400
+	});
+
 	autodivheight();
 	// player.play();
 })
@@ -113,7 +117,7 @@ $(window).ready(function() {
 	$.vegas('slideshow', {
 		loop: false,
 		backgrounds:[
-			{ src:'/images/site2/bg-slider/v2.jpeg', fade:1000, zindex: -10 }
+			// { src:'/images/site2/bg-slider/v2.jpeg', fade:1000, zindex: -10 }
 	  	]
 	});
 });
@@ -308,18 +312,18 @@ Screenshot Load
 
 
 							
-/* ----------------------------- 
+/* -----------------------------
 BxSlider
------------------------------ */		
-// $(document).ready(function() {
-// 	'use strict';
-// 	$('.testimonial-slider').bxSlider({
-// 		pagerCustom: '#bx-pager',
-// 		pager: true,
-// 		touchEnabled: true,
-// 		controls: false
-// 	});
-// });
+----------------------------- */
+$(document).ready(function() {
+	'use strict';
+	$('.testimonial-slider').bxSlider({
+		pagerCustom: '#bx-pager',
+		pager: true,
+		touchEnabled: true,
+		controls: false
+	});
+});
 
 				
 /* ----------------------------- 

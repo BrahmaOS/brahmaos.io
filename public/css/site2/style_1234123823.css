@@ -30,7 +30,7 @@ input:focus, textarea:focus {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	text-transform:capitalize;
-	letter-spacing: 1px;
+	/*letter-spacing: 1px;*/
 }
 
 h1 {
@@ -84,6 +84,11 @@ li {
 	text-align: left;
 }
 
+.right {
+    text-align: left;
+}
+
+
 .justify {
 	text-align: justify;
 }
@@ -116,6 +121,22 @@ font-weight: 700;
 	position:relative;
 }
 
+
+@media (min-width: 1200px) {
+	.container {
+		width: 95%;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		width: 95%;
+	}
+}
+@media (min-width: 768px) {
+	.container {
+		width: 95%;
+	}
+}
 .container {
 	position:relative;
 	z-index: 10;
@@ -140,13 +161,14 @@ font-weight: 700;
 }
 
 .section-title h3, .section-title h4 {
-	/*color: #F4F4F4;*/
-	border-top: 1px solid;
-	border-bottom: 1px solid;
+	color: #F4F4F4;
+	/*border-top: 1px solid;*/
+	/*border-bottom: 1px solid;*/
+	border-left: 3px solid #D3AB5A !important;
 	display: inline-block;
 	margin-top: 0;
-	padding: 8px 0;
-	
+	line-height: 15px;
+	padding-left: 20px;
 }
 
 .section-overlay {
@@ -166,6 +188,38 @@ font-weight: 700;
 .Team{
 	text-align: left !important;
 	font-size: 14px;
+}
+
+
+.site-name {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    padding: 8px 15px 8px;
+    line-height: 40px;
+    font-weight: 700;
+    /*letter-spacing: 1px;*/
+    text-transform: uppercase;
+}
+
+#back-to-top1{
+    position:fixed;
+    bottom:40px;
+    right:30px;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    /*border:1px solid #f4645f;*/
+    border-radius: 4px;
+    /*background: #f4645f;*/
+    /*background: linear-gradient(to bottom, #6b00ce, #114cf6 );*/
+    background: rgba(216, 216, 216, 0.9);
+    color:rgba(0, 0, 0, 0.3);
+    text-align: center;
+    z-index: 100;
+}
+#back-to-top1 > i {
+    margin-top: 10px;
 }
 
 /* --------------- Pre Loader Styles --------------- */
@@ -198,7 +252,7 @@ font-weight: 700;
 .button-line {
 	background: transparent;
 	display: inline-block;
-	font-weight: 400;
+	font-weight: 300;
 	border-radius: 4px;
 	border: 1px solid;
 	margin: 10px;
@@ -233,7 +287,7 @@ font-weight: 700;
 
 /* --------------- Main Navigation Styles --------------- */
 .sticky-bar-wrap {
-	position:fixed;
+	position:absolute;
 	width: 100%;
 	z-index: 1025;
 }
@@ -243,7 +297,7 @@ font-weight: 700;
 	height: 80px;
 	z-index: 1025;
 	transition: all .3s ease-in;
-	background: rgba(0,0,0, .15);
+	/*background: rgba(0,0,0, .15);*/
 }
 
 .nav-bg {
@@ -395,40 +449,20 @@ li.current a{
     margin-top: 50px;
 }
 
-/*.well-come:after {*/
-/*position: absolute;*/
-/*content: "";*/
-/*width: 220px;*/
-/*height: 1px;*/
-/*background-color: #FFF;*/
-/*bottom: -16px;*/
-/*left: calc(50% - 110px);*/
-/*}*/
-
 .intro-message {
 	font-size: 20px;
 	line-height: 1.4;
 	margin-bottom: 48px;
 	color: #fff;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .contact-message {
 	font-size: 20px;
 	line-height: 2;
 	margin-bottom: 48px;
-	color: #7F8C8D;
     letter-spacing: 1.2px;
-    /*line-height: 10px;*/
-	/*font-weight: 400;*/
 }
-
-/* vjs-big-play-centered */
-
-/*.vjs-big-play-centered .vjs-big-play-button {*/
-	/*background: red!important;*/
-	/*z-index:7;*/
-/*}*/
 #play-video{
 	margin:5px 20px;
 	min-width: 220px;
@@ -596,146 +630,30 @@ li.current a{
 
 
 /* ================ Members Section ================ */
-#section-members {
-	position:relative;
-	background-color: #1c1a21;
-	color: #e5e5e5;
-}
-
-
-.container.members {
+.members {
     padding-top: 70px;
     padding-bottom: 20px;
+    height: 100%;
+}
+.members-intro{
+    background: #D3AB5A;
+    border-radius: 4px;
+    padding: 10px;
+}
+.member-description{
+    font-weight: 300;
+    font-size: 18px;
 }
 
-.service-desc {
-    color: #CCCCCC;
-    font-weight: 400;
-    padding: 15px;
+.members-photo img{
+    display: inline-block;
 }
 
-.service-desc h4 {
-    margin-top: 0;
-    text-align: center;
-    color: #CCCCCC;
-    font-weight: 400;
+.photo-bg{
+    margin: 10px;
 }
-
-.service-desc p {
-    letter-spacing: 1px;
-    word-spacing: 0.4px;
-    font-weight: 100;
-    font-size: 16px;
-    text-align: center;
-    text-transform:capitalize;
-}
-
-.team-member{
-    font-size: 20px;
-    color: #7F8C8D;
-    text-transform:capitalize;
-}
-
-.team-position{
-    font-size: 16px;
-}
-
-.team-photo{
-    max-width: 120px;
-    margin-bottom: 15px;
-}
-
-.members .guy{
-    min-height: 250px;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.members .guy .detail{
-    min-height: 180px;
-}
-
-.members .guy .detail-btn{
-    /*background-color: #D3AB5A;*/
-    background-color: #1c1a21;
-    border: 1px solid #D3AB5A;;
-    color: #D3AB5A;
-    width: 100px;
-    border-radius: 20px;
-}
-
-.members .guy .detail-btn:active:focus{
-    outline: none;
-}
-
-.members-details .team-member{
-	color:#fff;
-}
-
-.members-details p{
-    color: #fff;
-}
-
-.all-members{
-    background: #fff;
-    padding-bottom: 50px;
-}
-
-.all-members .item{
-    margin-top: 30px;
-}
-
-.all-members .members{
-    background-color: #fff;
-    margin-top: 40px;
-}
-
-.all-members .members-details .detail{
-    min-height: 350px;
-}
-
-.all-members .members-details .members-photo{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background-color: #fff;
-    margin: 0 auto;
-    /*bottom: 60px;*/
-    /*background-image:;*/
-    /*border: 1px solid #D3AB5A;*/
-    border:none;
-    z-index: 9999;
-}
-
-.all-members .members-details .member-name, .all-members .members .team-name{
-    margin-top: 20px;
-    /*color: #D3AB5A;*/
-    color: #000;
-}
-
-.all-members .members-details .member-position{
-    font-size: 14px;
-    /*color: #D3AB5A;*/
-    color: #000;
-}
-
-.all-members .members-details p, .all-members .members p{
-    color: #000;
-    font-weight: 200;
-}
-
 /* ================ Token Distribution Section ================ */
 
-#section-distribution{
-	position:relative;
-	background-color: #fff;
-	color: #e5e5e5;
-}
-
-.token-distribution{
-    margin-top: 50px;
-    margin-bottom: 70px;
-}
 
 .total-distribution{
     color: #fff;
@@ -755,15 +673,14 @@ li.current a{
 	}
 }
 
-/* ================ Pricing Section ================ */
+/* ================ Decentralized OS Demand ================ */
 
 #section-pricing {
-	background: #fff;
+	background: #000;
 	color:#666;
-	margin-bottom: -30px;
 }
 
-.container.pricing {
+.pack{
 	padding-top: 70px;
 }
 
@@ -870,12 +787,9 @@ li.current a{
 	background: #fff;
 }
 
-.section-contact{
-	background: #1c1a21;
-}
-/*============= 友情链接 =====================*/
+/*============= Partners =====================*/
 .section-Partners{
-	background: #1c1a21;
+	background: #000;
 }
 .Partners{
 	padding-bottom: 50px !important;

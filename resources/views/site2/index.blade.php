@@ -39,7 +39,6 @@
             </div>
         </div>
     </div>
-
     <div id="section-home" class="home-section-wrap center">
         <div class="wrap-video" id = "wrap-video" >
             <video id="brahmaos-video" class="video-js" controls>
@@ -73,16 +72,16 @@
 </section>
 
 <section id="section-pricing" class="pricing-wrap section ">
-    <div class="container pricing OS">
+    <div class="container pack">
         <div class="row center">
-            <div class="center section-title" style="margin-bottom: 70px">
-                <h3 style="margin-bottom: 0px">Decentralized OS Demand</h3>
+            <div class="left section-title">
+                <h4>Decentralized OS Demand</h4>
             </div>
 
             <div class="center" style="display: flex; align-content: center;justify-content: center; flex-wrap: wrap">
 
             <!-- Single Price Starts -->
-            <div class="single-pricing-wrap center animated" data-animation="bounceInLeft" data-animation-delay="500">
+            <div class="center animated" data-animation="bounceInLeft" data-animation-delay="500">
                 <div class="single-pricing">
                     <img src="/images/site2/data-privacy.png" alt="">
 
@@ -103,7 +102,7 @@
             <!-- Single Price Ends -->
 
             <!-- Single Price Starts -->
-            <div class="single-pricing-wrap center animated" data-animation="bounceInLeft" data-animation-delay="500">
+            <div class="center animated" data-animation="bounceInLeft" data-animation-delay="500">
                 <div class="single-pricing">
                     <img src="/images/site2/decentralized-storage.png" alt="">
                     <div class="sign-up">
@@ -123,7 +122,7 @@
             <!-- Single Price Ends -->
 
             <!-- Single Price Starts -->
-            <div class="single-pricing-wrap center animated" data-animation="bounceInLeft" data-animation-delay="500">
+            <div class="center animated" data-animation="bounceInLeft" data-animation-delay="500">
                 <div class="single-pricing">
                     <img src="/images/site2/accessible-network-communication.png" alt="">
                     <div class="sign-up">
@@ -143,7 +142,7 @@
             <!-- Single Price Ends -->
 
             <!-- Single Price Starts -->
-            <div class="single-pricing-wrap center animated" data-animation="bounceInLeft" data-animation-delay="500">
+            <div class="center animated" data-animation="bounceInLeft" data-animation-delay="500">
                 <div class="single-pricing">
                     <img src="/images/site2/autonomous-economic-system.png" alt="">
 
@@ -164,7 +163,7 @@
             <!-- Single Price Ends -->
 
             <!-- Single Price Starts -->
-            <div class="single-pricing-wrap center animated" data-animation="bounceInLeft" data-animation-delay="500">
+            <div class="center animated" data-animation="bounceInLeft" data-animation-delay="500">
                 <div class="single-pricing">
                     <img src="/images/site2/management-of-cryptographic-assets.png" alt="">
                     <div class="sign-up">
@@ -188,404 +187,157 @@
     </div>
 </section>
 
-<section id="section-members" class="services-wrap section">
-    <div class="container members">
-        <div class="row" style="margin-bottom: 50px">
+<section id="section-members" class="services-wrap section" style="background: #000">
+    <div class="container pack">
+        <div class="row">
             <!--  members  --->
-            <div class="col-md-12 center section-title">
-                <h3 data-animation="fadeInUp" data-animation-delay="700">Members</h3>
+            <div class="col-md-12  section-title">
+                <h4 data-animation="fadeInUp" data-animation-delay="700">Members</h4>
             </div>
-            <div class="col-md-12">
 
-                <div class="col-md-4 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                    <div class="service-desc guy">
-                        <div class="detail">
-                            <h4 class="service-title color-scheme">
-                            <span class="team-member">
-                            Lorna Chen <span style="color: #666">|</span> <span style="font-size: 16px">CEO</span>
-                            </span>
-                            </h4>
-                            <p class="service-description justify">
-                                Ex-JP Morgan, Bank of New York Mellon , Bank of Tokyo Mitsubishi.
-                            </p>
-                        </div>
-                        @if($allow)
-                        <a href="/members-details.html">
-                            <button type="button" class="btn btn-default detail-btn" >Detail</button>
+            <div class="col-md-12 center">
+                <div id="bx-pager" class="members-photos col-md-6">
+                    
+                    <div class="col-md-12">
+                        <a data-slide-index="0" href="" class="photo-hold ">
+                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
                         </a>
-                        @else
-                        <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
-                        @endif
+                        <a data-slide-index="1" href="" class="photo-hold ">
+                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                        </a>
+                        <a data-slide-index="2" href="" class="photo-hold ">
+                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                        </a>
+                        <a data-slide-index="3" href="" class="photo-hold ">
+                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                        </a>
                     </div>
+
+                    <div class="col-md-12">
+                        <a data-slide-index="0" href="" class="photo-hold ">
+                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                        </a>
+                        <a data-slide-index="1" href="" class="photo-hold ">
+                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                        </a>
+                        <a data-slide-index="2" href="" class="photo-hold ">
+                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                        </a>
+                        <a data-slide-index="3" href="" class="photo-hold ">
+                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                        </a>
+                    </div>
+
                 </div>
 
-                <div class="col-md-4 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                    <div class="service-desc guy">
-                        <div class="detail">
-                            <h4 class="service-title color-scheme">
-                                <span class="team-member">
-                                Steven Hu <span style="color: #666">|</span> <span style="font-size: 16px">CTO</span>
-                                </span>
-                            </h4>
-                            <p class="service-description justify">
-                                10 years experiences in architecture design and R&D management in the telecommunication industry and the Internet industry.
-                            </p>
+                <div class="col-md-6">
+                    <div class="testimonial-slider">
+                        <div class="testimonial">
+
+                            <div class="members-intro left">
+                                <div class="">
+                                    <div class="members-photo">
+                                        <img src="/images/site2/members/Bella Liu.png" alt="">
+                                    </div>
+                                    <h4 class="member-name">
+                                        Bella liu
+                                    </h4>
+                                    <h4 class="member-position" style="margin-top: -10px">
+                                        co-founder
+                                    </h4>
+                                    <p class="member-description">
+                                        12 years experience in the Internet industry
+                                        6 times start-up experiences, with outstanding ability in economic design of product
+                                        Held Important positions in top Internet companies
+                                        Rich asset investment operating experiences in international projects over the past few
+                                        years.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        @if($allow)
-                            <a href="/members-details.html">
-                                <button type="button" class="btn btn-default detail-btn" >Detail</button>
-                            </a>
-                        @else
-                            <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
-                        @endif
-                    </div>
-                </div>
 
-                <div class="col-md-4 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                    <div class="service-desc guy">
-                        <div class="detail">
-                            <h4 class="service-title color-scheme">
-                                <span class="team-member">
-                                Marinos Tsokas <span style="color: #666">|</span> <span style="font-size: 16px">CMO</span>
-                                </span>
-                            </h4>
-                            <p class="service-description justify">
-                                Ex-CMO of Vodaphone
-                            </p>
+                        <div class="testimonial">
+                            <div class="members-intro left">
+                                <div class="">
+                                    <div class="members-photo">
+                                        <img src="/images/site2/members/Bella Liu.png" alt="">
+                                    </div>
+                                    <h4 class="member-name">
+                                        Bella liu
+                                    </h4>
+                                    <h4 class="member-position" style="margin-top: -10px">
+                                        co-founder
+                                    </h4>
+                                    <p class="member-description">
+                                        12 years experience in the Internet industry
+                                        6 times start-up experiences, with outstanding ability in economic design of product
+                                        Held Important positions in top Internet companies
+                                        Rich asset investment operating experiences in international projects over the past few
+                                        years.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        @if($allow)
-                            <a href="/members-details.html">
-                                <button type="button" class="btn btn-default detail-btn" >Detail</button>
-                            </a>
-                        @else
-                            <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
-                        @endif
-                    </div>
-                </div>
 
-            </div>
-            <div class="col-md-12">
-
-                <div class="col-md-4 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                    <div class="service-desc guy">
-                        <div class="detail">
-                            <h4 class="service-title color-scheme">
-                            <span class="team-member">
-                            Elaine Shehu <span style="color: #666">|</span> <span style="font-size: 16px">Tech Advisor</span>
-                            </span>
-                            </h4>
-                            <p class="service-description justify">
-                                Ex-head of IT strategy on blockchain related projects with Deutsche Bank.
-                            </p>
+                        <div class="testimonial">
+                            <div class="members-intro left">
+                                <div class="">
+                                    <div class="members-photo">
+                                        <img src="/images/site2/members/Bella Liu.png" alt="">
+                                    </div>
+                                    <h4 class="member-name">
+                                        Bella liu
+                                    </h4>
+                                    <h4 class="member-position" style="margin-top: -10px">
+                                        co-founder
+                                    </h4>
+                                    <p class="member-description">
+                                        12 years experience in the Internet industry
+                                        6 times start-up experiences, with outstanding ability in economic design of product
+                                        Held Important positions in top Internet companies
+                                        Rich asset investment operating experiences in international projects over the past few
+                                        years.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        @if($allow)
-                            <a href="/members-details.html">
-                                <button type="button" class="btn btn-default detail-btn" >Detail</button>
-                            </a>
-                        @else
-                            <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
-                        @endif
-                    </div>
-                </div>
 
-                <div class="col-md-4 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                    <div class="service-desc guy">
-                        <div class="detail">
-                            <h4 class="service-title color-scheme">
-                            <span class="team-member">
-                            Liu Xingchu <span style="color: #666">|</span> <span style="font-size: 16px">Engineer Lead</span>
-                            </span>
-                            </h4>
-                            <p class="service-description justify">
-                                Expert in data analytics, business intelligence and artificial intelligence.
-                            </p>
+                        <div class="testimonial">
+                            <div class="members-intro left">
+                                <div class="">
+                                    <div class="members-photo">
+                                        <img src="/images/site2/members/Bella Liu.png" alt="">
+                                    </div>
+                                    <h4 class="member-name">
+                                        Bella liu
+                                    </h4>
+                                    <h4 class="member-position" style="margin-top: -10px">
+                                        co-founder
+                                    </h4>
+                                    <p class="member-description">
+                                        12 years experience in the Internet industry
+                                        6 times start-up experiences, with outstanding ability in economic design of product
+                                        Held Important positions in top Internet companies
+                                        Rich asset investment operating experiences in international projects over the past few
+                                        years.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        @if($allow)
-                            <a href="/members-details.html">
-                                <button type="button" class="btn btn-default detail-btn" >Detail</button>
-                            </a>
-                        @else
-                            <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
-                        @endif
-                    </div>
-                </div>
-
-                <div class="col-md-4 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                    <div class="service-desc guy">
-                        <div class="detail">
-                            <h4 class="service-title color-scheme">
-                            <span class="team-member">
-                            Trevor Smith <span style="color: #666">|</span> <span style="font-size: 16px">OS Architect</span>
-                            </span>
-                            </h4>
-                            <p class="service-description justify">
-                                Ex-Sales Force, Oracle
-                                <br>
-                                PHD (University of Edinburgh)
-                            </p>
-                        </div>
-                        @if($allow)
-                            <a href="/members-details.html">
-                                <button type="button" class="btn btn-default detail-btn" >Detail</button>
-                            </a>
-                        @else
-                            <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
-                        @endif
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-md-12">
-
-                <div class="col-md-4 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                    <div class="service-desc guy">
-                        <div class="detail">
-                            <h4 class="service-title color-scheme">
-                            <span class="team-member">
-                            Srikanth Bodla <span style="color: #666">|</span> <span style="font-size: 16px">DNA Graph Manager</span>
-                            </span>
-                            </h4>
-                            <p class="service-description justify">
-                                Qlikview, Big Data, SAP Hana, SAP BI/BW technologies.
-                            </p>
-                        </div>
-                        @if($allow)
-                            <a href="/members-details.html">
-                                <button type="button" class="btn btn-default detail-btn" >Detail</button>
-                            </a>
-                        @else
-                            <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
-                        @endif
-                    </div>
-                </div>
-
-                <div class="col-md-4 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                    <div class="service-desc guy">
-                        <div class="detail">
-                            <h4 class="service-title color-scheme">
-                            <span class="team-member">
-                            Shu Collins <span style="color: #666">|</span> <span style="font-size: 16px">Economic Model Architect</span>
-                            </span>
-                            </h4>
-                            <p class="service-description justify">
-                                Data Scientist at British Gas, Royal bank of Scotland
-                                Master of Science (statistics) in Oxford University.
-                            </p>
-                        </div>
-                        @if($allow)
-                            <a href="/members-details.html">
-                                <button type="button" class="btn btn-default detail-btn" >Detail</button>
-                            </a>
-                        @else
-                            <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
-                        @endif
-                    </div>
-                </div>
-
-                <div class="col-md-4 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                    <div class="service-desc guy">
-                        <div class="detail">
-                            <h4 class="service-title color-scheme">
-                            <span class="team-member">
-                            KJ <span style="color: #666">|</span> <span style="font-size: 16px">Researcher</span>
-                            </span>
-                            </h4>
-                            <p class="service-description justify">
-                                Distributed database system and P2P network scientist. Researcher in Blockchain capacity, data sharding and ecosystem.
-                            </p>
-                        </div>
-                        @if($allow)
-                            <a href="/members-details.html">
-                                <button type="button" class="btn btn-default detail-btn" >Detail</button>
-                            </a>
-                        @else
-                            <button type="button" class="btn btn-default detail-btn" data-toggle="modal" data-target="#myModal">Detail</button>
-                        @endif
                     </div>
                 </div>
 
             </div>
 
-            <div style="clear: both"></div>
-
-            <div class="col-md-12">
-
-                <div class="col-md-12 center section-title" data-animation="fadeInUp" data-animation-delay="700" style="margin-bottom: 40px; margin-top: 50px">
-                    <h4 data-animation="fadeInUp" data-animation-delay="700">Team responsibility</h4>
-                </div>
-
-                <div class="col-md-12">
-                    <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                        <div class="service-desc">
-                            <h4 class="service-title color-scheme">
-                        <span class="team-member">
-                            Ocean Lu
-                        </span>
-                            </h4>
-                            <p class="service-description Team" style="text-align: left">
-                                In charge of user persona team, machine learning, deep learning and algorithm research.
-                                Encapsulate user tags.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                        <div class="service-desc">
-                            <h4 class="service-title color-scheme">
-                        <span class="team-member">
-                            Martin Wang
-                        </span>
-                            </h4>
-                            <p class="service-description Team" style="text-align: left">
-                                In charge of distributed protocol optimization, network layer protocol docking OS.
-                                Secure package storage content
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                        <div class="service-desc">
-                            <h4 class="service-title color-scheme">
-                        <span class="team-member">
-                            Kevin Lee
-                        </span>
-                            </h4>
-                            <p class="service-description Team" style="text-align: left">
-                                In charge of the realization of non-network technology, reform non-network protocol, optimize performance, embed OS
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                        <div class="service-desc">
-                            <h4 class="service-title color-scheme">
-                        <span class="team-member">
-                            KJ
-                        </span>
-                            </h4>
-                            <p class="service-description justify" style="text-align: center">
-                                Research mainly on optimization of chain structure, based on the chain algorithm design and implementation.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-12">
-                    <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                        <div class="service-desc">
-                            <h4 class="service-title color-scheme">
-                        <span class="team-member">
-                            Steven
-                        </span>
-                            </h4>
-                            <p class="service-description Team" style="text-align: left">
-                                Lead a team of 10 people, in charge of OS's underlying system implementation, deconstruct layers.
-                                <br>
-                                Overall R & D embed all layers of the OS agreement.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                        <div class="service-desc">
-                            <h4 class="service-title color-scheme">
-                        <span class="team-member">
-                            Han
-                        </span>
-                            </h4>
-                            <p class="service-description Team">
-                                In charge of Dapp architecture design and development, providing overall API for upper layer access.
-                                System Design and Implementation.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                        <div class="service-desc">
-                            <h4 class="service-title color-scheme">
-                        <span class="team-member">
-                            Sheng
-                        </span>
-                            </h4>
-                            <p class="service-description Team" style="text-align: left">
-                                In charge of security attack and security reinforcement.
-                                Design architecture and develop transport layer security in the protocol layer for the overall OS
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                        <div class="service-desc">
-                            <h4 class="service-title color-scheme">
-                        <span class="team-member">
-                            David Silva
-                        </span>
-                            </h4>
-                            <p class="service-description Team" style="text-align: left">
-                                In charge of the functional design of the OS product and the development of the interface protocol.
-                                Project priority adjustment.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-12">
-                    <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                        <div class="service-desc">
-                            <h4 class="service-title color-scheme">
-                        <span class="team-member">
-                            JAsmall
-                        </span>
-                            </h4>
-                            <p class="service-description Team" style="text-align: left">
-                                OS interactive designer expert.
-                                Provide solutions for mainframe human-computer interaction
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                        <div class="service-desc">
-                            <h4 class="service-title color-scheme">
-                        <span class="team-member">
-                            Ouy
-                        </span>
-                            </h4>
-                            <p class="service-description Team" style="text-align: left">
-                                In charge of payment system design and development.
-                                Docking the various payment protocols on the chain safely and quickly.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                        <div class="service-desc center">
-                            <h4 class="service-title color-scheme">
-                                <span class="team-member">
-                                    Kaiko
-                                </span>
-                            </h4>
-                            <p class="service-description">
-                                In charge of visual effects, UI designer.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
-                        <div class="service-desc center">
-                            <h4 class="service-title color-scheme">
-                                <span class="team-member">
-                                    others
-                                </span>
-                            </h4>
-                            <p class="service-description">
-                                Overseas team profile to be updated.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </section>
 
 <section id="section-distribution" class="services-wrap section">
-    {{--<div class="container pricing">--}}
+    <div class="container pack">
         <div class="row">
-
-            <div class="col-md-12 center section-title" style="margin-top: 70px; margin-bottom: 0px; z-index: 5">
-                <h3 style="color: #666" data-animation="fadeInUp" data-animation-delay="700">Token Distribution</h3>
+            <div class="col-md-12 section-title" >
+                <h4>Token Distribution</h4>
             </div>
 
             <!-- Single Service Starts -->
@@ -599,16 +351,15 @@
             </div>
             <!-- Single Service Ends -->
         </div>
-    {{--</div>--}}
+    </div>
 </section>
 
 <section id="section-roadmap" class="services-wrap section">
-    {{--<div class="container pricing">--}}
-    <div class="roadmap container">
+    <div class="container pack">
         <div class="row">
 
-            <div class="col-md-12 center section-title" style="margin-top: 70px; margin-bottom: 0px; z-index: 5">
-                <h3 class="roadmap-title" data-animation="fadeInUp" data-animation-delay="700">Roadmap</h3>
+            <div class="col-md-12 section-title">
+                <h4>Roadmap</h4>
             </div>
 
             <!-- Single Service Starts -->
@@ -618,8 +369,8 @@
                         <div class="phase phase1 animated"  data-animation="fadeInUp" data-animation-delay="2100">
 
                             <div class="arrow-right arrow1">
-                                {{--<div class="arrow-line"></div>--}}
-                                {{--<div class="arrow"></div>--}}
+                                <div class="arrow-line"></div>
+                                <div class="arrow"></div>
                                 <div class="arrow-circle"></div>
                             </div>
 
@@ -669,7 +420,7 @@
                         <div class="phase phase0 animated"  data-animation="fadeInUp" data-animation-delay="1400">
                             <div class="arrow-left arrow0">
                                 <div class="arrow-circle"></div>
-                                {{--<div class="arrow"></div>--}}
+                                <div class="arrow"></div>
                             </div>
 
 
@@ -776,22 +527,20 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12 center token-distribution">
+            <div class="col-md-12 center">
                 The roadmap will be regularly updated, please refer to our official website for future updates.
             </div>
 
-            <!-- Single Service Ends -->
         </div>
     </div>
-    {{--</div>--}}
 </section>
 
-<section id="section-Partners" class="services-wrap section" style="background: #1c1a21;" >
-    <div class="container pricing Partners">
+<section id="section-Partners" class="services-wrap section" style="background: #000000">
+    <div class="container pack">
         <div class="row">
-            <div class="subcontent center">
-                <div class="col-md-10 col-md-offset-1 center section-title" style="margin-bottom: 40px">
-                    <h3 style="color: #ccc;text-transform: none" data-animation="fadeInUp" data-animation-delay="700">Partners and Advisors</h3>
+            <div class="subcontent">
+                <div class="col-md-12 section-title">
+                    <h4 data-animation="fadeInUp" data-animation-delay="700">Partners and Advisors</h4>
                 </div>
                 <div>
                     <img src="/images/site2/link/citibank.png" data-animation="fadeInUp" data-animation-delay="700" alt="">
@@ -813,81 +562,75 @@
     </div>
 </section>
 
-<section id="section-Media" class="services-wrap section" style="background: #fff;" >
-    <div class="container pricing Partners " style="padding-top: 70px; padding-bottom: 70px">
+<section id="section-Media" class="services-wrap section" style="background: #000;" >
+    <div class="container pack">
         <div class="row">
-            <div class="subcontent center" style="">
-                <div class="col-md-12 center section-title"  style="margin-bottom: 20px">
-                    <h3 style="color: #666;" data-animation="fadeInUp" data-animation-delay="700">Media</h3>
-                </div>
-                <div>
-                    <a href="https://cointelegraph.com/press-releases/brahma-os-is-the-decentralized-value-operating-system-based-on-revolutionary-blockchain-technology" data-animation-delay="700" target="_blank" class="media-img animated"><img src="/images/site2/media/Group 3.png"  alt=""></a>
-                    <a href="http://bitcoinist.com/brahma-os-decentralized-value-operating-system-based-revolutionary-blockchain-technology/" data-animation-delay="700" target="_blank" class="media-img animated"><img src="/images/site2/media/Group 4.png"   alt=""></a>
-                    <a href="http://allcoinsnews.com/2018/02/22/brahma-os-decentralized-value-operating-system-based-on-revolutionary-blockchain-tech/"  data-animation-delay="700" target="_blank" class="media-img animated"><img src="/images/site2/media/Group 5.png"   alt=""></a>
-                    <a href="http://www.jinse.com/blockchain/152090.html" target="_blank" class="media-img animated"><img src="/images/site2/media/Group 6.png" data-animation-delay="700"  alt=""></a>
-                    <a href="https://www.newsbtc.com/press-releases/brahma-os-decentralized-value-operating-system-based-revolutionary-blockchain-technology/" data-animation-delay="700" target="_blank" class="media-img animated"><img src="/images/site2/media/Group 7.png"   alt=""></a>
-                    <a href="https://www.ccn.com/brahma-os-decentralized-value-operating-system-based-revolutionary-blockchain-technology/" data-animation-delay="700" target="_blank" class="media-img animated"><img src="/images/site2/media/Group 8.png"   alt=""></a>
-                    <a href="https://blueskyinvestor.com/brahma-os-offers-decentralized-value-operating-system-revolutionary-blockchain-technology/" data-animation-delay="700" target="_blank" class="media-img animated"><img src="/images/site2/media/Group 9.png"   alt=""></a>
-                    <a href="https://themerkle.com/brahma-os-is-the-decentralized-value-operating-system-based-on-revolutionary-blockchain-technology/" data-animation-delay="700" target="_blank" class="media-img animated"><img src="/images/site2/media/Group 10.png"   alt=""></a>
-                    <a href="http://www.coinnewsasia.com/brahma-os-is-the-decentralized-value-operating-system-based-on-blockchain-tech/" target="_blank" data-animation-delay="700" class="media-img animated"><img src="/images/site2/media/Group 11.png"   alt=""></a>
-                    <a href="https://coinjournal.net/pr-release/brahma-os-decentralized-value-operating-system-based-revolutionary-blockchain-technology/" target="_blank" data-animation-delay="700" class="media-img animated"><img src="/images/site2/media/Group 12.png"   alt=""></a>
-                    <a href="https://news.bitcoin.com/pr-brahma-os-is-the-decentralized-value-operating-system-based-on-revolutionary-blockchain-technology/" target="_blank" data-animation-delay="700" class="media-img animated"><img src="/images/site2/media/Group 13.png"   alt=""></a>
-                </div>
+            <div class="col-md-12 section-title">
+                <h4 >Media</h4>
             </div>
-            <!-- Single Service Ends -->
+            <div>
+                <a href="https://cointelegraph.com/press-releases/brahma-os-is-the-decentralized-value-operating-system-based-on-revolutionary-blockchain-technology" target="_blank" class="media-img"><img src="/images/site2/media/Group 3.png"  alt=""></a>
+                <a href="http://bitcoinist.com/brahma-os-decentralized-value-operating-system-based-revolutionary-blockchain-technology/" target="_blank" class="media-img"><img src="/images/site2/media/Group 4.png"   alt=""></a>
+                <a href="http://allcoinsnews.com/2018/02/22/brahma-os-decentralized-value-operating-system-based-on-revolutionary-blockchain-tech/"  target="_blank" class="media-img"><img src="/images/site2/media/Group 5.png"   alt=""></a>
+                <a href="http://www.jinse.com/blockchain/152090.html" target="_blank" class="media-img"><img src="/images/site2/media/Group 6.png"  alt=""></a>
+                <a href="https://www.newsbtc.com/press-releases/brahma-os-decentralized-value-operating-system-based-revolutionary-blockchain-technology/" target="_blank" class="media-img"><img src="/images/site2/media/Group 7.png"   alt=""></a>
+                <a href="https://www.ccn.com/brahma-os-decentralized-value-operating-system-based-revolutionary-blockchain-technology/" target="_blank" class="media-img"><img src="/images/site2/media/Group 8.png"   alt=""></a>
+                <a href="https://blueskyinvestor.com/brahma-os-offers-decentralized-value-operating-system-revolutionary-blockchain-technology/" target="_blank" class="media-img"><img src="/images/site2/media/Group 9.png"   alt=""></a>
+                <a href="https://themerkle.com/brahma-os-is-the-decentralized-value-operating-system-based-on-revolutionary-blockchain-technology/" target="_blank" class="media-img"><img src="/images/site2/media/Group 10.png"   alt=""></a>
+                <a href="http://www.coinnewsasia.com/brahma-os-is-the-decentralized-value-operating-system-based-on-blockchain-tech/" target="_blank" class="media-img"><img src="/images/site2/media/Group 11.png"   alt=""></a>
+                <a href="https://coinjournal.net/pr-release/brahma-os-decentralized-value-operating-system-based-revolutionary-blockchain-technology/" target="_blank" class="media-img"><img src="/images/site2/media/Group 12.png"   alt=""></a>
+                <a href="https://news.bitcoin.com/pr-brahma-os-is-the-decentralized-value-operating-system-based-on-revolutionary-blockchain-technology/" target="_blank" class="media-img"><img src="/images/site2/media/Group 13.png"   alt=""></a>
+            </div>
         </div>
     </div>
 </section>
 
-<section id="section-contact" class="services-wrap section" style="background: #1c1a21;" >
-    <div class="container pricing Partners " style="padding-top: 70px; padding-bottom: 70px">
+<section id="section-contact" class="services-wrap section" style="background: #000">
+    <div class="container pack" >
         <div class="row">
-            <div class="subcontent center" style="">
-                <div class="center section-title"  style="margin-bottom: 10px">
-                    <h3 style="color: #ccc;" data-animation="fadeInUp" data-animation-delay="700">Contact-Project BRAHMA</h3>
-                </div>
-
-                <div style="margin-bottom: 40px">
-                    <span style="color: #7F8C8D">
-                        Investors should be cautious to evadeinvestment risks
-                    </span>
-                </div>
-
-                <div class="center section-title" style="margin-bottom: 50px;">
-                    <h5 style="color: #7F8C8D; font-size: 20px">Bramha Official Designated Contact</h5>
-                </div>
-                <div>
-                        <div class="contact-message " >
-                            <div>
-                                Asian Area
-                            </div>
-                            Karen LIU : &nbsp; Lynn@brahmalabs.org
-                        </div>
-
-                        <div class="contact-message">
-                            <div>
-                                East Asia (South Korea Area) Authorised Agent
-                            </div>
-                            Coinway Ventures (ICO BANK) : &nbsp; 최제호 &nbsp; osbrahma2@gmail.com
-                        </div>
-
-                        <div class="contact-message">
-                            <div>
-                                East Asia (Japan Area) Authorised Agent
-                            </div>
-                            Ryan kim : &nbsp; ryan0911@naver.com
-                        </div>
-
-                        <div class="contact-message">
-                            <div>
-                                Other Area
-                            </div>
-                            Lynn@brahmalabs.org
-                        </div>
-                </div>
-
+            <div class="section-title">
+                <h4>Contact-Project BRAHMA</h4>
             </div>
-            <!-- Single Service Ends -->
+
+            <div style="margin-bottom: 40px">
+                <span>
+                    Investors should be cautious to evadeinvestment risks
+                </span>
+            </div>
+
+            <div class="center section-title" style="margin-bottom: 50px;">
+                <h5 style="font-size: 20px">Bramha Official Designated Contact</h5>
+            </div>
+            <div class="center">
+                    <div class="contact-message" >
+                        <div>
+                            Asian Area
+                        </div>
+                        Karen LIU : &nbsp; Lynn@brahmalabs.org
+                    </div>
+
+                    <div class="contact-message">
+                        <div>
+                            East Asia (South Korea Area) Authorised Agent
+                        </div>
+                        Coinway Ventures (ICO BANK) : &nbsp; 최제호 &nbsp; osbrahma2@gmail.com
+                    </div>
+
+                    <div class="contact-message">
+                        <div>
+                            East Asia (Japan Area) Authorised Agent
+                        </div>
+                        Ryan kim : &nbsp; ryan0911@naver.com
+                    </div>
+
+                    <div class="contact-message">
+                        <div>
+                            Other Area
+                        </div>
+                        Lynn@brahmalabs.org
+                    </div>
+            </div>
+
         </div>
     </div>
 </section>

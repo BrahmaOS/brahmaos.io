@@ -29,38 +29,6 @@
     <link rel="stylesheet" id="scheme-source" href="/css/site2/video-js.min.css"/>
     @yield("css")
     <script src="https://cdn.bootcss.com/jquery/1.11.2/jquery.js"></script>
-    <style>
-        .site-name {
-            color: #fff;
-            font-family: 'Raleway', sans-serif;
-            font-size: 24px;
-            padding: 8px 15px 8px;
-            line-height: 40px;
-            font-weight: 700;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-        }
-
-        #back-to-top1{
-            position:fixed;
-            bottom:40px;
-            right:30px;
-            width: 40px;
-            height: 40px;
-            margin: 0;
-            /*border:1px solid #f4645f;*/
-            border-radius: 4px;
-            /*background: #f4645f;*/
-            /*background: linear-gradient(to bottom, #6b00ce, #114cf6 );*/
-            background: rgba(216, 216, 216, 0.9);
-            color:rgba(0, 0, 0, 0.3);
-            text-align: center;
-            z-index: 100;
-        }
-        #back-to-top1 > i {
-            margin-top: 10px;
-        }
-    </style>
 </head>
 <body>
 
@@ -70,8 +38,8 @@
 
 <div id="root">
     @yield('content')
-</div>
 
+</div>
 <div id="section-footer" class="footer-wrap">
     <div class="container footer center">
         <div class="row">
@@ -99,7 +67,8 @@
     </div>
 </div>
 
-<a href="#top" id="back-to-top1"><i class="fa fa-chevron-up fa-lg"></i></a>
+
+{{--<a href="#top" id="back-to-top1"><i class="fa fa-chevron-up fa-lg"></i></a>--}}
 
 <script type="text/javascript" src="/js/site2/bootstrap.min.js"></script>
 <script type="text/javascript" src="/js/site2/jquery.easing.1.3.js"></script>
@@ -110,6 +79,8 @@
 <script type="text/javascript" src="/js/site2/videojs-contrib-hls.min.js"></script>
 <script type="text/javascript" src="/js/site2/jquery.fullPage.min.js"></script>
 <script type="text/javascript" src="/js/site2/custom.js"></script>
+<script type="text/javascript" src="/js/site2/jquery.bxslider.min.js"></script>
+
 <script>
 	$(function () {
 		$(document).bind('scroll',function(){
