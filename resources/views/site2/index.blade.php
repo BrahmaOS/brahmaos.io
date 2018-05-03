@@ -187,7 +187,7 @@
         <div class="row" style="margin-bottom: 50px">
             <!--  members  --->
             <div class="col-md-12 center section-title">
-                <h3 data-animation="fadeInUp" data-animation-delay="700">Members</h3>
+                <h3 data-animation="fadeInUp" data-animation-delay="700" style="margin-top: 70px">Members</h3>
             </div>
             <div class="members">
 
