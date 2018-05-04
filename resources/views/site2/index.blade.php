@@ -71,116 +71,77 @@
     </div>
 </section>
 
-<section id="section-pricing" class="pricing-wrap section ">
+<section id="section-os" style="background: #000">
     <div class="container pack">
         <div class="row center">
             <div class="left section-title">
                 <h4>Decentralized OS Demand</h4>
             </div>
 
-            <div class="center" style="display: flex; align-content: center;justify-content: center; flex-wrap: wrap">
+            <div class="center" style="">
 
-            <!-- Single Price Starts -->
-            <div class="center animated" data-animation="bounceInLeft" data-animation-delay="500">
-                <div class="single-pricing">
-                    <img src="/images/site2/data-privacy.png" alt="">
 
-                    <div class="sign-up">
-                        <div  class="single-title">
+                <div class="os-wrap wrapper">
+                    <div class="os-demand">
+
+                        <img src="/images/site2/os/DataPrivacy.png" alt="">
+
+                        <img src="/images/site2/os/DataPrivacy-select.png" alt="">
+
+                        <div  class="os-title">
                             <p>Data Privacy</p>
-                            <p>&nbsp;</p>
                         </div>
-                        <a href="/abstract/1.html#DataPrivacy" target="_blank" class="fancy-button button-line btn-col zoom">
-                            Details
-                            <span class="icon">
-                            <i class="fa fa-angle-right"></i>
-                        </span>
-                        </a>
                     </div>
-                </div>
-            </div>
-            <!-- Single Price Ends -->
 
-            <!-- Single Price Starts -->
-            <div class="center animated" data-animation="bounceInLeft" data-animation-delay="500">
-                <div class="single-pricing">
-                    <img src="/images/site2/decentralized-storage.png" alt="">
-                    <div class="sign-up">
-                        <div  class="single-title">
+                    <div class="os-demand">
+
+                        <img src="/images/site2/os/DecentralizedStorage.png" alt="">
+
+                        <img src="/images/site2/os/DecentralizedStorage-select.png" alt="">
+
+                        <div  class="os-title">
                             <p>Decentralized Storage</p>
-                            <p>&nbsp;</p>
                         </div>
-                        <a href="/abstract/1.html#DecentralizedStorage"  target="_blank" class="fancy-button button-line btn-col zoom">
-                            Details
-                            <span class="icon">
-                            <i class="fa fa-angle-right"></i>
-                        </span>
-                        </a>
                     </div>
-                </div>
-            </div>
-            <!-- Single Price Ends -->
 
-            <!-- Single Price Starts -->
-            <div class="center animated" data-animation="bounceInLeft" data-animation-delay="500">
-                <div class="single-pricing">
-                    <img src="/images/site2/accessible-network-communication.png" alt="">
-                    <div class="sign-up">
-                        <div  class="single-title">
-                            <p>Accessible Network</p>
+
+                    <div class="os-demand">
+
+                        <img src="/images/site2/os/AccessibleNetworkCommunication.png" alt="">
+
+                        <img src="/images/site2/os/AccessibleNetworkCommunication-select.png" alt="">
+
+                        <div  class="os-title">
+                            <p>Accessible Network </p>
                             <p>Communication</p>
                         </div>
-                        <a href="/abstract/1.html#AccessibleNetworkCommunication"  target="_blank" class="fancy-button button-line btn-col zoom">
-                            Details
-                            <span class="icon">
-                            <i class="fa fa-angle-right"></i>
-                        </span>
-                        </a>
                     </div>
-                </div>
-            </div>
-            <!-- Single Price Ends -->
 
-            <!-- Single Price Starts -->
-            <div class="center animated" data-animation="bounceInLeft" data-animation-delay="500">
-                <div class="single-pricing">
-                    <img src="/images/site2/autonomous-economic-system.png" alt="">
 
-                    <div class="sign-up">
-                        <div  class="single-title">
-                            <p>Autonomous Economic </p>
+                    <div class="os-demand">
+
+                        <img src="/images/site2/os/AutonomousEconomicSystem.png" alt="">
+
+                        <img src="/images/site2/os/AutonomousEconomicSystem-select.png" alt="">
+
+                        <div  class="os-title">
+                            <p>Autonomous Economic</p>
                             <p>System</p>
                         </div>
-                        <a href="/abstract/1.html#AutonomousEconomicSystem" target="_blank" class="fancy-button button-line btn-col zoom">
-                            Details
-                            <span class="icon">
-                            <i class="fa fa-angle-right"></i>
-                        </span>
-                        </a>
                     </div>
-                </div>
-            </div>
-            <!-- Single Price Ends -->
+                    <div class="os-demand">
 
-            <!-- Single Price Starts -->
-            <div class="center animated" data-animation="bounceInLeft" data-animation-delay="500">
-                <div class="single-pricing">
-                    <img src="/images/site2/management-of-cryptographic-assets.png" alt="">
-                    <div class="sign-up">
-                        <div  class="single-title">
+                        <img src="/images/site2/os/ManagementOfCryptographicAssets.png" alt="">
+
+                        <img src="/images/site2/os/ManagementOfCryptographicAssets-select.png" alt="">
+
+                        <div  class="os-title">
                             <p>Management Of</p>
                             <p>Cryptographic Assets</p>
                         </div>
-                        <a href="/abstract/1.html#ManagementofCryptographicAssets" target="_blank" class="fancy-button button-line btn-col zoom">
-                            Details
-                            <span class="icon">
-                            <i class="fa fa-angle-right"></i>
-                        </span>
-                        </a>
                     </div>
                 </div>
-            </div>
-            <!-- Single Price Ends -->
+
             </div>
 
         </div>
@@ -188,145 +149,249 @@
 </section>
 
 <section id="section-members" class="services-wrap section" style="background: #000">
-    <div class="container pack">
+    <div class="container">
         <div class="row">
             <!--  members  --->
             <div class="col-md-12  section-title">
                 <h4 data-animation="fadeInUp" data-animation-delay="700">Members</h4>
             </div>
 
-            <div class="col-md-12 center">
-                <div id="bx-pager" class="members-photos col-md-6">
-                    
-                    <div class="col-md-12">
-                        <a data-slide-index="0" href="" class="photo-hold ">
-                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
-                        </a>
-                        <a data-slide-index="1" href="" class="photo-hold ">
-                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
-                        </a>
-                        <a data-slide-index="2" href="" class="photo-hold ">
-                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
-                        </a>
-                        <a data-slide-index="3" href="" class="photo-hold ">
-                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
-                        </a>
-                    </div>
+            <div class="col-md-12 center members wrapper">
 
-                    <div class="col-md-12">
-                        <a data-slide-index="0" href="" class="photo-hold ">
-                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
-                        </a>
-                        <a data-slide-index="1" href="" class="photo-hold ">
-                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
-                        </a>
-                        <a data-slide-index="2" href="" class="photo-hold ">
-                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
-                        </a>
-                        <a data-slide-index="3" href="" class="photo-hold ">
-                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
-                        </a>
-                    </div>
+                    <div id="bx-pager" class="members-photos col-md-6 col-sm-12">
 
-                </div>
-
-                <div class="col-md-6">
-                    <div class="testimonial-slider">
-                        <div class="testimonial">
-
-                            <div class="members-intro left">
-                                <div class="">
-                                    <div class="members-photo">
-                                        <img src="/images/site2/members/Bella Liu.png" alt="">
-                                    </div>
-                                    <h4 class="member-name">
-                                        Bella liu
-                                    </h4>
-                                    <h4 class="member-position" style="margin-top: -10px">
-                                        co-founder
-                                    </h4>
-                                    <p class="member-description">
-                                        12 years experience in the Internet industry
-                                        6 times start-up experiences, with outstanding ability in economic design of product
-                                        Held Important positions in top Internet companies
-                                        Rich asset investment operating experiences in international projects over the past few
-                                        years.
-                                    </p>
-                                </div>
-                            </div>
+                        <div class="left">
+                            <p style="margin-bottom: 5vh; font-weight: 400">They are an import part of the team</p>
                         </div>
 
-                        <div class="testimonial">
-                            <div class="members-intro left">
-                                <div class="">
-                                    <div class="members-photo">
-                                        <img src="/images/site2/members/Bella Liu.png" alt="">
-                                    </div>
-                                    <h4 class="member-name">
-                                        Bella liu
-                                    </h4>
-                                    <h4 class="member-position" style="margin-top: -10px">
-                                        co-founder
-                                    </h4>
-                                    <p class="member-description">
-                                        12 years experience in the Internet industry
-                                        6 times start-up experiences, with outstanding ability in economic design of product
-                                        Held Important positions in top Internet companies
-                                        Rich asset investment operating experiences in international projects over the past few
-                                        years.
-                                    </p>
-                                </div>
-                            </div>
+                        <div class="col-md-12 center" style="display: flex">
+                            <a data-slide-index="0" href="" class="photo-hold">
+                                <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                                <p class="member-name-small">
+                                    Bella liu
+                                </p>
+                                <p class="member-position-small">
+                                    co-founder
+                                </p>
+                            </a>
+                            <a data-slide-index="1" href="" class="photo-hold">
+                                <img src="/images/site2/members/Lorna Chen.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                                <p class="member-name-small">
+                                    Lorna Chen
+                                </p>
+                                <p class="member-position-small">
+                                    CEO
+                                </p>
+                            </a>
+                            <a data-slide-index="2" href="" class="photo-hold">
+                                <img src="/images/site2/members/Steven Hu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                                <p class="member-name-small">
+                                    Steven Hu
+                                </p>
+                                <p class="member-position-small">
+                                    CTO
+                                </p>
+                            </a>
+                            <a data-slide-index="3" href="" class="photo-hold">
+                                <img src="/images/site2/members/Marinos Tsokas.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                                <p class="member-name-small">
+                                    Marinos Tsokas
+                                </p>
+                                <p class="member-position-small">
+                                    CMO
+                                </p>
+                            </a>
+                            <a data-slide-index="3" href="" class="photo-hold">
+                                <img src="/images/site2/members/Marinos Tsokas.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                                <p class="member-name-small">
+                                    Elaine Shehu
+                                </p>
+                                <p class="member-position-small">
+                                    Tech Advisor
+                                </p>
+                            </a>
                         </div>
 
-                        <div class="testimonial">
-                            <div class="members-intro left">
-                                <div class="">
-                                    <div class="members-photo">
-                                        <img src="/images/site2/members/Bella Liu.png" alt="">
-                                    </div>
-                                    <h4 class="member-name">
-                                        Bella liu
-                                    </h4>
-                                    <h4 class="member-position" style="margin-top: -10px">
-                                        co-founder
-                                    </h4>
-                                    <p class="member-description">
-                                        12 years experience in the Internet industry
-                                        6 times start-up experiences, with outstanding ability in economic design of product
-                                        Held Important positions in top Internet companies
-                                        Rich asset investment operating experiences in international projects over the past few
-                                        years.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="testimonial">
-                            <div class="members-intro left">
-                                <div class="">
-                                    <div class="members-photo">
-                                        <img src="/images/site2/members/Bella Liu.png" alt="">
-                                    </div>
-                                    <h4 class="member-name">
-                                        Bella liu
-                                    </h4>
-                                    <h4 class="member-position" style="margin-top: -10px">
-                                        co-founder
-                                    </h4>
-                                    <p class="member-description">
-                                        12 years experience in the Internet industry
-                                        6 times start-up experiences, with outstanding ability in economic design of product
-                                        Held Important positions in top Internet companies
-                                        Rich asset investment operating experiences in international projects over the past few
-                                        years.
-                                    </p>
-                                </div>
-                            </div>
+                        <div class="col-md-12 center" style="display: flex">
+                            <a data-slide-index="4" href="" class="photo-hold">
+                                <img src="/images/site2/members/Elaine Shehu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                                <p class="member-name-small">
+                                    Elaine Shehu
+                                </p>
+                                <p class="member-position-small">
+                                    Tech Advisor
+                                </p>
+                            </a>
+                            <a data-slide-index="5" href="" class="photo-hold">
+                                <img src="/images/site2/members/Liu Xingchu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                                <p class="member-name-small">
+                                    Liu Xingchu
+                                </p>
+                                <p class="member-position-small">
+                                    Engineer Lead
+                                </p>
+                            </a>
+                            <a data-slide-index="2" href="" class="photo-hold">
+                                <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                                <p class="member-name-small">
+                                    Bella liu
+                                </p>
+                                <p class="member-position-small">
+                                    co-founder
+                                </p>
+                            </a>
+                            <a data-slide-index="3" href="" class="photo-hold">
+                                <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                                <p class="member-name-small">
+                                    Bella liu
+                                </p>
+                                <p class="member-position-small">
+                                    co-founder
+                                </p>
+                            </a>
+                            <a data-slide-index="3" href="" class="photo-hold">
+                                <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                                <p class="member-name-small">
+                                    Bella liu
+                                </p>
+                                <p class="member-position-small">
+                                    co-founder
+                                </p>
+                            </a>
                         </div>
                     </div>
-                </div>
 
+                    <div class="col-md-6 col-sm-12" style="padding: 0">
+                        <div class="testimonial-slider">
+                            <div class="testimonial">
+
+                                <div class="members-intro left">
+                                    <div class="">
+                                        <div class="members-photo">
+                                            <img src="/images/site2/members/Bella Liu.png" alt="">
+                                        </div>
+                                        <h4 class="member-name">
+                                            Bella liu
+                                        </h4>
+                                        <h4 class="member-position">
+                                            co-founder
+                                        </h4>
+                                        <p class="member-description">
+                                            12 years experience in the Internet industry
+                                            6 times start-up experiences, with outstanding ability in economic design of product
+                                            Held Important positions in top Internet companies
+                                            Rich asset investment operating experiences in international projects over the past few
+                                            years.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial">
+                                <div class="members-intro left">
+                                    <div class="">
+                                        <div class="members-photo">
+                                            <img src="/images/site2/members/Lorna Chen.png" alt="">
+                                        </div>
+                                        <h4 class="member-name">
+                                            Lorna Chen (Lin Mennie)
+                                        </h4>
+                                        <h4 class="member-position">
+                                            CEO
+                                        </h4>
+                                        <p class="member-description">
+                                            Ex-JP Morgan, Bank Of New York Mellon , Bank Of Tokyo Mitsubishi.
+                                            Chartered Accountant In United Kingdom.
+                                            Masters In Science In Edinburgh And EMBA In Cambridge University Judge Business School.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial">
+                                <div class="members-intro left">
+                                    <div class="">
+                                        <div class="members-photo">
+                                            <img src="/images/site2/members/Steven Hu.png" alt="">
+                                        </div>
+                                        <h4 class="member-name">
+                                            Steven Hu
+                                        </h4>
+                                        <h4 class="member-position">
+                                            CTO
+                                        </h4>
+                                        <p class="member-description">
+                                            10 Years Experiences In Architecture Design And R&D Management In The Telecommunication Industry And The Internet Industry.
+                                            Leads R&D  Architecture Design Work In The Programmable Virtual Router Team
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial">
+                                <div class="members-intro left">
+                                    <div class="">
+                                        <div class="members-photo">
+                                            <img src="/images/site2/members/Marinos Tsokas.png" alt="">
+                                        </div>
+                                        <h4 class="member-name">
+                                            Marinos Tsokas
+                                        </h4>
+                                        <h4 class="member-position">
+                                            CMO
+                                        </h4>
+                                        <p class="member-description">
+                                            Ex-CMO Of Vodafone. Award-Winning Professional With Success
+                                            Driving Customer Engagement Via The Production Of Analysis And Insight On Customers’ Behaviours And Trends.
+                                            Holds A MBA With Cambridge Universiity.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial">
+                                <div class="members-intro left">
+                                    <div class="">
+                                        <div class="members-photo">
+                                            <img src="/images/site2/members/Elaine Shehu.png" alt="">
+                                        </div>
+                                        <h4 class="member-name">
+                                            Elaine Shehu
+                                        </h4>
+                                        <h4 class="member-position">
+                                            Tech Advisor
+                                        </h4>
+                                        <p class="member-description">
+                                            Ex-Head Of IT Strategy On Blockchain Related Projects With Deutsche Bank.
+                                            More Than 12 Years In Developing Cloud-Based Platforms.
+                                            Masters Degree In Computer Science In University Of College London.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonial">
+                                <div class="members-intro left">
+                                    <div class="">
+                                        <div class="members-photo">
+                                            <img src="/images/site2/members/Liu Xingchu.png" alt="">
+                                        </div>
+                                        <h4 class="member-name">
+                                            Liu Xingchu
+                                        </h4>
+                                        <h4 class="member-position">
+                                            Engineer Lead
+                                        </h4>
+                                        <p class="member-description">
+                                            Expert In Data Analytics, Business Intelligence And Artificial Intelligence.
+                                            More Than 12 Years Of Related Experience In Retail, Ecommerce, Manufacturing, Wholesale Fields.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
             </div>
 
         </div>
@@ -334,14 +399,14 @@
 </section>
 
 <section id="section-distribution" class="services-wrap section">
-    <div class="container pack">
+    <div class="container">
         <div class="row">
             <div class="col-md-12 section-title" >
                 <h4>Token Distribution</h4>
             </div>
 
             <!-- Single Service Starts -->
-            <div class="col-md-12  center distribution animated token-distribution" data-animation="fadeInLeft" data-animation-delay="700" style="">
+            <div class="col-md-12  center distribution animated token-distribution" data-animation="fadeInLeft" data-animation-delay="700">
                 <img src="/images/site2/p-token-distribution.png" id="distribution" style="margin: 0 auto"  alt="">
             </div>
             <div class="col-md-12 center distribution animated " style="color:red;">

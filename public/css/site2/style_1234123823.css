@@ -156,20 +156,7 @@ font-weight: 700;
 	visibility: visible;
 }
 
-.section-title {
-	margin-bottom: 70px;
-}
 
-.section-title h3, .section-title h4 {
-	color: #F4F4F4;
-	/*border-top: 1px solid;*/
-	/*border-bottom: 1px solid;*/
-	border-left: 3px solid #D3AB5A !important;
-	display: inline-block;
-	margin-top: 0;
-	line-height: 15px;
-	padding-left: 20px;
-}
 
 .section-overlay {
 	background: rgba(0, 0, 0, .5);
@@ -362,6 +349,24 @@ li.current a{
 .n-nav{
     display: flex;
     justify-content: center;
+}
+
+
+.wrapper{
+    margin-bottom: 15vh;
+}
+.section-title {
+    margin-bottom: 7vw;
+    margin-top: 3vw;
+}
+
+.section-title h3, .section-title h4 {
+    color: #F4F4F4;
+    border-left: 3px solid #D3AB5A !important;
+    display: inline-block;
+    margin-top: 0;
+    line-height: 15px;
+    padding-left: 20px;
 }
 
 /* ================ nav ================ */
@@ -629,29 +634,6 @@ li.current a{
 }
 
 
-/* ================ Members Section ================ */
-.members {
-    padding-top: 70px;
-    padding-bottom: 20px;
-    height: 100%;
-}
-.members-intro{
-    background: #D3AB5A;
-    border-radius: 4px;
-    padding: 10px;
-}
-.member-description{
-    font-weight: 300;
-    font-size: 18px;
-}
-
-.members-photo img{
-    display: inline-block;
-}
-
-.photo-bg{
-    margin: 10px;
-}
 /* ================ Token Distribution Section ================ */
 
 
@@ -673,112 +655,130 @@ li.current a{
 	}
 }
 
+
 /* ================ Decentralized OS Demand ================ */
 
-#section-pricing {
-	background: #000;
-	color:#666;
+.os-wrap{
+    /*border: 1px solid red;*/
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
-
-.pack{
-	padding-top: 70px;
-}
-
-.single-pricing {
-	position: relative;
-	border-radius: 4px;
-}
-
-.bounceInLeft{
-	padding: 0;
-	margin-right: 9px;
-}
-
-.pricing-head {
-	overflow: hidden;
-	padding: 24px 0;
-}
-
-
-.best-pricing .pricing-head {
-	background: #333;
-}
-
-.best-pricing .price h3 {
-	color:#e5e5e5;
-}
-
-.pricing-heading {
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-.single-pricing .price h3 {
-	margin-top: 0;
-	margin-bottom: 0;
-	font-weight: 700;
-	line-height: 38px;
-}
-
-.single-pricing .price .dollar {
-	font-size: 20px;
-	vertical-align: super;
-	font-weight: normal;
-}
-
-.single-pricing .price .month {
-	font-size: 14px;
-	font-family: 'Lato', sans-serif;
-	font-style: italic;
-	font-weight: 300;
-	color:#959292;
-}
-
-.single-pricing .package-features {
-	margin-bottom: 15px;
-}
-
-.single-pricing .package-features li:first-child {
-	border-top: 1px solid #EEE;
-}
-
-.single-pricing .package-features li {
-	margin: 0px;
-	padding-bottom: 9px;
-	padding-top: 9px;
-	border-bottom: 1px solid #EEE;
-	color: #666;
-}
-
-.single-pricing .package-features li span {
-	margin-right: 8px;
-}
-.single-title{
+.os-title{
 	position: relative;
 	top: -3px;
 	color: #fff;
 	font-weight: 700;
+    font-size: 1.2vw;
+	/*margin-top: 20px;*/
 }
-.single-title > p{
-	margin: 0;
+.os-demand{
+    position: relative;
+	max-width: 240px;
+    border-bottom: 1px solid #666;
+    padding-bottom: 2vh;
 }
 
-.single-pricing .sign-up {
-	padding-bottom: 15px;
-	position: relative;
-	top: -85px;
-	display: block;
-	color: #ccc;
+.os-wrap .os-demand p{
+    color: #F4F4F4;
 }
-.single-pricing > img {
-	width: 226px;
-	height: 356px;
+
+.os-wrap .os-demand:first-of-type::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 70%;
+    width: 1px;
+    top: 20%;
+    background: #666;
 }
-.sign-up .zoom{
-	box-shadow: 0px 5px 20px #D9D9D9;
-	border: none;
-	padding: 10px 15px;
-	color: #000;
+.os-demand::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 70%;
+    width: 1px;
+    top: 20%;
+    background: #666;
+}
+
+/* ================ Members Section ================ */
+.members p{
+    line-height: 3vh;
+    font-size: 1.8vh;
+}
+.member-name{
+    position: relative;
+    font-size: 2vw;
+    margin-top: 3vh;
+}
+.member-name::before{
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 20%;
+    height: 15px;
+    width: 3px;
+    background: #f4f4f4;
+}
+.member-position{
+    font-size: 1.5vw;
+    font-weight: 300;
+    margin-top: -10px;
+}
+
+.member-name-small{
+    font-size: 1.5vh !important;
+    font-weight: 400;
+    margin: 0;
+}
+.member-position-small{
+    font-size: 1.3vh !important;
+    margin-top: -5px;
+}
+
+.members-intro{
+    background: #D3AB5A;
+    padding: 5vh 5vh 8vh 5vh;
+    position: relative;
+    min-height: 500px !important;
+}
+
+@media (max-width: 720px){
+    .members-intro{
+        background: #D3AB5A;
+        padding: 5vh 5vh 8vh 5vh;
+        position: relative;
+        height: 417px !important;
+    }
+    .member-position-small, .member-name-small{
+        display: none;
+    }
+}
+
+
+
+.member-description{
+    font-weight: 300;
+    font-size: 18px;
+}
+.members-photos{
+    padding: 50px 0;
+}
+.members-photos a:hover{
+    color: #D3AB5A;
+}
+
+.members-photo img{
+    display: inline-block;
+}
+
+.photo-bg{
+    margin-right: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100px;
 }
 
 

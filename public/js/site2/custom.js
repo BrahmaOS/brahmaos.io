@@ -90,10 +90,10 @@ $(function(){
 	});
 	
 	// 快速换屏
-	$('#root').fullpage({
-		// scrollBar:true,
-		scrollingSpeed: 400
-	});
+	// $('#root').fullpage({
+	// 	// scrollBar:true,
+	// 	scrollingSpeed: 400
+	// });
 
 	autodivheight();
 	// player.play();
