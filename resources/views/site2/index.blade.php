@@ -41,7 +41,7 @@
     </div>
     <div id="section-home" class="home-section-wrap center">
         <div class="wrap-video" id = "wrap-video" >
-            <video id="brahmaos-video" class="video-js" controls>
+            <video id="brahmaos-video" class="video-js">
                 <source
                         src="/storage/video/brahmaos.m3u8"
                         type="application/x-mpegURL">

@@ -110,7 +110,7 @@ $(function(){
 	// });
 
 	autodivheight();
-	// player.play();
+	player.play();
 })
 
 /* -----------------------------
