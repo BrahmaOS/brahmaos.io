@@ -597,8 +597,7 @@
                         <span class="distribution-percent">40%</span>
                         <span class="distribution-percent-desc">Token Sale</span>
                     </div>
-                    <p class="distribution-desc">Build a network of developers and D-App development
-                    community to be distributed for milestones reached and D-Apps build</p>
+                    <p class="distribution-desc">Token crowdsale, to bt distributed at the end of the ICO no lock-up period</p>
                 </div>
 
                 <div class="distribution-item business-partnerships">
@@ -610,8 +609,8 @@
                         <span class="distribution-percent">14%</span>
                         <span class="distribution-percent-desc">Business Partnerships</span>
                     </div>
-                    <p class="distribution-desc">Build a network of developers and D-App development
-                    community to be distributed for milestones reached and D-Apps build</p>
+                    <p class="distribution-desc">Form strategic relationships with partners in both traditional industry
+                    and blockchain space, to be distributed over the course of the partnership of according to specific terms of contract</p>
                 </div>
 
                 <div class="distribution-item foundation">
@@ -621,9 +620,9 @@
                             <div class="distribution-line"></div>
                         </div>
                         <span class="distribution-percent">10%</span>
-                        <span class="distribution-percent-desc">Foundation</span></div>
-                    <p class="distribution-desc">Build a network of developers and D-App development
-                        community to be distributed for milestones reached and D-Apps build</p>
+                        <span class="distribution-percent-desc">Foundation</span>
+                    </div>
+                    <p class="distribution-desc">Foundation to keep a 10% share for overall community building and events</p>
                 </div>
 
                 <img src="/images/site2/tokenDistribution/tokendistribution.png" alt="">
@@ -649,8 +648,7 @@
                         </div>
                         <span class="distribution-percent">8%</span>
                         <span class="distribution-percent-desc">Early Supporters</span></div>
-                    <p class="distribution-desc">Build a network of developers and D-App development
-                        community to be distributed for milestones reached and D-Apps build</p>
+                        <p class="distribution-desc">Reward for supporters of the project with various distribution times and terms</p>
                 </div>
 
                 <div class="distribution-item team-percent">
@@ -662,8 +660,7 @@
                         <span class="distribution-percent">20%</span>
                         <span class="percent-desc">Team</span>
                     </div>
-                    <p class="distribution-desc"> Build a network of developers and D-App development
-                        community to be distributed for milestones reached and D-Apps build </p>
+                    <p class="distribution-desc">Incentive for the founding team of the project to be distributed over 2 years</p>
                 </div>
 
             </div>
@@ -671,181 +668,31 @@
     </div>
 </section>
 
-<section id="section-roadmap" class="services-wrap section">
-    <div class="container pack">
-        <div class="row">
+<section id="section-roadmap" style="background: #000000">
+    <div class="container">
 
-            <div class="col-md-12 section-title">
-                <h4>Roadmap</h4>
-            </div>
+        <div class="col-md-12 section-title">
+            <h4>Roadmap</h4>
+        </div>
+        <div style="clear:both"></div>
 
-            <!-- Single Service Starts -->
-            <div class="col-md-12 distribution animated token-distribution" data-animation="fadeInUp" data-animation-delay="700">
-                <div class="roadmap-text roadmap-text-pc">
-                    <div class="col-md-6 roadmap-left">
-                        <div class="phase phase1 animated"  data-animation="fadeInUp" data-animation-delay="2100">
+        <div class="wrapper roadmap">
 
-                            <div class="arrow-right arrow1">
-                                <div class="arrow-line"></div>
-                                <div class="arrow"></div>
-                                <div class="arrow-circle"></div>
-                            </div>
+            <div class="road2">
 
-                            <h1>Phrase 1</h1>
-                            <p class="roadmap-time">Q3-Q4 2018</p>
-                            <h2>Brahma Wallet</h2>
-                            <p>
-                                Brahma Wallet provides users with functions such as wallet management,
-                                asset management, and transaction management. It also operates as Service and is open to upper applications.
-                            </p>
-
-                            <h3>Backlog</h3>
-                            <ul class="disc-list">
-                                <li>Wallet management</li>
-                                <li style="list-style: none">
-                                    <ul class="disc-list">
-                                        <li>To create wallets, supporting passwords and mnemonics;</li>
-                                        <li>To backup wallet;</li>
-                                        <li>To delete wallets;</li>
-                                        <li>To edit wallet (only wallet name and password change);</li>
-                                        <li>To export private key and Keystore;</li>
-                                    </ul>
-                                </li>
-                                <li>Asset management</li>
-                                <li style="list-style: none">
-                                    <ul class="disc-list">
-                                        <li>Display of ETH and other Token asset information;</li>
-                                        <li>To add or remove impressions of Token asset information;</li>
-                                    </ul>
-                                </li>
-                                <li>Transaction management</li>
-                                <li style="list-style: none">
-                                    <ul class="disc-list">
-                                        <li>Receipt (supporting two-dimensional code);</li>
-                                        <li>Transfer (supporting ETH accounts and sending Tokens by smart contracts);</li>
-                                        <li>Historical transaction records;</li>
-                                    </ul>
-                                </li>
-                            </ul>
-
-                        </div>
-
-                        <div class="phase-last"></div>
-                    </div>
-
-                    <div class="col-md-6 roadmap-right">
-                        <div class="phase phase0 animated"  data-animation="fadeInUp" data-animation-delay="1400">
-                            <div class="arrow-left arrow0">
-                                <div class="arrow-circle"></div>
-                                <div class="arrow"></div>
-                            </div>
-
-
-                            <h1>Phrase 0</h1>
-                            <p class="roadmap-time">Q2-Q4 2018</p>
-                            <h2>Overall Objective</h2>
-                            <p>To realize a basic and decentralized MVP version with a Brahma Wallets account which support a part of Android followers.</p>
-                            <h2>Brahma OS</h2>
-                            <p>For the Brahma OS in Phrase One, our mission (and also our iterative rhythm) is as follows： </p>
-                            <ul class="disc-list">
-                                <li>To complete the Ethereum blockchain technology stack that implements the LES protocol;</li>
-                                <li>To complete the Android system source code (Android Framework) cutting and partial module reconstruction;</li>
-                                <li>To optimize the model selected for the drive adaptation part;</li>
-                            </ul>
-                            <div class="roadmap-level-2">
-                                <h3>Backlog</h3>
-                                <ul class="disc-list">
-                                    <li>Cutting or reconstructing all centralized module and framework component code based on Android system source code</li>
-                                    <li>Ethereum Relayer of Brahma Chain, which supports Ethereum blockchain's LES protocol and opens related capabilities and services for Ethereum blockchains for upper-level applications, including:</li>
-                                    <li style="list-style: none">
-                                        <ul class="disc-list">
-                                            <li>Ethereum account management;</li>
-                                            <li>Blockchain management</li>
-                                            <li>Transfers and transaction records;</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
+                <div class="road-circle">
+                    <img src="/images/site2/roadmap/logo.png" alt="">
                 </div>
 
-                <div class="roadmap-text roadmap-text-mobile">
-                    <!-- pc -->
-                    <div class="phase phase0 animated"  data-animation="fadeInUp" data-animation-delay="1400">
-
-                        <h1>Phrase 0</h1>
-                        <p class="roadmap-time">Q2-Q4 2018</p>
-                        <h2>Overall Objective</h2>
-                        <p>To realize a basic and decentralized MVP version with a Brahma Wallets account which support a part of Android followers.</p>
-                        <h2>Brahma OS</h2>
-                        <p>For the Brahma OS in Phrase One, our mission (and also our iterative rhythm) is as follows： </p>
-                        <ul class="disc-list">
-                            <li>To complete the Ethereum blockchain technology stack that implements the LES protocol;</li>
-                            <li>To complete the Android system source code (Android Framework) cutting and partial module reconstruction;</li>
-                            <li>To optimize the model selected for the drive adaptation part;</li>
-                        </ul>
-                        <div class="roadmap-level-2">
-                            <h3>Backlog</h3>
-                            <ul class="disc-list">
-                                <li>Cutting or reconstructing all centralized module and framework component code based on Android system source code</li>
-                                <li>Ethereum Relayer of Brahma Chain, which supports Ethereum blockchain's LES protocol and opens related capabilities and services for Ethereum blockchains for upper-level applications, including:</li>
-                                <li style="list-style: none">
-                                    <ul class="disc-list">
-                                        <li>Ethereum account management;</li>
-                                        <li>Blockchain management</li>
-                                        <li>Transfers and transaction records;</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-
+                <div class="road-desc">
+                    <div class="road-title">
+                        Q2
                     </div>
-                    <!-- mobile -->
-                    <div class="phase phase1 animated"  data-animation="fadeInUp" data-animation-delay="1400">
-                        <h1>Phrase 1</h1>
-                        <p class="roadmap-time">Q3-Q4 2018</p>
-                        <h2>Brahma Wallet</h2>
-                        <p>
-                            Brahma Wallet provides users with functions such as wallet management,
-                            asset management, and transaction management. It also operates as Service and is open to upper applications.
-                        </p>
-
-                        <h3>Backlog</h3>
-                        <ul class="disc-list">
-                            <li>Wallet management</li>
-                            <li style="list-style: none">
-                                <ul class="disc-list">
-                                    <li>To create wallets, supporting passwords and mnemonics;</li>
-                                    <li>To backup wallet;</li>
-                                    <li>To delete wallets;</li>
-                                    <li>To edit wallet (only wallet name and password change);</li>
-                                    <li>To export private key and Keystore;</li>
-                                </ul>
-                            </li>
-                            <li>Asset management</li>
-                            <li style="list-style: none">
-                                <ul class="disc-list">
-                                    <li>Display of ETH and other Token asset information;</li>
-                                    <li>To add or remove impressions of Token asset information;</li>
-                                </ul>
-                            </li>
-                            <li>Transaction management</li>
-                            <li style="list-style: none">
-                                <ul class="disc-list">
-                                    <li>Receipt (supporting two-dimensional code);</li>
-                                    <li>Transfer (supporting ETH accounts and sending Tokens by smart contracts);</li>
-                                    <li>Historical transaction records;</li>
-                                </ul>
-                            </li>
-                        </ul>
-
-                    </div>
+                    <p>
+                        To boot and to complete the first setup of deeply customized Brahma OS based on Andriod
+                    </p>
                 </div>
-            </div>
-            <div class="col-md-12 center">
-                The roadmap will be regularly updated, please refer to our official website for future updates.
+
             </div>
 
         </div>
