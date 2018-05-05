@@ -626,7 +626,7 @@
                         community to be distributed for milestones reached and D-Apps build</p>
                 </div>
 
-                <img src="/images/site2/token-Distribution/tokendistribution.png" alt="">
+                <img src="/images/site2/tokenDistribution/tokendistribution.png" alt="">
 
                 <div class="distribution-item developer-community">
                     <div class="left">
