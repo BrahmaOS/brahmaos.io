@@ -172,12 +172,6 @@ font-weight: 700;
 	overflow:hidden;
 }
 
-.Team{
-	text-align: left !important;
-	font-size: 14px;
-}
-
-
 .site-name {
     color: #fff;
     font-family: 'Raleway', sans-serif;
@@ -369,6 +363,9 @@ li.current a{
     padding-left: 20px;
 }
 
+/*#selectable .ui-selecting { background: #FECA40; }*/
+/*#selectable .ui-selected { background: #F39814; color: white; }*/
+
 /* ================ nav ================ */
 @media (max-width: 768px)
 {
@@ -475,13 +472,290 @@ li.current a{
 	border: .06666em solid #fff;
 }
 
+
+
+
+/* ================ Decentralized OS Demand ================ */
+
+.os-wrap{
+    /*border: 1px solid red;*/
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.os-title{
+	position: relative;
+	top: -3px;
+	color: #fff;
+	font-weight: 700;
+    font-size: 1.2vw;
+	/*margin-top: 20px;*/
+}
+.os-demand{
+    position: relative;
+	max-width: 240px;
+    border-bottom: 1px solid #666;
+    padding-bottom: 2vh;
+}
+.os-wrap .os-demand p{
+    color: #F4F4F4;
+}
+.os-demand-select .os-title p{
+    color: #D3AB5A;
+}
+.os-demand-select{
+    border-bottom: 2px solid #D3AB5A;
+}
+.os-wrap .os-demand:first-of-type::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 70%;
+    width: 1px;
+    top: 20%;
+    background: #666;
+}
+.os-demand::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 70%;
+    width: 1px;
+    top: 20%;
+    background: #666;
+}
+
+/* ================ Members Section ================ */
+.members p{
+    line-height: 3vh;
+    font-size: 1.8vh;
+}
+.member-name{
+    position: relative;
+    font-size: 2vw;
+    margin-top: 3vh;
+}
+.member-name::before{
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 20%;
+    height: 15px;
+    width: 3px;
+    background: #f4f4f4;
+}
+.member-position{
+    font-size: 1.5vw;
+    font-weight: 300;
+    margin-top: -10px;
+}
+.member-name-small{
+    font-size: 1.5vh !important;
+    font-weight: 400;
+    margin: 0;
+}
+.member-position-small{
+    font-size: 1.3vh !important;
+    margin-top: -5px;
+}
+.members-intro{
+    background: #D3AB5A;
+    padding: 5vh 5vh 8vh 5vh;
+    position: relative;
+    min-height: 500px !important;
+}
+
+@media (max-width: 720px){
+    .members-intro{
+        background: #D3AB5A;
+        padding: 5vh 5vh 8vh 5vh;
+        position: relative;
+        height: 417px !important;
+    }
+    .member-position-small, .member-name-small{
+        display: none;
+    }
+}
+
+.member-description{
+    font-weight: 300;
+    font-size: 18px;
+}
+.members-photos{
+    padding: 50px 0;
+}
+.members-photos a:hover{
+    color: #D3AB5A;
+}
+.members-photos a:focus {
+    color: #D3AB5A;
+}
+.members-photo img{
+    display: inline-block;
+}
+.photo-bg{
+    margin-right: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100px;
+}
+
+/*============= Team =======================*/
+.team-wrapper{
+    display: flex;
+}
+.team-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.team{
+    /*width: 20vw;*/
+    /*margin: 10px 10px;*/
+    min-height: 280px;
+    text-align: left;
+}
+@media (max-width: 720px){
+    .team{
+        min-height: 350px;
+        text-align: left;
+    }
+}
+
+.team-name{
+    color: #D3AB5A;
+}
+
+
+/* ================ Token Distribution Section ================ */
+.distribution{
+    position: relative;
+    padding-bottom: 15vh;
+}
+.distribution img{
+    display: inline !important;
+    width: 30vw;
+}
+.distribution-title{
+    margin-bottom: 7vw;
+}
+.total-distribution{
+    color: #D3AB5A;
+    font-size: 3vw;
+}
+.distribution-item{
+    width: 20vw;
+    position: absolute;
+    display: inline-block;
+}
+.distribution-item div:first-of-type{
+    position: relative;
+}
+.distribution-item .distribution-desc{
+    text-align: left;
+    font-size: 1vw;
+}
+.distribution-item .distribution-percent{
+    font-size: 2vw;
+    font-weight: 400;
+    margin-right: 1vw;
+}
+.distribution-item .distribution-percent-desc{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.distribution-l{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1.7vh;
+    right: -15vw;
+}
+
+.distribution-line{
+    width: 10vw;
+    height: 1px;
+    background: #D3AB5A;
+}
+.distribution-circle{
+    width: 8px;
+    height: 8px;
+    background: #D3AB5A;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+}
+
+
+.token-sale{
+    left: 8vw;
+    top: 5vh;
+}
+/*.token-sale .distribution-l{*/
+    /*top: 1.7vh;*/
+    /*right: -15vw;*/
+/*}*/
+.business-partnerships{
+    left: 6vw;
+    top: 37vh;
+}
+/*.business-partnerships .distribution-l{*/
+    /*top: 1.7vh;*/
+    /*right: -15vw;*/
+/*}*/
+
+.foundation{
+    left: 10vw;
+    bottom: 15vh;
+}
+.foundation .distribution-l{
+    top: 1.7vh;
+    right: -10vw;
+}
+.developer-community{
+    left: 35vw;
+    bottom: -8vh;
+}
+.developer-community .distribution-l{
+    left: 0;
+    top: 0;
+}
+.developer-community .distribution-line{
+    height: 100px;
+    width: 1px;
+}
+.developer-community .distribution-circle{
+    bottom: -50px;
+    left: 4px;
+}
+
+.early-supporters{
+    right: 5vw;
+    bottom: 10vh;
+}
+.early-supporters .distribution-l{
+    left: -17vw;
+}
+
+.team-percent{
+    right: 5vw;
+    top: 25vh;
+}
+.team-percent .distribution-l{
+    left: -17vw;
+}
+
 /* ===== roadmap section =====*/
 #section-roadmap {
     background: rgba(0,0,0,0.5);
 }
 .arrow-left{
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
 }
 .arrow-left .arrow{
     /*display: none;*/
@@ -508,20 +782,19 @@ li.current a{
     background: rgba(255, 255, 255, 0.7);
 }
 .arrow-circle{
-	/*margin:0 30px;*/
-	width: 16px;
-	height: 16px;
-	background: #dc6f25;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	border-radius: 8px;
+    /*margin:0 30px;*/
+    width: 16px;
+    height: 16px;
+    background: #dc6f25;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
 }
 
 .roadmap{
     font-weight: normal;
     font-size: 14px;
 }
-
 
 .roadmap-text{
     color: #FFF;
@@ -585,11 +858,11 @@ li.current a{
     .roadmap-right{
         padding-left: 60px
     }
-	.roadmap-left{
+    .roadmap-left{
         border-right: 2px solid rgba(255,255,255, 0.5);
-		padding-bottom: 30px;
+        padding-bottom: 30px;
         padding-right: 60px;
-		position: relative;
+        position: relative;
     }
     .arrow0{
         display: flex;
@@ -604,182 +877,35 @@ li.current a{
         top: 15px;
         order: 1;
     }
-	.arrow0 .arrow-circle{
-		margin-right: 30px;
-	}
+    .arrow0 .arrow-circle{
+        margin-right: 30px;
+    }
     .arrow1 .arrow-line{
         width: 150px;
     }
-	.arrow1 .arrow-circle{
-		margin-left: 30px;
-	}
+    .arrow1 .arrow-circle{
+        margin-left: 30px;
+    }
     .phase1{
         margin-top: 150px;
     }
-	.phase-last{
-		width: 50px;
-		height: 50px;
-		background-image: url('/images/site2/roadmap/logo.png');
-		background-size: 50px 50px;
-		background-position: center;
-		background-repeat: no-repeat;
-		/*background: #dc6f25;*/
-		-moz-border-radius: 25px;
-		-webkit-border-radius: 25px;
-		border-radius: 25px;
-		position: absolute;
-		right: -25px;
-		bottom: -50px;
-	}
-}
-
-
-/* ================ Token Distribution Section ================ */
-
-
-.total-distribution{
-    color: #fff;
-    background: #dc6f25;
-    border-radius: 4px;
-    font-size: 24px;
-    padding: 5px 15px;
-    margin-bottom: 70px;
-}
-
-@media (max-width: 720px){
-	.token-distribution{
-		margin: 30px auto;
-	}
-	.total-distribution{
-		font-size: 14px;
-	}
-}
-
-
-/* ================ Decentralized OS Demand ================ */
-
-.os-wrap{
-    /*border: 1px solid red;*/
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-}
-.os-title{
-	position: relative;
-	top: -3px;
-	color: #fff;
-	font-weight: 700;
-    font-size: 1.2vw;
-	/*margin-top: 20px;*/
-}
-.os-demand{
-    position: relative;
-	max-width: 240px;
-    border-bottom: 1px solid #666;
-    padding-bottom: 2vh;
-}
-
-.os-wrap .os-demand p{
-    color: #F4F4F4;
-}
-
-.os-wrap .os-demand:first-of-type::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    height: 70%;
-    width: 1px;
-    top: 20%;
-    background: #666;
-}
-.os-demand::after{
-    content: '';
-    position: absolute;
-    right: 0;
-    height: 70%;
-    width: 1px;
-    top: 20%;
-    background: #666;
-}
-
-/* ================ Members Section ================ */
-.members p{
-    line-height: 3vh;
-    font-size: 1.8vh;
-}
-.member-name{
-    position: relative;
-    font-size: 2vw;
-    margin-top: 3vh;
-}
-.member-name::before{
-    content: "";
-    position: absolute;
-    left: -15px;
-    top: 20%;
-    height: 15px;
-    width: 3px;
-    background: #f4f4f4;
-}
-.member-position{
-    font-size: 1.5vw;
-    font-weight: 300;
-    margin-top: -10px;
-}
-
-.member-name-small{
-    font-size: 1.5vh !important;
-    font-weight: 400;
-    margin: 0;
-}
-.member-position-small{
-    font-size: 1.3vh !important;
-    margin-top: -5px;
-}
-
-.members-intro{
-    background: #D3AB5A;
-    padding: 5vh 5vh 8vh 5vh;
-    position: relative;
-    min-height: 500px !important;
-}
-
-@media (max-width: 720px){
-    .members-intro{
-        background: #D3AB5A;
-        padding: 5vh 5vh 8vh 5vh;
-        position: relative;
-        height: 417px !important;
-    }
-    .member-position-small, .member-name-small{
-        display: none;
+    .phase-last{
+        width: 50px;
+        height: 50px;
+        background-image: url('/images/site2/roadmap/logo.png');
+        background-size: 50px 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        /*background: #dc6f25;*/
+        -moz-border-radius: 25px;
+        -webkit-border-radius: 25px;
+        border-radius: 25px;
+        position: absolute;
+        right: -25px;
+        bottom: -50px;
     }
 }
 
-
-
-.member-description{
-    font-weight: 300;
-    font-size: 18px;
-}
-.members-photos{
-    padding: 50px 0;
-}
-.members-photos a:hover{
-    color: #D3AB5A;
-}
-
-.members-photo img{
-    display: inline-block;
-}
-
-.photo-bg{
-    margin-right: 12px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    width: 100px;
-}
 
 
 /*============= Media =======================*/

@@ -80,6 +80,7 @@
 <script type="text/javascript" src="/js/site2/jquery.fullPage.min.js"></script>
 <script type="text/javascript" src="/js/site2/custom.js"></script>
 <script type="text/javascript" src="/js/site2/jquery.bxslider.min.js"></script>
+{{--<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>--}}
 
 <script>
 	$(function () {

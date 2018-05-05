@@ -78,14 +78,13 @@
                 <h4>Decentralized OS Demand</h4>
             </div>
 
-            <div class="center" style="">
+            <div class="center"  style="">
 
 
-                <div class="os-wrap wrapper">
-                    <div class="os-demand">
+                <div class="os-wrap wrapper" id="selectable">
+                    <div class="os-demand os-demand-select">
 
                         <img src="/images/site2/os/DataPrivacy.png" alt="">
-
                         <img src="/images/site2/os/DataPrivacy-select.png" alt="">
 
                         <div  class="os-title">
@@ -95,9 +94,8 @@
 
                     <div class="os-demand">
 
-                        <img src="/images/site2/os/DecentralizedStorage.png" alt="">
-
                         <img src="/images/site2/os/DecentralizedStorage-select.png" alt="">
+                        <img src="/images/site2/os/DecentralizedStorage.png" alt="">
 
                         <div  class="os-title">
                             <p>Decentralized Storage</p>
@@ -107,9 +105,8 @@
 
                     <div class="os-demand">
 
-                        <img src="/images/site2/os/AccessibleNetworkCommunication.png" alt="">
-
                         <img src="/images/site2/os/AccessibleNetworkCommunication-select.png" alt="">
+                        <img src="/images/site2/os/AccessibleNetworkCommunication.png" alt="">
 
                         <div  class="os-title">
                             <p>Accessible Network </p>
@@ -120,9 +117,8 @@
 
                     <div class="os-demand">
 
-                        <img src="/images/site2/os/AutonomousEconomicSystem.png" alt="">
-
                         <img src="/images/site2/os/AutonomousEconomicSystem-select.png" alt="">
+                        <img src="/images/site2/os/AutonomousEconomicSystem.png" alt="">
 
                         <div  class="os-title">
                             <p>Autonomous Economic</p>
@@ -131,9 +127,8 @@
                     </div>
                     <div class="os-demand">
 
-                        <img src="/images/site2/os/ManagementOfCryptographicAssets.png" alt="">
-
                         <img src="/images/site2/os/ManagementOfCryptographicAssets-select.png" alt="">
+                        <img src="/images/site2/os/ManagementOfCryptographicAssets.png" alt="">
 
                         <div  class="os-title">
                             <p>Management Of</p>
@@ -398,23 +393,280 @@
     </div>
 </section>
 
-<section id="section-distribution" class="services-wrap section">
+<section id="section-team" style="background: #000">
+
     <div class="container">
         <div class="row">
-            <div class="col-md-12 section-title" >
-                <h4>Token Distribution</h4>
+            <!--  members  --->
+            <div class="col-md-12  section-title">
+                <h4 data-animation="fadeInUp" data-animation-delay="700">Team</h4>
+            </div>
+            <div class="wrapper col-md-12">
+                <div class="col-md-12">
+                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                        <div class="team-desc">
+                            <h4 class="team-name center">
+                                <span class="team-member">
+                                    Ocean Lu
+                                </span>
+                            </h4>
+                            <p class="Team">
+                                In charge of user persona team, machine learning, deep learning and algorithm research.
+                                Encapsulate user tags.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                        <div class="team-desc">
+                            <h4 class="team-name center">
+                        <span class="team-member">
+                            Martin Wang
+                        </span>
+                            </h4>
+                            <p class="Team">
+                                In charge of distributed protocol optimization, network layer protocol docking OS.
+                                Secure package storage content
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                        <div class="team-desc">
+                            <h4 class="team-name center">
+                        <span class="team-member">
+                            Kevin Lee
+                        </span>
+                            </h4>
+                            <p class="Team">
+                                In charge of the realization of non-network technology, reform non-network protocol, optimize performance, embed OS
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                        <div class="team-desc">
+                            <h4 class="team-name center">
+                        <span class="team-member">
+                            KJ
+                        </span>
+                            </h4>
+                            <p class="justify" style="text-align: center">
+                                Research mainly on optimization of chain structure, based on the chain algorithm design and implementation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                        <div class="team-desc">
+                            <h4 class="team-name center">
+                            <span class="team-member">
+                                Steven
+                            </span>
+                            </h4>
+                            <p class="Team">
+                                Lead a team of 10 people, in charge of OS's underlying system implementation, deconstruct layers.
+                                <br>
+                                Overall R & D embed all layers of the OS agreement.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                        <div class="team-desc">
+                            <h4 class="team-name center">
+                        <span class="team-member">
+                            Han
+                        </span>
+                            </h4>
+                            <p class="Team">
+                                In charge of Dapp architecture design and development, providing overall API for upper layer access.
+                                System Design and Implementation.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                        <div class="team-desc">
+                            <h4 class="team-name center">
+                        <span class="team-member">
+                            Sheng
+                        </span>
+                            </h4>
+                            <p class="Team">
+                                In charge of security attack and security reinforcement.
+                                Design architecture and develop transport layer security in the protocol layer for the overall OS
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                        <div class="team-desc">
+                            <h4 class="team-name center">
+                        <span class="team-member">
+                            David Silva
+                        </span>
+                            </h4>
+                            <p class="Team">
+                                In charge of the functional design of the OS product and the development of the interface protocol.
+                                Project priority adjustment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                        <div class="team-desc">
+                            <h4 class="team-name center">
+                        <span class="team-member">
+                            JAsmall
+                        </span>
+                            </h4>
+                            <p class="Team">
+                                OS interactive designer expert.
+                                Provide solutions for mainframe human-computer interaction
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                        <div class="team-desc">
+                            <h4 class="team-name center">
+                        <span class="team-member">
+                            Ouy
+                        </span>
+                            </h4>
+                            <p class="Team">
+                                In charge of payment system design and development.
+                                Docking the various payment protocols on the chain safely and quickly.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                        <div class="team-desc center">
+                            <h4 class="team-name center">
+                                <span class="team-member">
+                                    Kaiko
+                                </span>
+                            </h4>
+                            <p class="service-description">
+                                In charge of visual effects, UI designer.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                        <div class="team-desc center">
+                            <h4 class="team-name center">
+                                <span class="team-member">
+                                    others
+                                </span>
+                            </h4>
+                            <p class="service-description">
+                                Overseas team profile to be updated.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="section-distribution" style="background: #000">
+    <div class="container">
+        <div class="col-md-12 section-title" >
+            <h4>Token Distribution</h4>
+        </div>
+        <div style="clear: both"></div>
+        <div class="wrapper">
+            <div class="distribution-title center">
+                <p class="total-distribution">
+                    3,000,000,000
+                </p>
+                <p>
+                    Total Brahma OS Tokens
+                </p>
             </div>
 
-            <!-- Single Service Starts -->
-            <div class="col-md-12  center distribution animated token-distribution" data-animation="fadeInLeft" data-animation-delay="700">
-                <img src="/images/site2/p-token-distribution.png" id="distribution" style="margin: 0 auto"  alt="">
+            <div class="distribution center">
+
+                <div class="distribution-item token-sale">
+
+                    <div class="left">
+                        <div class="distribution-l">
+                            <div class="distribution-circle"></div>
+                            <div class="distribution-line"></div>
+                        </div>
+                        <span class="distribution-percent">40%</span>
+                        <span class="distribution-percent-desc">Token Sale</span>
+                    </div>
+                    <p class="distribution-desc">Build a network of developers and D-App development
+                    community to be distributed for milestones reached and D-Apps build</p>
+                </div>
+
+                <div class="distribution-item business-partnerships">
+                    <div class="left">
+                        <div class="distribution-l">
+                            <div class="distribution-circle"></div>
+                            <div class="distribution-line"></div>
+                        </div>
+                        <span class="distribution-percent">14%</span>
+                        <span class="distribution-percent-desc">Business Partnerships</span>
+                    </div>
+                    <p class="distribution-desc">Build a network of developers and D-App development
+                    community to be distributed for milestones reached and D-Apps build</p>
+                </div>
+
+                <div class="distribution-item foundation">
+                    <div class="left">
+                        <div class="distribution-l">
+                            <div class="distribution-circle"></div>
+                            <div class="distribution-line"></div>
+                        </div>
+                        <span class="distribution-percent">10%</span>
+                        <span class="distribution-percent-desc">Foundation</span></div>
+                    <p class="distribution-desc">Build a network of developers and D-App development
+                        community to be distributed for milestones reached and D-Apps build</p>
+                </div>
+
+                <img src="/images/site2/token-Distribution/TokenDistribution.png" alt="">
+
+                <div class="distribution-item developer-community">
+                    <div class="left">
+                        <div class="distribution-l">
+                            <div class="distribution-circle"></div>
+                            <div class="distribution-line"></div>
+                        </div>
+                        <span class="distribution-percent">8%</span>
+                        <span class="distribution-percent-desc">Developer Community</span>
+                    </div>
+                    <p class="distribution-desc">Build a network of developers and D-App development
+                        community to be distributed for milestones reached and D-Apps build</p>
+                </div>
+
+                <div class="distribution-item early-supporters">
+                    <div class="left">
+                        <div class="distribution-l">
+                            <div class="distribution-line"></div>
+                            <div class="distribution-circle"></div>
+                        </div>
+                        <span class="distribution-percent">8%</span>
+                        <span class="distribution-percent-desc">Early Supporters</span></div>
+                    <p class="distribution-desc">Build a network of developers and D-App development
+                        community to be distributed for milestones reached and D-Apps build</p>
+                </div>
+
+                <div class="distribution-item team-percent">
+                    <div class="left">
+                        <div class="distribution-l">
+                            <div class="distribution-line"></div>
+                            <div class="distribution-circle"></div>
+                        </div>
+                        <span class="distribution-percent">20%</span>
+                        <span class="percent-desc">Team</span>
+                    </div>
+                    <p class="distribution-desc"> Build a network of developers and D-App development
+                        community to be distributed for milestones reached and D-Apps build </p>
+                </div>
+
             </div>
-            <div class="col-md-12 center distribution animated " style="color:red;">
-                <span class="button-line  vertical total-distribution" style="">
-                    Total Brahma OS Tokens: 3,000,000,000
-                </span>
-            </div>
-            <!-- Single Service Ends -->
         </div>
     </div>
 </section>
