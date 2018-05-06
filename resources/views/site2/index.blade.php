@@ -9,8 +9,7 @@
             <div id="topbar-hold" class="nav-hold container">
                 <nav class="navbar" role="navigation">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                data-target=".navbar-responsive-collapse">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-responsive-collapse">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -47,8 +46,8 @@
             </video>
         </div>
 
-        <div class="section-overlay video-overlay" style="display: none"></div>
-        <div class="container home" id="home" style="display: none" >
+        <div class="section-overlay video-overlay"></div>
+        <div class="container home" id="home" >
             <div class="center">
                 <h1 class="well-come" data-animation="fadeInUp" data-animation-delay="700">
                     <span class="home-title">
@@ -71,7 +70,7 @@
 </section>
 
 <section id="section-os" style="background: #1b1c25">
-    <div class="container pack">
+    <div class="container">
         <div class="row center">
             <div class="left section-title">
                 <h4>Decentralized OS Demand</h4>
