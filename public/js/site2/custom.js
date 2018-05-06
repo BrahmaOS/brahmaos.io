@@ -91,24 +91,17 @@ $(function(){
 	
 	// os-demand
 	$('.os-demand').click(function () {
-		var src = $('.os-demand img:nth-of-type(1)').attr('src');
-		src = src.replace('-select', '');
-		src = src.replace('.png', '');
-		$('.os-demand img:nth-of-type(1)').attr('src', src + '-select.png');
-		$('.os-demand img:nth-of-type(2)').attr('src', src +  '.png');
+		var select = $('.os-demand-select');
+		var src = select.children('img:first-of-type').attr('src').replace('-select', '');
+		select.children('img:first-of-type').attr('src',src);
 		
-		$('.os-demand').removeClass('os-demand-select');
+		select.removeClass('os-demand-select');
+		
 		$(this).addClass('os-demand-select');
-		$('.os-demand-select img:nth-of-type(1)').attr('src', src + '.png');
-		$('.os-demand-select img:nth-of-type(2)').attr('src', src + '-select.png');
+		src = $(this).children('img:first-of-type').attr('src').replace('.png', '');
+		$(this).children('img:first-of-type').attr('src', src + '-select.png');
 	});
 	
-	// 快速换屏
-	// $('#root').fullpage({
-	// 	// scrollBar:true,
-	// 	scrollingSpeed: 400
-	// });
-
 	autodivheight();
 	player.play();
 })

@@ -40,8 +40,8 @@
     @yield('content')
 
 </div>
-<div id="section-footer" class="footer-wrap">
-    <div class="container footer center">
+<div id="section-footer" style="background: #000">
+    <div class="container center">
         <div class="row">
             <div class="col-lg-12">
                 <h4 class="footer-title"><!-- Footer Title -->
@@ -49,19 +49,16 @@
                         <img src="/logo-512-2.png" style="" alt="">
                     </a>
                 </h4>
-
-                <!-- Social Links -->
                 <div class="social-icons">
                     <ul>
-                        <li><a target="_blank" href="https://medium.com/brahmalabs"><img src="/images/site2/footer-logo/mudium.png" style="width: 28px; height: 28px" alt=""></a></li>
-                        <li><a target="_blank" href="https://twitter.com/brahma_os"><img src="/images/site2/footer-logo/twitter_F Copy.png" style="width: 28px; height: 28px" alt=""></a></li>
-                        <li><a target="_blank" href="https://t.me/BrahmaOS"><img src="/images/site2/footer-logo/telegram copy.png" style="width: 28px; height: 28px" alt=""></a></li>
-                        <li><a target="_blank" href="https://bitcointalk.org/index.php?topic=2992872.new#new"><img src="/images/site2/footer-logo/bitcoin-2.png" style="width: 28px; height: 28px" alt=""></a></li>
-                        <li><a target="_blank" href="https://github.com/BrahmaOS/"><img src="/images/site2/footer-logo/github.png" style="width: 28px; height: 28px" alt=""></a></li>
+                        <li><a target="_blank" href="https://medium.com/brahmalabs"><img src="/images/site2/footer/mudium.png" style="width: 28px; height: 28px" alt=""></a></li>
+                        <li><a target="_blank" href="https://twitter.com/brahma_os"><img src="/images/site2/footer/twitter.png" style="width: 28px; height: 28px" alt=""></a></li>
+                        <li><a target="_blank" href="https://t.me/BrahmaOS"><img src="/images/site2/footer/telegram.png" style="width: 28px; height: 28px" alt=""></a></li>
+                        <li><a target="_blank" href="https://bitcointalk.org/index.php?topic=2992872.new#new"><img src="/images/site2/footer/bitcoin.png" style="width: 28px; height: 28px" alt=""></a></li>
+                        <li><a target="_blank" href="https://github.com/BrahmaOS/"><img src="/images/site2/footer/github.png" style="width: 28px; height: 28px" alt=""></a></li>
                     </ul>
                 </div>
-
-                <p class="copyright" style="font-size: 14px">Copyright ©️2018 BRAHMACARIYA FOUNDATION LTD.</p>
+                <p class="copyright" style="margin-top: 3vw">Copyright ©️2018 BRAHMACARIYA FOUNDATION LTD.</p>
             </div>
         </div>
     </div>
@@ -77,10 +74,8 @@
 <script type="text/javascript" src="/js/site2/jquery.appear.js"></script>
 <script type="text/javascript" src="/js/site2/video.min.js"></script>
 <script type="text/javascript" src="/js/site2/videojs-contrib-hls.min.js"></script>
-<script type="text/javascript" src="/js/site2/jquery.fullPage.min.js"></script>
 <script type="text/javascript" src="/js/site2/custom.js"></script>
 <script type="text/javascript" src="/js/site2/jquery.bxslider.min.js"></script>
-{{--<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>--}}
 
 <script>
 	$(function () {

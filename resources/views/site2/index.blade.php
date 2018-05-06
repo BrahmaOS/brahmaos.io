@@ -2,7 +2,6 @@
 
 @section('content')
 <a href="" id="top"></a>
-{{--<img id="brahmaos-background section-overlay" src="/images/site2/bg-slider/v2.jpeg" style="position: fixed; top: 0; width: 2082.63px; height: 983px; bottom: auto; right: auto;">--}}
 
 <section id="header" class="header-section section">
     <div class="sticky-bar-wrap">
@@ -71,79 +70,68 @@
     </div>
 </section>
 
-<section id="section-os" style="background: #000">
+<section id="section-os" style="background: #1c1a21">
     <div class="container pack">
         <div class="row center">
             <div class="left section-title">
                 <h4>Decentralized OS Demand</h4>
             </div>
 
-            <div class="center"  style="">
+            <div class="os-wrap center wrapper" id="selectable">
+                <div class="os-demand os-demand-select">
 
+                    <img src="/images/site2/os/DataPrivacy-select.png" alt="">
 
-                <div class="os-wrap wrapper" id="selectable">
-                    <div class="os-demand os-demand-select">
-
-                        <img src="/images/site2/os/DataPrivacy.png" alt="">
-                        <img src="/images/site2/os/DataPrivacy-select.png" alt="">
-
-                        <div  class="os-title">
-                            <p>Data Privacy</p>
-                        </div>
-                    </div>
-
-                    <div class="os-demand">
-
-                        <img src="/images/site2/os/DecentralizedStorage-select.png" alt="">
-                        <img src="/images/site2/os/DecentralizedStorage.png" alt="">
-
-                        <div  class="os-title">
-                            <p>Decentralized Storage</p>
-                        </div>
-                    </div>
-
-
-                    <div class="os-demand">
-
-                        <img src="/images/site2/os/AccessibleNetworkCommunication-select.png" alt="">
-                        <img src="/images/site2/os/AccessibleNetworkCommunication.png" alt="">
-
-                        <div  class="os-title">
-                            <p>Accessible Network </p>
-                            <p>Communication</p>
-                        </div>
-                    </div>
-
-
-                    <div class="os-demand">
-
-                        <img src="/images/site2/os/AutonomousEconomicSystem-select.png" alt="">
-                        <img src="/images/site2/os/AutonomousEconomicSystem.png" alt="">
-
-                        <div  class="os-title">
-                            <p>Autonomous Economic</p>
-                            <p>System</p>
-                        </div>
-                    </div>
-                    <div class="os-demand">
-
-                        <img src="/images/site2/os/ManagementOfCryptographicAssets-select.png" alt="">
-                        <img src="/images/site2/os/ManagementOfCryptographicAssets.png" alt="">
-
-                        <div  class="os-title">
-                            <p>Management Of</p>
-                            <p>Cryptographic Assets</p>
-                        </div>
+                    <div  class="os-title">
+                        <p>Data Privacy</p>
                     </div>
                 </div>
 
+                <div class="os-demand">
+
+                    <img src="/images/site2/os/DecentralizedStorage.png" alt="">
+
+                    <div  class="os-title">
+                        <p>Decentralized Storage</p>
+                    </div>
+                </div>
+
+                <div class="os-demand">
+
+                    <img src="/images/site2/os/AccessibleNetworkCommunication.png" alt="">
+
+                    <div  class="os-title">
+                        <p>Accessible Network </p>
+                        <p>Communication</p>
+                    </div>
+                </div>
+
+                <div class="os-demand">
+
+                    <img src="/images/site2/os/AutonomousEconomicSystem.png" alt="">
+
+                    <div  class="os-title">
+                        <p>Autonomous Economic</p>
+                        <p>System</p>
+                    </div>
+                </div>
+
+                <div class="os-demand">
+
+                    <img src="/images/site2/os/ManagementOfCryptographicAssets.png" alt="">
+
+                    <div  class="os-title">
+                        <p>Management Of</p>
+                        <p>Cryptographic Assets</p>
+                    </div>
+                </div>
             </div>
 
         </div>
     </div>
 </section>
 
-<section id="section-members" class="services-wrap section" style="background: #000">
+<section id="section-members" class="services-wrap section" style="background: #1c1a21">
     <div class="container">
         <div class="row">
             <!--  members  --->
@@ -393,7 +381,7 @@
     </div>
 </section>
 
-<section id="section-team" style="background: #000">
+<section id="section-team" style="background: #1c1a21">
 
     <div class="container">
         <div class="row">
@@ -403,7 +391,7 @@
             </div>
             <div class="wrapper col-md-12">
                 <div class="col-md-12">
-                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="team col-md-3  animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="team-desc">
                             <h4 class="team-name center">
                                 <span class="team-member">
@@ -416,7 +404,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="team col-md-3  animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="team-desc">
                             <h4 class="team-name center">
                         <span class="team-member">
@@ -429,7 +417,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="team col-md-3  animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="team-desc">
                             <h4 class="team-name center">
                         <span class="team-member">
@@ -441,7 +429,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="team col-md-3  animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="team-desc">
                             <h4 class="team-name center">
                         <span class="team-member">
@@ -456,7 +444,7 @@
                 </div>
 
                 <div class="col-md-12">
-                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="team col-md-3  animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="team-desc">
                             <h4 class="team-name center">
                             <span class="team-member">
@@ -470,7 +458,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="team col-md-3  animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="team-desc">
                             <h4 class="team-name center">
                         <span class="team-member">
@@ -483,7 +471,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="team col-md-3  animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="team-desc">
                             <h4 class="team-name center">
                         <span class="team-member">
@@ -496,7 +484,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="team col-md-3  animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="team-desc">
                             <h4 class="team-name center">
                         <span class="team-member">
@@ -512,7 +500,7 @@
                 </div>
 
                 <div class="col-md-12">
-                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="team col-md-3  animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="team-desc">
                             <h4 class="team-name center">
                         <span class="team-member">
@@ -525,7 +513,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="team col-md-3  animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="team-desc">
                             <h4 class="team-name center">
                         <span class="team-member">
@@ -538,7 +526,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="team col-md-3  animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="team-desc center">
                             <h4 class="team-name center">
                                 <span class="team-member">
@@ -550,7 +538,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="team col-md-3 col-xs-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="team col-md-3  animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="team-desc center">
                             <h4 class="team-name center">
                                 <span class="team-member">
@@ -569,13 +557,14 @@
 
 </section>
 
-<section id="section-distribution" style="background: #000">
+<section id="section-distribution" style="background: #1c1a21">
     <div class="container">
         <div class="col-md-12 section-title" >
             <h4>Token Distribution</h4>
         </div>
         <div style="clear: both"></div>
         <div class="wrapper">
+
             <div class="distribution-title center">
                 <p class="total-distribution">
                     3,000,000,000
@@ -585,7 +574,7 @@
                 </p>
             </div>
 
-            <div class="distribution center">
+            <div class="distribution-pc center">
 
                 <div class="distribution-item token-sale">
 
@@ -664,11 +653,15 @@
                 </div>
 
             </div>
+
+            <div class="distribution-phone center">
+                <img src="/images/site2/tokenDistribution/tokendistribution-phone.png" alt="">
+            </div>
         </div>
     </div>
 </section>
 
-<section id="section-roadmap" style="background: #000000">
+<section id="section-roadmap" style="background: #1c1a21">
     <div class="container">
 
         <div class="col-md-12 section-title">
@@ -678,12 +671,10 @@
 
         <div class="wrapper roadmap">
 
-            <div class="road2">
-
+            <div class="road road2">
                 <div class="road-circle">
-                    <img src="/images/site2/roadmap/logo.png" alt="">
+                    <img src="/images/site2/roadmap/road2.png" alt="">
                 </div>
-
                 <div class="road-desc">
                     <div class="road-title">
                         Q2
@@ -692,47 +683,80 @@
                         To boot and to complete the first setup of deeply customized Brahma OS based on Andriod
                     </p>
                 </div>
+            </div>
 
+            <div class="road-line">
+            </div>
+
+            <div class="road road3">
+                <div class="road-desc">
+                    <div class="road-title">
+                        Q3
+                    </div>
+                    <p>
+                        To boot and to complete the first setup of deeply customized Brahma OS based on Andriod
+                    </p>
+                </div>
+                <div class="road-circle">
+                    <img src="/images/site2/roadmap/road3.png" alt="">
+                </div>
+            </div>
+
+            <div class="road-line road-line3-4">
+            </div>
+
+            <div class="road road4">
+                <div class="road-circle">
+                    <img src="/images/site2/roadmap/road4.png" alt="">
+                </div>
+                <div class="road-desc">
+                    <div class="road-title">
+                        Q2
+                    </div>
+                    <p>
+                        To boot and to complete the first setup of deeply customized Brahma OS based on Andriod
+                    </p>
+                </div>
+            </div>
+
+            <div class="road-line road-line4-5">
             </div>
 
         </div>
     </div>
 </section>
 
-<section id="section-Partners" class="services-wrap section" style="background: #000000">
-    <div class="container pack">
-        <div class="row">
-            <div class="subcontent">
-                <div class="col-md-12 section-title">
-                    <h4 data-animation="fadeInUp" data-animation-delay="700">Partners and Advisors</h4>
-                </div>
-                <div>
-                    <img src="/images/site2/link/citibank.png" data-animation="fadeInUp" data-animation-delay="700" alt="">
-                    <img src="/images/site2/link/14.png"  data-animation="fadeInUp" data-animation-delay="700"  alt="">
-                    <img src="/images/site2/link/13.png" data-animation="fadeInUp" data-animation-delay="700" alt="">
-                    <a href="https://jun.capital/" target="_blank" class="animated"><img style="cursor: pointer" src="/images/site2/link/jun.png" data-animation="fadeInUp" data-animation-delay="700" alt=""></a>
-                    <a href="https://www.abcf.london/" target="_blank" class="animated"><img src="/images/site2/link/abcf.png" data-animation="fadeInUp" data-animation-delay="700" alt=""></a>
-                    <a href="http://www.vipidc.com/" target="_blank" class="animated"><img src="/images/site2/link/vipidc.png" data-animation="fadeInUp" data-animation-delay="700"  alt=""></a>
-                    <a href="http://bitfwd.com/" target="_blank" class="animated"><img src="/images/site2/link/Bitfwd.png" data-animation="fadeInUp" data-animation-delay="700" alt=""></a>
-                    <img src="/images/site2/link/ccp.png" data-animation="fadeInUp" data-animation-delay="700" alt="">
-                    <a href="http://www.xgenomics.org/" target="_blank" class="animated"><img src="/images/site2/link/XGenomics.png" data-animation="fadeInUp" data-animation-delay="700" alt=""></a>
-                    <a href="https://www.filecoinasia.com" target="_blank" class="animated"><img src="/images/site2/link/filecoin-logo.png" data-animation="fadeInUp" data-animation-delay="700" alt=""></a>
-                    <a href="http://www.jinse.com" target="_blank" class="animated"><img src="/images/site2/link/jinse.png" data-animation="fadeInUp" data-animation-delay="700" alt=""></a>
-                    <a href="http://www.huawei.com/" target="_blank" class="animated"><img src="/images/site2/link/3.png" data-animation="fadeInUp" data-animation-delay="700" alt=""></a>
-                </div>
+<section id="section-partners" style="background: #1c1a21">
+    <div class="container">
+        <div class="partners">
+            <div class="col-md-12 section-title">
+                <h4>Partners and Advisors</h4>
             </div>
-            <!-- Single Service Ends -->
+            <div class="partners-item center wrapper">
+                <img src="/images/site2/link/citibank.png" alt="">
+                <img src="/images/site2/link/14.png"   alt="">
+                <img src="/images/site2/link/13.png" alt="">
+                <a href="https://jun.capital/" target="_blank" class="animated"><img style="cursor: pointer" src="/images/site2/link/jun.png" alt=""></a>
+                <a href="https://www.abcf.london/" target="_blank" class="animated"><img src="/images/site2/link/abcf.png" alt=""></a>
+                <a href="http://www.vipidc.com/" target="_blank" class="animated"><img src="/images/site2/link/vipidc.png"  alt=""></a>
+                <a href="http://bitfwd.com/" target="_blank" class="animated"><img src="/images/site2/link/Bitfwd.png" alt=""></a>
+                <img src="/images/site2/link/ccp.png" alt="">
+                <a href="http://www.xgenomics.org/" target="_blank" class="animated"><img src="/images/site2/link/XGenomics.png" alt=""></a>
+                <a href="https://www.filecoinasia.com" target="_blank" class="animated"><img src="/images/site2/link/filecoin-logo.png" alt=""></a>
+                <a href="http://www.jinse.com" target="_blank" class="animated"><img src="/images/site2/link/jinse.png" alt=""></a>
+                <a href="http://www.huawei.com/" target="_blank" class="animated"><img src="/images/site2/link/3.png" alt=""></a>
+            </div>
         </div>
     </div>
 </section>
 
-<section id="section-Media" class="services-wrap section" style="background: #000;" >
-    <div class="container pack">
+<section id="section-media" style="background: #1c1a21" >
+    <div class="container">
         <div class="row">
             <div class="col-md-12 section-title">
                 <h4 >Media</h4>
             </div>
-            <div>
+            <div class="media-item wrapper center">
                 <a href="https://cointelegraph.com/press-releases/brahma-os-is-the-decentralized-value-operating-system-based-on-revolutionary-blockchain-technology" target="_blank" class="media-img"><img src="/images/site2/media/Group 3.png"  alt=""></a>
                 <a href="http://bitcoinist.com/brahma-os-decentralized-value-operating-system-based-revolutionary-blockchain-technology/" target="_blank" class="media-img"><img src="/images/site2/media/Group 4.png"   alt=""></a>
                 <a href="http://allcoinsnews.com/2018/02/22/brahma-os-decentralized-value-operating-system-based-on-revolutionary-blockchain-tech/"  target="_blank" class="media-img"><img src="/images/site2/media/Group 5.png"   alt=""></a>
@@ -749,85 +773,54 @@
     </div>
 </section>
 
-<section id="section-contact" class="services-wrap section" style="background: #000">
+<section id="section-contact" style="background: #1c1a21">
     <div class="container pack" >
         <div class="row">
             <div class="section-title">
-                <h4>Contact-Project BRAHMA</h4>
-            </div>
-
-            <div style="margin-bottom: 40px">
-                <span>
+                <h4>Contact-Project Brahma</h4>
+                <p>
                     Investors should be cautious to evadeinvestment risks
-                </span>
+                </p>
+            </div>
+            <div class="center contact-title">
+                <h5>Bramha Official Designated Contact</h5>
             </div>
 
-            <div class="center section-title" style="margin-bottom: 50px;">
-                <h5 style="font-size: 20px">Bramha Official Designated Contact</h5>
+            <div class="center contacts wrapper">
+
+                <div class="contact-info">
+                    <div>
+                        <img src="/images/site2/concats/Japan.png" alt="">
+                    </div>
+                    <div>
+                        East Asia (Japan Area) Authorised Agent
+                    </div>
+                    <p>
+                        Ryan kim : &nbsp; <span style="color: #f4f4f4; font-weight: 400">ryan0911@naver.com</span>
+                    </p>
+                </div>
+                <div class="contact-info">
+                    <div>
+                        <img src="/images/site2/concats/Korea.png" alt="">
+                    </div>
+                    <div>
+                        East Asia (South Korea Area) Authorised Agent
+                    </div>
+                    <p>Coinway Ventures (ICO BANK) : &nbsp; </p>
+                    <p style="color: #f4f4f4; font-weight: 400">최제호 &nbsp; osbrahma2@gmail.com</p>
+                </div>
+                <div class="contact-info">
+                    <div>
+                        <img src="/images/site2/concats/other.png" alt="">
+                    </div>
+                    <div>
+                        Other Area
+                    </div>
+                    <p style="color: #f4f4f4; font-weight: 400">Lynn@brahmalabs.org</p>
+                </div>
             </div>
-            <div class="center">
-                    <div class="contact-message" >
-                        <div>
-                            Asian Area
-                        </div>
-                        Karen LIU : &nbsp; Lynn@brahmalabs.org
-                    </div>
-
-                    <div class="contact-message">
-                        <div>
-                            East Asia (South Korea Area) Authorised Agent
-                        </div>
-                        Coinway Ventures (ICO BANK) : &nbsp; 최제호 &nbsp; osbrahma2@gmail.com
-                    </div>
-
-                    <div class="contact-message">
-                        <div>
-                            East Asia (Japan Area) Authorised Agent
-                        </div>
-                        Ryan kim : &nbsp; ryan0911@naver.com
-                    </div>
-
-                    <div class="contact-message">
-                        <div>
-                            Other Area
-                        </div>
-                        Lynn@brahmalabs.org
-                    </div>
-            </div>
-
         </div>
     </div>
 </section>
 
-<!-- Modal -->
-<div class="sign-in modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document" style="margin-top: 200px;">
-        <div class="modal-content">
-            <div class="logo"></div>
-            <div class="modal-header center header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -50px"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title title" id="myModalLabel">SIGN IN</h4>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                        <input type="email"  name="email" class="form-control" id="email" placeholder="Email address">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" name="password" class="form-control" id="password" placeholder="Password">
-                    </div>
-                    <div class="checkbox">
-                        <label>
-                            <input type="checkbox" name="remember" id="remember"> Remember me
-                        </label>
-                    </div>
-                    <button type="button" id="submmit" class="btn btn-default btn-lg btn-block submit" style="border-radius: 20px;">SIGN IN</button>
-                    <div class="has-error center">
-                        <label class="control-label" for="inputError1" id="error-message"></label>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
 @endsection
