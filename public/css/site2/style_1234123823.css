@@ -356,7 +356,7 @@ ul.nav > li > a:hover {
 
 @media (max-width: 720px){
     .nav .current::before{
-        height: 2vh;
+        height: 15px;
         top:35%;
     }
 }
