@@ -40,7 +40,7 @@
     @yield('content')
 
 </div>
-<div id="section-footer" style="background: #000">
+<div id="section-footer">
     <div class="container center">
         <div class="row">
             <div class="col-lg-12">

@@ -151,7 +151,7 @@ return [
      * Settings for extensions.
      */
     'extensions' => [
-	    'media-manager' => [
+	    'omedia-manager' => [
 		    'disk' => 'public'
 	    ],
     ],
