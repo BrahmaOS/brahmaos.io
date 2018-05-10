@@ -859,12 +859,12 @@
 
                 <div style="margin-bottom: 40px">
                     <span style="color: #7F8C8D">
-                        Investors should be cautious to evadeinvestment risks
+                        Investors should be cautious to evade investment risks
                     </span>
                 </div>
 
                 <div class="center section-title" style="margin-bottom: 50px;">
-                    <h5 style="color: #7F8C8D; font-size: 20px">Bramha Official Designated Contact</h5>
+                    <h5 style="color: #7F8C8D; font-size: 20px">Brahma Official Designated Contact</h5>
                 </div>
                 <div>
                         <div class="contact-message " >
