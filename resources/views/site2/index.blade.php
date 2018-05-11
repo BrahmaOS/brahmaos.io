@@ -139,8 +139,8 @@
 
                 <div id="bx-pager" class="members-photos col-md-6 col-sm-12 animated" data-animation="bounceInLeft" data-animation-delay="1100">
 
-                    <div class="left">
-                        <p class="member-thum-desc">They are an import part of the team</p>
+                    <div class="center member-thum-title">
+                        <p>They are an import part of the team</p>
                     </div>
 
                     <div class="col-md-12 member-thum">

@@ -45,17 +45,15 @@
         <div class="row">
             <div class="col-lg-12">
                 <h4 class="footer-title"><!-- Footer Title -->
-                    <a class="site-name navbar-brand" href="/">
-                        <img src="/logo-512-2.png" style="" alt="">
-                    </a>
+                    <img src="/logo-icon-01.png" style="" alt="">
                 </h4>
                 <div class="social-icons">
                     <ul>
-                        <li><a target="_blank" href="https://medium.com/brahmalabs"><img src="/images/site2/footer/mudium.png" style="width: 28px; height: 28px" alt=""></a></li>
-                        <li><a target="_blank" href="https://twitter.com/brahma_os"><img src="/images/site2/footer/twitter.png" style="width: 28px; height: 28px" alt=""></a></li>
-                        <li><a target="_blank" href="https://t.me/BrahmaOS"><img src="/images/site2/footer/telegram.png" style="width: 28px; height: 28px" alt=""></a></li>
-                        <li><a target="_blank" href="https://bitcointalk.org/index.php?topic=2992872.new#new"><img src="/images/site2/footer/bitcoin.png" style="width: 28px; height: 28px" alt=""></a></li>
-                        <li><a target="_blank" href="https://github.com/BrahmaOS/"><img src="/images/site2/footer/github.png" style="width: 28px; height: 28px" alt=""></a></li>
+                        <li><a target="_blank" href="https://medium.com/brahmalabs"><img src="/images/site2/footer/mudium.png" alt=""></a></li>
+                        <li><a target="_blank" href="https://twitter.com/brahma_os"><img src="/images/site2/footer/twitter.png" alt=""></a></li>
+                        <li><a target="_blank" href="https://t.me/BrahmaOS"><img src="/images/site2/footer/telegram.png" alt=""></a></li>
+                        <li><a target="_blank" href="https://bitcointalk.org/index.php?topic=2992872.new#new"><img src="/images/site2/footer/bitcoin.png" alt=""></a></li>
+                        <li><a target="_blank" href="https://github.com/BrahmaOS/"><img src="/images/site2/footer/github.png" alt=""></a></li>
                     </ul>
                 </div>
                 <p class="copyright" style="margin-top: 3vw">Copyright ©️2018 BRAHMACARIYA FOUNDATION LTD.</p>
