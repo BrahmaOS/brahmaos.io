@@ -347,7 +347,7 @@ ul.nav > li > a:hover {
 .nav .current::before{
     content: "";
     width: 2px;
-    height: 3vh;
+    height: 15px;
     position: absolute;
     top:35%;
     left: 0;
@@ -664,7 +664,7 @@ ul.nav > li > a:hover {
 }
 .distribution-pc img{
     display: inline !important;
-    width: 30vw;
+    /*width: 30vw;*/
 }
 .distribution-phone{
     display: none;
@@ -683,9 +683,13 @@ ul.nav > li > a:hover {
 .total-distribution{
     color: #D3AB5A;
     font-size: 3vw;
+    font-weight: 400;
+}
+.total-distribution p{
+    font-size: 3vw;
 }
 .distribution-item{
-    width: 20vw;
+    width: 23vw;
     position: absolute;
     display: inline-block;
 }
@@ -694,7 +698,7 @@ ul.nav > li > a:hover {
 }
 .distribution-item .distribution-desc{
     text-align: left;
-    font-size: 1vw;
+    font-size: 16px;
 }
 .distribution-item .distribution-percent{
     font-size: 2vw;
@@ -727,16 +731,16 @@ ul.nav > li > a:hover {
     border-radius:4px;
 }
 .token-sale{
-    left: 8vw;
-    top: 5vh;
+    left: 11vw;
+    top: 30px;
 }
 .business-partnerships{
-    left: 6vw;
-    top: 37vh;
+    left: 8vw;
+    top: 220px;
 }
 .foundation{
-    left: 10vw;
-    bottom: 15vh;
+    left: 13vw;
+    bottom: 120px;
 }
 .foundation .distribution-l{
     top: 1.7vh;
@@ -744,7 +748,7 @@ ul.nav > li > a:hover {
 }
 .developer-community{
     left: 35vw;
-    bottom: -8vh;
+    bottom: -10%;
 }
 .developer-community .distribution-l{
     left: 0;
@@ -759,21 +763,54 @@ ul.nav > li > a:hover {
     left: 4px;
 }
 .early-supporters{
-    right: 5vw;
+    right: 7vw;
     bottom: 10vh;
 }
 .early-supporters .distribution-l{
-    left: -17vw;
+    left: -18vw;
 }
 .team-percent{
-    right: 5vw;
-    top: 25vh;
+    right: 4vw;
+    top: 210px;
 }
 .team-percent .distribution-l{
-    left: -17vw;
+    left: -18vw;
 }
 
 
+@media (max-width: 1400px){
+    .distribution-item .distribution-desc {
+        font-size: 12px;
+    }
+    .token-sale {
+        left: 9vw;
+        top: 20px;
+    }
+    .business-partnerships {
+        left: 6vw;
+    }
+    .foundation {
+        left: 10vw;
+        bottom: 23%;
+    }
+    #section-distribution .wrapper{
+        margin-bottom: 25vh;
+    }
+}
+
+@media (max-width: 720px){
+    #section-distribution .wrapper{
+        margin-bottom: 12vh;
+    }
+    .total-distribution{
+        color: #D3AB5A;
+        font-size: 18px;
+    }
+    .distribution-title p{
+        font-size: 12px !important;
+        margin-top: -10px;
+    }
+}
 
 /* ===== roadmap section =====*/
 #section-roadmap {

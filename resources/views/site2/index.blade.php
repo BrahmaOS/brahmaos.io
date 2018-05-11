@@ -639,9 +639,9 @@
         <div class="wrapper">
 
             <div class="distribution-title center">
-                <p class="total-distribution">
+                <h3 class="total-distribution">
                     3,000,000,000
-                </p>
+                </h3>
                 <p>
                     Total Brahma OS Tokens
                 </p>

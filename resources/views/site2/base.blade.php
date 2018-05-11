@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="/css/site2/jquery.bxslider.css"/>
 
     <!--=== Main Stylesheets ===-->
-    <link rel="stylesheet" href="/css/site2/style_1234123823.css"/>
+    <link rel="stylesheet" href="/css/site2/style_923.css"/>
 
     <link rel="stylesheet" id="scheme-source" href="/css/site2/schemes/gray.css"/>
     <link rel="stylesheet" id="scheme-source" href="/css/site2/video-js.min.css"/>
