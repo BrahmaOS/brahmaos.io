@@ -714,6 +714,7 @@ ul.nav > li > a:hover {
     width: 23vw;
     position: absolute;
     display: inline-block;
+    z-index: -1;
 }
 .distribution-item div:first-of-type{
     position: relative;
@@ -801,7 +802,7 @@ ul.nav > li > a:hover {
 }
 .early-supporters{
     right: 7vw;
-    bottom: 10vh;
+    bottom: 8vh;
 }
 .early-supporters .distribution-l{
     left: -18vw;
@@ -919,7 +920,7 @@ ul.nav > li > a:hover {
     left: 32.4vw;
     width: 27vw;
     height: 27vw;
-    z-index: -1;
+    z-index: -2;
 }
 .road-line::before{
     content:"";
