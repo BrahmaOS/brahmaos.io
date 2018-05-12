@@ -859,7 +859,7 @@
         <div class="row">
             <div class="section-title">
                 <h4>Contact-Project Brahma</h4>
-                <p style="font-size: 1vw">
+                <p>
                     Investors should be cautious to evadeinvestment risks
                 </p>
             </div>

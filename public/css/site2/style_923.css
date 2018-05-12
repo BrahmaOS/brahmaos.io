@@ -976,6 +976,10 @@ ul.nav > li > a:hover {
     width: 20vw;
 }
 /*============= Contact =====================*/
+#section-contact .section-title p{
+    font-size: 14px;
+    font-weight: 200;
+}
 .contacts{
     display: flex;
     justify-content: center;
@@ -984,8 +988,10 @@ ul.nav > li > a:hover {
 .contact-title{
     margin-top: 30px;
     margin-bottom: 60px;
-    font-size: 24px;
     color: #D3AB5A;
+}
+.contact-title h5{
+    font-size: 24px;
 }
 .contact-info {
     margin: 2vw;
