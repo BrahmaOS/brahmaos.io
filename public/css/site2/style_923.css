@@ -916,10 +916,9 @@ ul.nav > li > a:hover {
 .road-line{
     position: absolute;
     top:0;
-    left: 33.4vw;
-    width: 26vw;
-    height: 26vw;
-    /*border: 1px solid red;*/
+    left: 32.4vw;
+    width: 27vw;
+    height: 27vw;
     z-index: -1;
 }
 .road-line::before{
