@@ -998,7 +998,11 @@ ul.nav > li > a:hover {
     margin: 2vw;
     width: 23vw;
 }
-
+@media (max-width: 1400px) {
+    .contact-info:nth-of-type(2) {
+        width: 27vw;
+    }
+}
 .contact-info div:first-of-type{
     margin-bottom: 3vw;
 }
