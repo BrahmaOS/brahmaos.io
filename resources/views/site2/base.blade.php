@@ -56,7 +56,7 @@
                         <li><a target="_blank" href="https://github.com/BrahmaOS/"><img src="/images/site2/footer/github.png" alt=""></a></li>
                     </ul>
                 </div>
-                <p class="copyright" style="margin-top: 3vw">Copyright ©️2018 BRAHMACARIYA FOUNDATION LTD.</p>
+                <p class="copyright" style="margin-top: 2vw">Copyright ©️2018 BRAHMACARIYA FOUNDATION LTD.</p>
             </div>
         </div>
     </div>
