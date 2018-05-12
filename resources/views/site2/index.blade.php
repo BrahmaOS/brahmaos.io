@@ -139,10 +139,6 @@
 
                 <div id="bx-pager" class="members-photos col-md-6 col-sm-12 animated" data-animation="bounceInLeft" data-animation-delay="1100">
 
-                    <div class="center member-thum-title">
-                        <p>They are an import part of the team</p>
-                    </div>
-
                     <div class="col-md-12 member-thum">
                         <a data-slide-index="0" href="" class="photo-hold">
                             <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
