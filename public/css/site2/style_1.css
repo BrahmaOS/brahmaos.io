@@ -239,6 +239,7 @@ font-weight: 700;
 
 .button-white {
 	border-color: #fff;
+    border-radius: 20px;
 	color: #fff;
 }
 
@@ -429,12 +430,15 @@ ul.nav > li > a:hover {
 	margin-bottom: 48px;
 	color: #fff;
 	font-weight: 300;
+    max-width: 800px;
+    text-align: left;
 }
 #play-video{
 	margin:5px 20px;
 	min-width: 220px;
 	/*border: 1px solid #fff;*/
 	border: .06666em solid #fff;
+    border-radius: 20px;
 }
 @media (max-width: 720px){
     .home {
