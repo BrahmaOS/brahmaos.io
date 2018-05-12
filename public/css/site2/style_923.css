@@ -979,6 +979,7 @@ ul.nav > li > a:hover {
 #section-contact .section-title p{
     font-size: 14px;
     font-weight: 200;
+    margin-left: 20px;
 }
 .contacts{
     display: flex;
