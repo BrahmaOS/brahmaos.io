@@ -854,7 +854,7 @@ ul.nav > li > a:hover {
 /* ===== roadmap section =====*/
 #section-roadmap {
     background-image: url('/images/site2/roadmap/roadmapbg.png');
-    background-position: 100%;
+    background-position: center;
 }
 
 .roadmap{
