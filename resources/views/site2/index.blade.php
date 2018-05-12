@@ -772,7 +772,7 @@
                         Q3
                     </div>
                     <p>
-                        To boot and to complete the first setup of deeply customized Brahma OS based on Andriod
+                        To publish Brahma Chain's dissertation and to hold the conference
                     </p>
                 </div>
                 <div class="road-circle">
@@ -789,10 +789,10 @@
                 </div>
                 <div class="road-desc">
                     <div class="road-title">
-                        Q2
+                        Q4
                     </div>
                     <p>
-                        To boot and to complete the first setup of deeply customized Brahma OS based on Andriod
+                        To ingtegrate Brahma Chain into Brahma OS and to install in the partner's mobile phone for internal testing
                     </p>
                 </div>
             </div>

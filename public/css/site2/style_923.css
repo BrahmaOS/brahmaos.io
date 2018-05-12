@@ -890,7 +890,7 @@ ul.nav > li > a:hover {
 }
 .road-desc{
     width: 30vw;
-    font-size: 1vw;
+    font-size: 16px;
     font-weight: 300;
     line-height: 1.5vw;
 }
@@ -956,7 +956,7 @@ ul.nav > li > a:hover {
     margin-left: 12vw;
 }
 .road4 .road-desc{
-    margin-left: 2vw;
+    margin-left: 4vw;
 }
 .road-line4-5{
     top:40vw;
