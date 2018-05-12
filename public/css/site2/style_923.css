@@ -710,6 +710,12 @@ ul.nav > li > a:hover {
 .distribution-item div:first-of-type{
     position: relative;
 }
+
+.distribution-dash-line{
+    width: 1px;
+    height: 3vw;
+    background: #D3AB5A;
+}
 .distribution-item .distribution-desc{
     text-align: left;
     font-size: 16px;
@@ -736,6 +742,8 @@ ul.nav > li > a:hover {
     height: 1px;
     background: #D3AB5A;
 }
+
+
 .distribution-circle{
     width: 8px;
     height: 8px;
@@ -757,8 +765,15 @@ ul.nav > li > a:hover {
     bottom: 120px;
 }
 .foundation .distribution-l{
-    top: 1.7vh;
+    /*top: 3vw;*/
     right: -10vw;
+    align-items: flex-start;
+}
+.foundation .distribution-circle{
+    position: absolute;
+    left: 27%;
+    bottom: 0;
+    align-items: flex-start;
 }
 .developer-community{
     left: 35vw;
@@ -794,7 +809,7 @@ ul.nav > li > a:hover {
 
 @media (max-width: 1400px){
     .distribution-item .distribution-desc {
-        font-size: 14px;
+        font-size: 16px;
     }
     .token-sale {
         left: 6vw;
@@ -806,7 +821,7 @@ ul.nav > li > a:hover {
     }
     .foundation {
         left: 10vw;
-        bottom: 23%;
+        bottom: 16%;
     }
     #section-distribution .wrapper{
         margin-bottom: 25vh;

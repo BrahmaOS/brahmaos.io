@@ -677,9 +677,11 @@
 
                 <div class="distribution-item animated foundation" data-animation="bounceInLeft" data-animation-delay="1100">
                      <div class="left">
-                        <div class="distribution-l">
-                            <div class="distribution-circle"></div>
-                            <div class="distribution-line"></div>
+                            <div class="distribution-l">
+                                <div class="distribution-dash-line"></div>
+                                <div class="distribution-line"></div>
+                                <div class="distribution-circle">
+                            </div>
                         </div>
                         <span class="distribution-percent">10%</span>
                         <span class="distribution-percent-desc">Foundation</span>
