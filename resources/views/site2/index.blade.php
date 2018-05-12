@@ -468,7 +468,7 @@
         <div class="row">
             <!--  members  --->
             <div class="col-md-12  section-title">
-                <h4 data-animation="fadeInUp" data-animation-delay="700">Team</h4>
+                <h4 data-animation="fadeInUp" data-animation-delay="700">Team responsibility</h4>
             </div>
             <div class="wrapper col-xs-12 col-md-12">
                 <div class="col-md-12 team-item">
