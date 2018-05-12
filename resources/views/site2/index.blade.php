@@ -726,7 +726,6 @@
                     </div>
                     <p class="distribution-desc">Incentive for the founding team of the project to be distributed over 2 years</p>
                 </div>
-
             </div>
 
             <div class="distribution-phone center">
