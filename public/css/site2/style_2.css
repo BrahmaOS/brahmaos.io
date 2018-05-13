@@ -459,6 +459,7 @@ ul.nav > li > a:hover {
     }
     .intro-message{
         font-size: 16px;
+        text-align: center;
     }
     .video-overlay{
         display: block;
@@ -662,18 +663,15 @@ ul.nav > li > a:hover {
 }
 .team{
     text-align: left;
-    font-size: 1vw;
+    font-size: 16px;
 }
 .team-item .col-xs-12{
     padding: 0 !important;
 }
 @media (max-width: 720px){
     .team{
-        /*min-height: 350px;*/
+        font-size: 12px;
         text-align: center;
-    }
-    .team-desc{
-
     }
 }
 

@@ -725,7 +725,7 @@
             </div>
 
             <div class="distribution-phone center">
-                <img src="/images/site2/tokenDistribution/tokendistributionPhone.png" alt="">
+                <img src="/images/site2/tokenDistribution/tokendistributionPhone.png" class="animated" data-animation="tada" data-animation-delay="900" alt="">
             </div>
         </div>
     </div>
@@ -799,7 +799,7 @@
         </div>
         
         <div class="wrapper roadmap-phone">
-            <img src="/images/site2/roadmap/roadmapPhone.png" alt="">
+            <img src="/images/site2/roadmap/roadmapPhone.png" class="animated" data-animation="bounceInUp" data-animation-delay="900" alt="">
         </div>
         
     </div>

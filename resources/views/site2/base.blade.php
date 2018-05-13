@@ -5,10 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Brahma OS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords"
-          content="brm,Brahma,os,blockchain,ico,cryptocurrency">
+    <meta name="keywords" content="brm,Brahma,os,blockchain,ico,cryptocurrency">
     <meta name="description" content="Brahma OS is an operating system that hosts decentralized networks by enabling the deconstruction of existing services and the use of a wide range of decentralized services and components to ensure that users can safely and easily access services on the blockchain and application. "/>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/logo-icon-38.png"/>
     <link rel="stylesheet" href="/css/site2/bootstrap.css"/>
