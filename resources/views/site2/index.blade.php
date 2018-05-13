@@ -737,6 +737,7 @@
         <div class="col-md-12 section-title">
             <h4>Roadmap</h4>
         </div>
+
         <div style="clear: both"></div>
 
         <div class="wrapper roadmap">
@@ -808,9 +809,11 @@
 <section id="section-partners" style="background: #1b1c25">
     <div class="container">
         <div class="partners">
+
             <div class="col-md-12 section-title">
                 <h4>Partners and Advisors</h4>
             </div>
+
             <div class="partners-item center wrapper">
                 <img src="/images/site2/partners/1.png" alt="">
                 <img src="/images/site2/partners/2.png"   alt="">
@@ -825,6 +828,7 @@
                 <a href="http://www.jinse.com" target="_blank" class="animated"><img src="/images/site2/partners/1.png" alt=""></a>
                 <a href="http://www.huawei.com/" target="_blank" class="animated"><img src="/images/site2/partners/12.png" alt=""></a>
             </div>
+
         </div>
     </div>
 </section>
@@ -834,6 +838,7 @@
         <div class="col-md-12 section-title">
             <h4 >Media</h4>
         </div>
+
         <div class="media-item wrapper center">
             <a href="https://cointelegraph.com/press-releases/brahma-os-is-the-decentralized-value-operating-system-based-on-revolutionary-blockchain-technology" target="_blank" class="media-img"><img src="/images/site2/media/1.png"  alt=""></a>
             <a href="http://bitcoinist.com/brahma-os-decentralized-value-operating-system-based-revolutionary-blockchain-technology/" target="_blank" class="media-img"><img src="/images/site2/media/2.png"   alt=""></a>
@@ -847,6 +852,7 @@
             <a href="https://coinjournal.net/pr-release/brahma-os-decentralized-value-operating-system-based-revolutionary-blockchain-technology/" target="_blank" class="media-img"><img src="/images/site2/media/10.png"   alt=""></a>
             <a href="https://news.bitcoin.com/pr-brahma-os-is-the-decentralized-value-operating-system-based-on-revolutionary-blockchain-technology/" target="_blank" class="media-img"><img src="/images/site2/media/11.png"   alt=""></a>
         </div>
+
     </div>
 </section>
 
