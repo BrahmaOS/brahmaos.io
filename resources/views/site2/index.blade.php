@@ -799,8 +799,8 @@
 
         </div>
         
-        <div class="wrapper roadmap-phone">
-            <img src="/images/site2/roadmap/roadmapPhone.png" class="animated" data-animation="bounceInUp" data-animation-delay="900" alt="">
+        <div class="wrapper roadmap-phone animated" data-animation="bounceInUp" data-animation-delay="900">
+            <img src="/images/site2/roadmap/roadmapPhone.png"  alt="">
         </div>
         
     </div>
