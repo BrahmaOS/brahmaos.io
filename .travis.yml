@@ -12,7 +12,7 @@ before_install:
 - cp .env.example .env
 - php artisan key:generate
 after_success:
-- ssh tokyo "sh deploy.sh"
+- ssh tokyo "sh beta.sh"
 env:
 - APP_DEBUG=false
 addons:
