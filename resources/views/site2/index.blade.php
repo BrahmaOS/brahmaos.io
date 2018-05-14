@@ -191,46 +191,46 @@
                         <a data-slide-index="5" href="" class="photo-hold">
                             <img src="/images/site2/members/Liu Xingchu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
                             <p class="member-name-small">
-                                Elaine Shehu
-                            </p>
-                            <p class="member-position-small">
-                                Tech Advisor
-                            </p>
-                        </a>
-                        <a data-slide-index="6" href="" class="photo-hold">
-                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
-                            <p class="member-name-small">
                                 Liu Xingchu
                             </p>
                             <p class="member-position-small">
                                 Engineer Lead
                             </p>
                         </a>
-                        <a data-slide-index="7" href="" class="photo-hold">
-                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                        <a data-slide-index="6" href="" class="photo-hold">
+                            <img src="/images/site2/members/default-92.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
                             <p class="member-name-small">
-                                Bella liu
+                                Trevor Smith
                             </p>
                             <p class="member-position-small">
-                                co-founder
+                                OS Architect
+                            </p>
+                        </a>
+                        <a data-slide-index="7" href="" class="photo-hold">
+                            <img src="/images/site2/members/default-92.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                            <p class="member-name-small">
+                                Srikanth Bodla
+                            </p>
+                            <p class="member-position-small">
+                                DNA Graph Manager
                             </p>
                         </a>
                         <a data-slide-index="8" href="" class="photo-hold">
-                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                            <img src="/images/site2/members/default-92.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
                             <p class="member-name-small">
-                                Bella liu
+                                Shu Collins
                             </p>
                             <p class="member-position-small">
-                                co-founder
+                                Economic Model
                             </p>
                         </a>
                         <a data-slide-index="9" href="" class="photo-hold">
-                            <img src="/images/site2/members/Bella Liu.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
+                            <img src="/images/site2/members/default-92.png" class="photo-bg" alt="" /> <!-- Client photo 1 -->
                             <p class="member-name-small">
-                                Bella liu
+                                KJ
                             </p>
                             <p class="member-position-small">
-                                co-founder
+                                Researcher
                             </p>
                         </a>
                     </div>
@@ -238,6 +238,7 @@
 
                 <div class="col-md-6 col-sm-12 animated" data-animation="bounceInRight" data-animation-delay="1100">
                     <div class="testimonial-slider">
+
                         <div class="testimonial center">
 
                             <div class="members-intro left">
@@ -369,28 +370,7 @@
                             <div class="members-intro left">
                                 <div class="">
                                     <div class="members-photo">
-                                        <img src="/images/site2/members/Liu Xingchu.png" alt="">
-                                    </div>
-                                    <h4 class="member-name">
-                                        Srikanth Bodla
-                                    </h4>
-                                    <h4 class="member-position">
-                                        DNA Graph Manager
-                                    </h4>
-                                    <p class="member-description">
-                                        Srikanth Bodla Is A Solutions Architect/Project Lead With A Strong Background In Business Intelligence & Data Warehousing,
-                                        A Proven Track Record For Successfully Delivering End To End Solutions Addressing Problems & Requirements And
-                                        A Passion For Emerging Technologies Qlikview, Big Data, SAP Hana, SAP BI/BW Technologies And The Apache Hadoop Ecosystem
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="testimonial">
-                            <div class="members-intro left">
-                                <div class="">
-                                    <div class="members-photo">
-                                        <img src="/images/site2/members/Liu Xingchu.png" alt="">
+                                        <img src="/images/site2/members/default-92.png" alt="">
                                     </div>
                                     <h4 class="member-name">
                                         Trevor Smith
@@ -414,7 +394,28 @@
                             <div class="members-intro left">
                                 <div class="">
                                     <div class="members-photo">
-                                        <img src="/images/site2/members/Liu Xingchu.png" alt="">
+                                        <img src="/images/site2/members/default-92.png" alt="">
+                                    </div>
+                                    <h4 class="member-name">
+                                        Srikanth Bodla
+                                    </h4>
+                                    <h4 class="member-position">
+                                        DNA Graph Manager
+                                    </h4>
+                                    <p class="member-description">
+                                        Srikanth Bodla Is A Solutions Architect/Project Lead With A Strong Background In Business Intelligence & Data Warehousing,
+                                        A Proven Track Record For Successfully Delivering End To End Solutions Addressing Problems & Requirements And
+                                        A Passion For Emerging Technologies Qlikview, Big Data, SAP Hana, SAP BI/BW Technologies And The Apache Hadoop Ecosystem
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="members-intro left">
+                                <div class="">
+                                    <div class="members-photo">
+                                        <img src="/images/site2/members/default-92.png" alt="">
                                     </div>
                                     <h4 class="member-name">
                                         Shu Collins
@@ -437,7 +438,7 @@
                             <div class="members-intro left">
                                 <div class="">
                                     <div class="members-photo">
-                                        <img src="/images/site2/members/Liu Xingchu.png" alt="">
+                                        <img src="/images/site2/members/default-92.png" alt="">
                                     </div>
                                     <h4 class="member-name">
                                         KJ
@@ -453,8 +454,6 @@
                                 </div>
                             </div>
                         </div>
-
-
 
                     </div>
                 </div>
