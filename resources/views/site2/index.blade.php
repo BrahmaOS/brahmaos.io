@@ -615,7 +615,7 @@
                                 <div class="arrow-circle"></div>
                             </div>
 
-                            <h1>Phrase 1</h1>
+                            <h1>Phase 1</h1>
                             <p class="roadmap-time">Q3-Q4 2018</p>
                             <h2>Brahma Wallet</h2>
                             <p>
@@ -665,12 +665,12 @@
                             </div>
 
 
-                            <h1>Phrase 0</h1>
+                            <h1>Phase 0</h1>
                             <p class="roadmap-time">Q2-Q4 2018</p>
                             <h2>Overall Objective</h2>
                             <p>To realize a basic and decentralized MVP version with a Brahma Wallets account which support a part of Android followers.</p>
                             <h2>Brahma OS</h2>
-                            <p>For the Brahma OS in Phrase One, our mission (and also our iterative rhythm) is as follows： </p>
+                            <p>For the Brahma OS in Phase One, our mission (and also our iterative rhythm) is as follows： </p>
                             <ul class="disc-list">
                                 <li>To complete the Ethereum blockchain technology stack that implements the LES protocol;</li>
                                 <li>To complete the Android system source code (Android Framework) cutting and partial module reconstruction;</li>
@@ -699,12 +699,12 @@
                     <!-- pc -->
                     <div class="phase phase0 animated"  data-animation="fadeInUp" data-animation-delay="1400">
 
-                        <h1>Phrase 0</h1>
+                        <h1>Phase 0</h1>
                         <p class="roadmap-time">Q2-Q4 2018</p>
                         <h2>Overall Objective</h2>
                         <p>To realize a basic and decentralized MVP version with a Brahma Wallets account which support a part of Android followers.</p>
                         <h2>Brahma OS</h2>
-                        <p>For the Brahma OS in Phrase One, our mission (and also our iterative rhythm) is as follows： </p>
+                        <p>For the Brahma OS in Phase One, our mission (and also our iterative rhythm) is as follows： </p>
                         <ul class="disc-list">
                             <li>To complete the Ethereum blockchain technology stack that implements the LES protocol;</li>
                             <li>To complete the Android system source code (Android Framework) cutting and partial module reconstruction;</li>
@@ -728,7 +728,7 @@
                     </div>
                     <!-- mobile -->
                     <div class="phase phase1 animated"  data-animation="fadeInUp" data-animation-delay="1400">
-                        <h1>Phrase 1</h1>
+                        <h1>Phase 1</h1>
                         <p class="roadmap-time">Q3-Q4 2018</p>
                         <h2>Brahma Wallet</h2>
                         <p>
