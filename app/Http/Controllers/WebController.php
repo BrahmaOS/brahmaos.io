@@ -37,4 +37,19 @@ class WebController extends Controller
     {
         return view('site2.indexzh');
     }
+
+    public function abstract_zh_1()
+    {
+        return view('site2.abstract1zh');
+    }
+
+    public function abstract_zh_2()
+    {
+        return view('site2.abstract2zh');
+    }
+
+    public function abstract_zh_3()
+    {
+        return view('site2.abstract3zh');
+    }
 }

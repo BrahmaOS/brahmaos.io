@@ -28,3 +28,9 @@ Route::post('/sign-in', 'UserController@authenticate');
 Route::post('/encrypt', 'UserController@encrypt');
 
 Route::get('/zh/', 'WebController@index_zh');
+
+Route::get('/zh/abstract/1.html', 'WebController@abstract_zh_1');
+
+Route::get('/zh/abstract/2.html', 'WebController@abstract_zh_2');
+
+Route::get('/zh/abstract/3.html', 'WebController@abstract_zh_3');

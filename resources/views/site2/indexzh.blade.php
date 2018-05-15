@@ -52,15 +52,13 @@
 
                 <div class="col-md-8 col-md-offset-2">
                     <p class="intro-message" >
-                        Brahma OS is an operating system that hosts decentralized networks by enabling the deconstruction of existing services
-                        and the use of a wide range of decentralized services and components to ensure that users can safely and easily access services
-                        on the blockchain and application.
+                        Brahma OS 是一种承载去中心化网络的操作系统，它通过解构已有服务并使用各类去中心化服务和
+                        组件得以实现，确保用户可以安全、无障碍的使用区块链之上的服务和应用。
                     </p>
 
                     <div class="home-buttons" style="margin-bottom: 20px">
-                        <a href="/abstract/1.html" style="margin:5px 20px; min-width: 220px" target="_blank" class="fancy-button WhitePaper button-line button-white vertical">Online WhitePaper</a>
-                        <a href="/Brahma_Whitepaper_Latest.pdf" style="margin:5px 20px; min-width: 220px" target="_blank" class="fancy-button WhitePaper button-line button-white vertical">Download WhitePaper</a>
-                        <a href="/BrahmaOS_Whitepaper_CH_0425.pdf" style="margin:15px 20px; min-width: 220px" target="_blank" class="fancy-button WhitePaper button-line button-white vertical">下载白皮书</a>
+                        <a href="/zh/abstract/1.html" style="margin:5px 20px; min-width: 220px" target="_blank" class="fancy-button WhitePaper button-line button-white vertical">在线白皮书</a>
+                        <a href="/BrahmaOS_Whitepaper_CH_0425.pdf" style="margin:5px 20px; min-width: 220px" target="_blank" class="fancy-button WhitePaper button-line button-white vertical">下载白皮书</a>
                     </div>
                 </div>
             </div>
@@ -72,7 +70,7 @@
     <div class="container pricing OS">
         <div class="row center">
             <div class="center section-title" style="margin-bottom: 70px">
-                <h3 style="margin-bottom: 0px">Decentralized OS Demand</h3>
+                <h3 style="margin-bottom: 0px">去中心化系统的需求</h3>
             </div>
 
             <div class="center" style="display: flex; align-content: center;justify-content: center; flex-wrap: wrap">
@@ -84,11 +82,11 @@
 
                     <div class="sign-up">
                         <div  class="single-title">
-                            <p>Data Privacy</p>
+                            <p>数据隐私</p>
                             <p>&nbsp;</p>
                         </div>
-                        <a href="/abstract/1.html#DataPrivacy" target="_blank" class="fancy-button button-line btn-col zoom">
-                            Details
+                        <a href="/zh/abstract/1.html#DataPrivacy" target="_blank" class="fancy-button button-line btn-col zoom">
+                            详细信息
                             <span class="icon">
                             <i class="fa fa-angle-right"></i>
                         </span>
@@ -104,11 +102,11 @@
                     <img src="/images/site2/decentralized-storage.png" alt="">
                     <div class="sign-up">
                         <div  class="single-title">
-                            <p>Decentralized Storage</p>
+                            <p>分布式存储</p>
                             <p>&nbsp;</p>
                         </div>
-                        <a href="/abstract/1.html#DecentralizedStorage"  target="_blank" class="fancy-button button-line btn-col zoom">
-                            Details
+                        <a href="/zh/abstract/1.html#DecentralizedStorage"  target="_blank" class="fancy-button button-line btn-col zoom">
+                            详细信息
                             <span class="icon">
                             <i class="fa fa-angle-right"></i>
                         </span>
@@ -124,11 +122,10 @@
                     <img src="/images/site2/accessible-network-communication.png" alt="">
                     <div class="sign-up">
                         <div  class="single-title">
-                            <p>Accessible Network</p>
-                            <p>Communication</p>
+                            <p>无障碍网络通信</p>
                         </div>
-                        <a href="/abstract/1.html#AccessibleNetworkCommunication"  target="_blank" class="fancy-button button-line btn-col zoom">
-                            Details
+                        <a href="/zh/abstract/1.html#AccessibleNetworkCommunication"  target="_blank" class="fancy-button button-line btn-col zoom">
+                            详细信息
                             <span class="icon">
                             <i class="fa fa-angle-right"></i>
                         </span>
@@ -145,11 +142,10 @@
 
                     <div class="sign-up">
                         <div  class="single-title">
-                            <p>Autonomous Economic </p>
-                            <p>System</p>
+                            <p>自治经济系统</p>
                         </div>
-                        <a href="/abstract/1.html#AutonomousEconomicSystem" target="_blank" class="fancy-button button-line btn-col zoom">
-                            Details
+                        <a href="/zh/abstract/1.html#AutonomousEconomicSystem" target="_blank" class="fancy-button button-line btn-col zoom">
+                            详细信息
                             <span class="icon">
                             <i class="fa fa-angle-right"></i>
                         </span>
@@ -165,10 +161,9 @@
                     <img src="/images/site2/management-of-cryptographic-assets.png" alt="">
                     <div class="sign-up">
                         <div  class="single-title">
-                            <p>Management Of</p>
-                            <p>Cryptographic Assets</p>
+                            <p>加密资产管理</p>
                         </div>
-                        <a href="/abstract/1.html#ManagementofCryptographicAssets" target="_blank" class="fancy-button button-line btn-col zoom">
+                        <a href="/zh/abstract/1.html#ManagementofCryptographicAssets" target="_blank" class="fancy-button button-line btn-col zoom">
                             Details
                             <span class="icon">
                             <i class="fa fa-angle-right"></i>
@@ -189,7 +184,7 @@
         <div class="row" style="margin-bottom: 50px">
             <!--  members  --->
             <div class="col-md-12 center section-title">
-                <h3 data-animation="fadeInUp" data-animation-delay="700" style="margin-top: 70px">Members</h3>
+                <h3 data-animation="fadeInUp" data-animation-delay="700" style="margin-top: 70px">成员信息</h3>
             </div>
             <div class="members">
 
@@ -202,14 +197,11 @@
                                     Bella liu
                                 </h4>
                                 <h4 class="member-position" style="margin-top: -10px">
-                                    co-founder
+                                    联合创始人
                                 </h4>
                                 <p class="service-description justify">
-                                    12 years experience in the Internet industry
-                                    6 times start-up experiences, with outstanding ability in economic design of product
-                                    Held Important positions in top Internet companies
-                                    Rich asset investment operating experiences in international projects over the past few
-                                    years.
+                                    12年互联网经验，6次创业经验，杰出的产品经济设计能力，
+                                    曾在顶尖互联网公司担任要职，近几年在国际项目中具有丰富的资产投资运营经验。
                                 </p>
                             </div>
                         </div>
@@ -226,9 +218,8 @@
                                     CEO
                                 </h4>
                                 <p class="service-description justify">
-                                    Ex-JP Morgan, Bank of New York Mellon , Bank of Tokyo Mitsubishi.
-                                    Chartered accountant in United Kingdom.
-                                    Masters in Science in Edinburgh and EMBA in Cambridge University Judge Business School.
+                                    曾就职于摩根、纽约梅隆银行、东京三菱银行，英国特许会计师，
+                                    爱丁堡科学硕士和剑桥大学法学商学院EMBA。
                                 </p>
                             </div>
                         </div>
@@ -246,8 +237,8 @@
                                     CTO
                                 </h4>
                                 <p class="service-description justify">
-                                    10 years experiences in architecture design and R&D management in the telecommunication industry and the Internet industry. 
-                                    Leads  R&D  architecture design work in the programmable virtual router team
+                                    具有10年以上电信及互联网行业架构设计与研发管理经验，
+                                    曾主持过可编程虚拟化路由器团队的架构设计工作。
                                 </p>
                             </div>
                         </div>
@@ -264,9 +255,8 @@
                                     CMO
                                 </h4>
                                 <p class="service-description justify">
-                                    Ex-CMO of Vodafone.
-                                    Award-winning professional with success driving customer engagement via the production of analysis and insight on customers’ behaviours and trends.
-                                    Holds a MBA with Cambridge Universiity.
+                                    Vodafone项目前CMO，营销和商业开发负责人，
+                                    成功推动项目改进并提高客户的参与度。剑桥大学MBA。
                                 </p>
                             </div>
                         </div>
@@ -282,12 +272,11 @@
                                     Elaine Shehu
                                 </h4>
                                 <h4 class="member-position" style="margin-top: -10px">
-                                    Tech Advisor
+                                    技术顾问
                                 </h4>
                                 <p class="service-description justify">
-                                    Ex-head of IT strategy on blockchain related projects with Deutsche Bank.
-                                    More than 12 years in developing cloud-based platforms.
-                                    Masters Degree in Computer Science in University of College London.
+                                    德意志银行区块链项目IT战略前负责人，
+                                    12年的云平台开发经验，伦敦大学计算机科学硕士学位。
                                 </p>
                             </div>
                         </div>
@@ -301,12 +290,11 @@
                                     Liu Xingchu
                                 </h4>
                                 <h4 class="member-position" style="margin-top: -10px">
-                                    Engineer Lead
+                                    工程师主管
                                 </h4>
                                 <p class="service-description justify">
-                                    Expert in data analytics, business intelligence and artificial intelligence.
-                                    More than 12 years of related experience in retail,
-                                    ecommerce, manufacturing, wholesale fields.
+                                    在数据分析、商业智能、人工智能领域具有深厚的专业知识。在零售、电子上午、制造业、批发等
+                                    多个行业中拥有超过12年的相关经验。
                                 </p>
                             </div>
                         </div>
@@ -323,13 +311,13 @@
                                     Trevor Smith
                                 </h4>
                                 <h4 class="member-position" style="margin-top: -10px">
-                                    OS architect
+                                    OS架构师
                                 </h4>
                                 <p class="service-description justify">
-                                    Trevor Smith has achieved PHD degree in University of Edinburgh.
-                                    He is one of the few early iOS developers worked on Salesforce and Oracle.
-                                    He also worked on early prototypes of iOS and Android app for start-up and successfully leading the product launch and acquisition.
-                                    Trevor is also specialized on website design and computer algorithm and is currently working decentralized blockchain technology research.
+                                    爱丁堡大学博士学位。
+                                    Salesforce和Oracle的早期iOS开发者之一.
+                                    他还从事IOS和Android应用的早期原型，并促进产品的推出和运营，
+                                    同时擅长web原型设计和计算机算法。目前正从事区块链研究工作。
                                 </p>
                             </div>
                         </div>
@@ -343,14 +331,11 @@
                                     Srikanth Bodla
                                 </h4>
                                 <h4 class="member-position" style="margin-top: -10px">
-                                    DNA graph manager
+                                    DNA图像主管
                                 </h4>
                                 <p class="service-description justify">
-                                    Srikanth Bodla is a Solutions Architect/Project lead with a strong background in Business
-                                    Intelligence & Data Warehousing,
-                                    a proven track record for successfully delivering end to end Solutions addressing problems &
-                                    requirements and a passion for emerging technologies Qlikview, Big Data, SAP Hana, SAP BI/BW
-                                    technologies and the Apache Hadoop Ecosystem
+                                    拥有强大的商业智能和数据仓库背景的解决方案架构师/项目负责人，多次成功交付端到端的问题和需求的解决方案
+                                    对Qlikview, 大数据, SAP Hana, SAP BI/BW技术和Apache Hadoop生态系统等新兴技术充满热情。
                                 </p>
                             </div>
                         </div>
@@ -367,12 +352,12 @@
                                     Shu Collins
                                 </h4>
                                 <h4 class="member-position" style="margin-top: -10px">
-                                    Economic Model
+                                    经济模式
                                 </h4>
                                 <p class="service-description justify">
-                                    Shu Colins achieved her Master of Science in statistics in University of Oxford, UK.
-                                    She has over 10 years of work experience on data science, machine learning and AI in automotive, gaming, technology,  entertainment and digital insurance industries.
-                                    She had lead data science projects in multiple fortune 500 companies or IPO companies like British Gas, Royal bank of Scotland, and specialized in blockchain application and cryptocurrency.
+                                    牛津大学统计学硕士学位。在汽车、游戏、科技、娱乐和数字保险等行业拥有超过10年的
+                                    数据分析、机器学习和人工智能经验。曾在多家500强公司或英国天然气公司、苏格兰皇家银行
+                                    等IPO公司领导过数据分析项目。擅长区块链应用和加密货币。
                                 </p>
                             </div>
                         </div>
@@ -386,12 +371,12 @@
                                     KJ
                                 </h4>
                                 <h4 class="member-position" style="margin-top: -10px">
-                                    Researcher
+                                    研究员
                                 </h4>
                                 <p class="service-description justify">
-                                    12 years’ experiences in architecture design in distributed database system and P2P network.
-                                    Research directions including Blockchain capacity, data shard and ecosystem.
-                                    He has got strong experience in both technology and research.
+                                    在分布式数据库系统和P2P网络架构设计方向有着长达12年的经验。
+                                    研究方向包括区块链扩容, 数据分片以及区块链的生态系统。
+                                    同时在技术和研究方面有丰富的经验。
                                 </p>
                             </div>
                         </div>
@@ -417,8 +402,8 @@
                         </span>
                             </h4>
                             <p class="service-description Team" style="text-align: left">
-                                In charge of user persona team, machine learning, deep learning and algorithm research.
-                                Encapsulate user tags.
+                                负责用户画像、机器学习、深度学习以及算法研究。
+                                同时封装用户标签。
                             </p>
                         </div>
                     </div>
@@ -430,8 +415,7 @@
                         </span>
                             </h4>
                             <p class="service-description Team" style="text-align: left">
-                                In charge of distributed protocol optimization, network layer protocol docking OS.
-                                Secure package storage content
+                                负责优化分布式协议，网络层协议对接OS，对存储内容进行安全封装。
                             </p>
                         </div>
                     </div>
@@ -443,7 +427,7 @@
                         </span>
                             </h4>
                             <p class="service-description Team" style="text-align: left">
-                                In charge of the realization of non-network technology, reform non-network protocol, optimize performance, embed OS
+                                负责无网络技术实现，改造无网络协议，优化性能。
                             </p>
                         </div>
                     </div>
@@ -455,7 +439,7 @@
                         </span>
                             </h4>
                             <p class="service-description justify" style="text-align: center">
-                                Research mainly on optimization of chain structure, based on the chain algorithm design and implementation.
+                                主要研究基于链式算法设计与实现的区块链结构优化。
                             </p>
                         </div>
                     </div>
@@ -470,9 +454,7 @@
                         </span>
                             </h4>
                             <p class="service-description Team" style="text-align: left">
-                                Lead a team of 10 people, in charge of OS's underlying system implementation, deconstruct layers.
-                                <br>
-                                Overall R & D embed all layers of the OS agreement.
+                                领导10人团队，负责OS的各个协议层的解构、研发及整合。
                             </p>
                         </div>
                     </div>
@@ -484,8 +466,7 @@
                         </span>
                             </h4>
                             <p class="service-description Team">
-                                In charge of Dapp architecture design and development, providing overall API for upper layer access.
-                                System Design and Implementation.
+                                负责Dapp架构设计与研发，为上层提供API。系统设计与实现。
                             </p>
                         </div>
                     </div>
@@ -497,8 +478,7 @@
                         </span>
                             </h4>
                             <p class="service-description Team" style="text-align: left">
-                                In charge of security attack and security reinforcement.
-                                Design architecture and develop transport layer security in the protocol layer for the overall OS
+                                负责防攻击及安全加固。为OS的协议层、传输层安全做架构设计和研发。
                             </p>
                         </div>
                     </div>
@@ -510,8 +490,7 @@
                         </span>
                             </h4>
                             <p class="service-description Team" style="text-align: left">
-                                In charge of the functional design of the OS product and the development of the interface protocol.
-                                Project priority adjustment.
+                                负责OS产品的功能设计和接口协议的开发。项目优先级调整。
                             </p>
                         </div>
                     </div>
@@ -526,8 +505,7 @@
                         </span>
                             </h4>
                             <p class="service-description Team" style="text-align: left">
-                                OS interactive designer expert.
-                                Provide solutions for mainframe human-computer interaction
+                                OS交互设计专家。为主框架人机交互提供解决方案。
                             </p>
                         </div>
                     </div>
@@ -539,9 +517,7 @@
                         </span>
                             </h4>
                             <p class="service-description Team" style="text-align: left">
-                                In charge of payment system design and development.
-                                Docking the various payment protocols on the chain safely and quickly.
-                            </p>
+                                负责支付体系的设计与研发。安全快速的对接链上各支付协议。
                         </div>
                     </div>
                     <div class="col-md-3 service animated" data-animation="fadeInUp" data-animation-delay="700">
@@ -552,7 +528,7 @@
                                 </span>
                             </h4>
                             <p class="service-description">
-                                In charge of visual effects, UI designer.
+                                负责视觉效果，UI设计师。
                             </p>
                         </div>
                     </div>
@@ -560,11 +536,11 @@
                         <div class="service-desc center">
                             <h4 class="service-title color-scheme">
                                 <span class="team-member">
-                                    others
+                                    其他成员
                                 </span>
                             </h4>
                             <p class="service-description">
-                                Overseas team profile to be updated.
+                                海外成员简介有待更新。
                             </p>
                         </div>
                     </div>
@@ -579,7 +555,7 @@
         <div class="row">
 
             <div class="col-md-12 center section-title" style="margin-top: 70px; margin-bottom: 0px; z-index: 5">
-                <h3 style="color: #666" data-animation="fadeInUp" data-animation-delay="700">Token Distribution</h3>
+                <h3 style="color: #666" data-animation="fadeInUp" data-animation-delay="700">代币分配</h3>
             </div>
 
             <!-- Single Service Starts -->
@@ -588,7 +564,7 @@
             </div>
             <div class="col-md-12 center distribution animated " style="color:red;">
                 <span class="button-line  vertical total-distribution" style="">
-                    Total Brahma OS Tokens: 3,000,000,000
+                    Brahma OS代币总量: 3,000,000,000
                 </span>
             </div>
             <!-- Single Service Ends -->
@@ -602,7 +578,7 @@
         <div class="row">
 
             <div class="col-md-12 center section-title" style="margin-top: 70px; margin-bottom: 0px; z-index: 5">
-                <h3 class="roadmap-title" data-animation="fadeInUp" data-animation-delay="700">Roadmap</h3>
+                <h3 class="roadmap-title" data-animation="fadeInUp" data-animation-delay="700">技术路线图</h3>
             </div>
 
             <!-- Single Service Starts -->
@@ -619,37 +595,37 @@
 
                             <h1>Phase 1</h1>
                             <p class="roadmap-time">Q3-Q4 2018</p>
-                            <h2>Brahma Wallet</h2>
+                            <h2>Brahma钱包</h2>
                             <p>
-                                Brahma Wallet provides users with functions such as wallet management,
-                                asset management, and transaction management. It also operates as Service and is open to upper applications.
+                                Brahma钱包为用户提供诸如钱包账号管理、资产管理和交易管理等功能。同时它也作为服务运行，
+                                并向上层应用程序开放。
                             </p>
 
                             <h3>Backlog</h3>
                             <ul class="disc-list">
-                                <li>Wallet management</li>
+                                <li>钱包账号管理</li>
                                 <li style="list-style: none">
                                     <ul class="disc-list">
-                                        <li>To create wallets, supporting passwords and mnemonics;</li>
-                                        <li>To backup wallet;</li>
-                                        <li>To delete wallets;</li>
-                                        <li>To edit wallet (only wallet name and password change);</li>
-                                        <li>To export private key and Keystore;</li>
+                                        <li>创建钱包账号，支持密码和助记符；</li>
+                                        <li>备份钱包账号;</li>
+                                        <li>删除钱包账号;</li>
+                                        <li>编辑钱包账号（仅限钱包账号名和密码）;</li>
+                                        <li>导出私钥和Keystore;</li>
                                     </ul>
                                 </li>
-                                <li>Asset management</li>
+                                <li>资产管理</li>
                                 <li style="list-style: none">
                                     <ul class="disc-list">
-                                        <li>Display of ETH and other Token asset information;</li>
-                                        <li>To add or remove impressions of Token asset information;</li>
+                                        <li>显示ETH和其他代币资产信息;</li>
+                                        <li>添加和移除代币资产信息的展示;</li>
                                     </ul>
                                 </li>
-                                <li>Transaction management</li>
+                                <li>交易管理</li>
                                 <li style="list-style: none">
                                     <ul class="disc-list">
-                                        <li>Receipt (supporting two-dimensional code);</li>
-                                        <li>Transfer (supporting ETH accounts and sending Tokens by smart contracts);</li>
-                                        <li>Historical transaction records;</li>
+                                        <li>收据 (支持二维码展示);</li>
+                                        <li>转账 (支持ETH转账和符合ERC20的代币转账);</li>
+                                        <li>历史交易记录;</li>
                                     </ul>
                                 </li>
                             </ul>
@@ -669,25 +645,25 @@
 
                             <h1>Phase 0</h1>
                             <p class="roadmap-time">Q2-Q4 2018</p>
-                            <h2>Overall Objective</h2>
-                            <p>To realize a basic and decentralized MVP version with a Brahma Wallets account which support a part of Android followers.</p>
+                            <h2>总体目标</h2>
+                            <p>实现有Brahma钱包账号的去中心化的MVP版本，并适配部分Android用户。</p>
                             <h2>Brahma OS</h2>
-                            <p>For the Brahma OS in Phase One, our mission (and also our iterative rhythm) is as follows： </p>
+                            <p>对于Phrase 1中的Brahma OS，我们的任务（以及我们的迭代节奏）如下：</p>
                             <ul class="disc-list">
-                                <li>To complete the Ethereum blockchain technology stack that implements the LES protocol;</li>
-                                <li>To complete the Android system source code (Android Framework) cutting and partial module reconstruction;</li>
-                                <li>To optimize the model selected for the drive adaptation part;</li>
+                                <li>实现基于LES协议的以太坊区块链技术栈;</li>
+                                <li>完成Android系统源代码（框架层）切割和局部模块重构;</li>
+                                <li>优化指定模块的驱动适配;</li>
                             </ul>
                             <div class="roadmap-level-2">
                                 <h3>Backlog</h3>
                                 <ul class="disc-list">
-                                    <li>Cutting or reconstructing all centralized module and framework component code based on Android system source code</li>
-                                    <li>Ethereum Relayer of Brahma Chain, which supports Ethereum blockchain's LES protocol and opens related capabilities and services for Ethereum blockchains for upper-level applications, including:</li>
+                                    <li>基于Android系统源码裁剪或重建所有中心化的模块和框架组件</li>
+                                    <li>Brahma区块链通过以太坊Relayer来支持以太坊区块链的LES协议，从而为上层应用使用以太坊区块链提供相关功能和服务, 其中包括:</li>
                                     <li style="list-style: none">
                                         <ul class="disc-list">
-                                            <li>Ethereum account management;</li>
-                                            <li>Blockchain management</li>
-                                            <li>Transfers and transaction records;</li>
+                                            <li>以太坊账号管理;</li>
+                                            <li>区块链管理;</li>
+                                            <li>转账和交易记录;</li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -703,25 +679,25 @@
 
                         <h1>Phase 0</h1>
                         <p class="roadmap-time">Q2-Q4 2018</p>
-                        <h2>Overall Objective</h2>
-                        <p>To realize a basic and decentralized MVP version with a Brahma Wallets account which support a part of Android followers.</p>
+                        <h2>总体目标</h2>
+                        <p>实现有Brahma钱包账号的去中心化的MVP版本，并适配部分Android用户。</p>
                         <h2>Brahma OS</h2>
-                        <p>For the Brahma OS in Phase One, our mission (and also our iterative rhythm) is as follows： </p>
+                        <p>对于Phrase 1中的Brahma OS，我们的任务（以及我们的迭代节奏）如下：</p>
                         <ul class="disc-list">
-                            <li>To complete the Ethereum blockchain technology stack that implements the LES protocol;</li>
-                            <li>To complete the Android system source code (Android Framework) cutting and partial module reconstruction;</li>
-                            <li>To optimize the model selected for the drive adaptation part;</li>
+                            <li>实现基于LES协议的以太坊区块链技术栈;</li>
+                            <li>完成Android系统源代码（框架层）切割和局部模块重构;</li>
+                            <li>优化指定模块的驱动适配;</li>
                         </ul>
                         <div class="roadmap-level-2">
                             <h3>Backlog</h3>
                             <ul class="disc-list">
-                                <li>Cutting or reconstructing all centralized module and framework component code based on Android system source code</li>
-                                <li>Ethereum Relayer of Brahma Chain, which supports Ethereum blockchain's LES protocol and opens related capabilities and services for Ethereum blockchains for upper-level applications, including:</li>
+                                <li>基于Android系统源码裁剪或重建所有中心化的模块和框架组件</li>
+                                <li>Brahma区块链通过以太坊Relayer来支持以太坊区块链的LES协议，从而为上层应用使用以太坊区块链提供相关功能和服务, 其中包括:</li>
                                 <li style="list-style: none">
                                     <ul class="disc-list">
-                                        <li>Ethereum account management;</li>
-                                        <li>Blockchain management</li>
-                                        <li>Transfers and transaction records;</li>
+                                        <li>以太坊账号管理;</li>
+                                        <li>区块链管理;</li>
+                                        <li>转账和交易记录;</li>
                                     </ul>
                                 </li>
                             </ul>
@@ -732,37 +708,39 @@
                     <div class="phase phase1 animated"  data-animation="fadeInUp" data-animation-delay="1400">
                         <h1>Phase 1</h1>
                         <p class="roadmap-time">Q3-Q4 2018</p>
-                        <h2>Brahma Wallet</h2>
+                        <h2>Brahma钱包</h2>
                         <p>
-                            Brahma Wallet provides users with functions such as wallet management,
-                            asset management, and transaction management. It also operates as Service and is open to upper applications.
+                            Brahma钱包为用户提供诸如钱包账号管理、资产管理和交易管理等功能。同时它也作为服务运行，
+                            并向上层应用程序开放。
                         </p>
 
                         <h3>Backlog</h3>
                         <ul class="disc-list">
-                            <li>Wallet management</li>
+                            <li>钱包账号管理</li>
                             <li style="list-style: none">
                                 <ul class="disc-list">
-                                    <li>To create wallets, supporting passwords and mnemonics;</li>
-                                    <li>To backup wallet;</li>
-                                    <li>To delete wallets;</li>
-                                    <li>To edit wallet (only wallet name and password change);</li>
-                                    <li>To export private key and Keystore;</li>
+                                    <li>创建钱包账号，支持密码和助记符；</li>
+                                    <li>备份钱包账号;</li>
+                                    <li>删除钱包账号;</li>
+                                    <li>编辑钱包账号（仅限钱包账号名和密码）;</li>
+                                    <li>导出私钥和Keystore;</li>
                                 </ul>
                             </li>
-                            <li>Asset management</li>
+                            <li>资产管理</li>
                             <li style="list-style: none">
                                 <ul class="disc-list">
-                                    <li>Display of ETH and other Token asset information;</li>
-                                    <li>To add or remove impressions of Token asset information;</li>
+                                    <li>显示ETH和其他代币资产信息;</li>
+                                    <li>添加和移除代币资产信息的展示;</li>
                                 </ul>
                             </li>
-                            <li>Transaction management</li>
+                            <li>交易管理</li>
                             <li style="list-style: none">
                                 <ul class="disc-list">
-                                    <li>Receipt (supporting two-dimensional code);</li>
-                                    <li>Transfer (supporting ETH accounts and sending Tokens by smart contracts);</li>
-                                    <li>Historical transaction records;</li>
+                                    <ul class="disc-list">
+                                        <li>收据 (支持二维码展示);</li>
+                                        <li>转账 (支持ETH转账和符合ERC20的代币转账);</li>
+                                        <li>历史交易记录;</li>
+                                    </ul>
                                 </ul>
                             </li>
                         </ul>
@@ -771,7 +749,7 @@
                 </div>
             </div>
             <div class="col-md-12 center token-distribution">
-                The roadmap will be regularly updated, please refer to our official website for future updates.
+                技术路线图将定期更新，请参阅我们的官方网站以获取更新信息。
             </div>
 
             <!-- Single Service Ends -->
@@ -785,7 +763,7 @@
         <div class="row">
             <div class="subcontent center">
                 <div class="col-md-10 col-md-offset-1 center section-title" style="margin-bottom: 40px">
-                    <h3 style="color: #ccc;text-transform: none" data-animation="fadeInUp" data-animation-delay="700">Partners and Advisors</h3>
+                    <h3 style="color: #ccc;text-transform: none" data-animation="fadeInUp" data-animation-delay="700">合作伙伴与顾问</h3>
                 </div>
                 {{--<div class="col-md-10 col-md-offset-1 center section-title" style="margin-bottom: 0px; z-index: 5">--}}
                     {{--<h3 style="color: #666">Partners</h3>--}}
@@ -828,7 +806,7 @@
         <div class="row">
             <div class="subcontent center" style="">
                 <div class="col-md-12 center section-title"  style="margin-bottom: 20px">
-                    <h3 style="color: #666;" data-animation="fadeInUp" data-animation-delay="700">Media</h3>
+                    <h3 style="color: #666;" data-animation="fadeInUp" data-animation-delay="700">媒体</h3>
                 </div>
                 <div>
                     <a href="https://cointelegraph.com/press-releases/brahma-os-is-the-decentralized-value-operating-system-based-on-revolutionary-blockchain-technology" data-animation-delay="700" target="_blank" class="media-img animated"><img src="/images/site2/media/Group 3.png"  alt=""></a>
@@ -856,43 +834,43 @@
         <div class="row">
             <div class="subcontent center" style="">
                 <div class="center section-title"  style="margin-bottom: 10px">
-                    <h3 style="color: #ccc;" data-animation="fadeInUp" data-animation-delay="700">Contact-Project BRAHMA</h3>
+                    <h3 style="color: #ccc;" data-animation="fadeInUp" data-animation-delay="700">BRAHMA联系方式</h3>
                 </div>
 
                 <div style="margin-bottom: 40px">
                     <span style="color: #7F8C8D">
-                        Investors should be cautious to evade investment risks
+                        请投资者注意规避风险
                     </span>
                 </div>
 
                 <div class="center section-title" style="margin-bottom: 50px;">
-                    <h5 style="color: #7F8C8D; font-size: 20px">Brahma Official Designated Contact</h5>
+                    <h5 style="color: #7F8C8D; font-size: 20px">Brahma官方唯一指定联系人</h5>
                 </div>
                 <div>
                         <div class="contact-message " >
                             <div>
-                                Asian Area
+                                亚洲地区
                             </div>
                             Karen LIU : &nbsp; Lynn@brahmalabs.org
                         </div>
 
                         <div class="contact-message">
                             <div>
-                                East Asia (South Korea Area) Authorised Agent
+                                东亚地区(韩国)授权代理
                             </div>
                             Coinway Ventures (ICO BANK) : &nbsp; 최제호 &nbsp; osbrahma2@gmail.com
                         </div>
 
                         <div class="contact-message">
                             <div>
-                                East Asia (Japan Area) Authorised Agent
+                                东亚地区(日本)授权代理
                             </div>
                             Ryan kim : &nbsp; ryan0911@naver.com
                         </div>
 
                         <div class="contact-message">
                             <div>
-                                Other Area
+                                其他地区
                             </div>
                             Lynn@brahmalabs.org
                         </div>
@@ -957,7 +935,7 @@
 					url: "/sign-in",
 					type: 'POST',
 					xhrFields: {
-						withCredentials: true // 这里设置了withCredentials
+						withCredentials: true // set withCredentials
 					},
 					crossDomain: true,
 					data: data,

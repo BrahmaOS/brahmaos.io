@@ -60,7 +60,6 @@
                     <div class="home-buttons" style="margin-bottom: 20px">
                         <a href="/abstract/1.html" style="margin:5px 20px; min-width: 220px" target="_blank" class="fancy-button WhitePaper button-line button-white vertical">Online WhitePaper</a>
                         <a href="/Brahma_Whitepaper_Latest.pdf" style="margin:5px 20px; min-width: 220px" target="_blank" class="fancy-button WhitePaper button-line button-white vertical">Download WhitePaper</a>
-                        <a href="/BrahmaOS_Whitepaper_CH_0425.pdf" style="margin:15px 20px; min-width: 220px" target="_blank" class="fancy-button WhitePaper button-line button-white vertical">下载白皮书</a>
                     </div>
                 </div>
             </div>
