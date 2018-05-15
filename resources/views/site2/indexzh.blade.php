@@ -24,15 +24,15 @@
 
                     <div class="collapse navbar-collapse navbar-responsive-collapse n-nav">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#section-pricing">OS Demand</a></li>
-                            <li><a href="#section-members">Members</a></li>
-                            <li><a href="#section-distribution">Token Distribution</a></li>
-                            <li><a href="#section-roadmap">Roadmap</a></li>
-                            <li><a href="#section-Partners">Partners</a></li>
-                            <li><a href="#section-Media">Media</a></li>
-                            <li><a href="#section-contact">Contact</a></li>
-                            <li><a href="https://medium.com/brahmalabs" target="_blank">Blog</a></li>
-                            <li><a href="/zh"><span style="color: #ccc">EN</span>&nbsp;&nbsp;<span style="font-size: 14px; height: 14px; overflow: hidden; display: inline-block;">|</span>&nbsp;&nbsp;简体中文</a></li>
+                            <li><a href="#section-pricing">系统需求</a></li>
+                            <li><a href="#section-members">成员</a></li>
+                            <li><a href="#section-distribution">代币分配</a></li>
+                            <li><a href="#section-roadmap">路线图</a></li>
+                            <li><a href="#section-Partners">合作方</a></li>
+                            <li><a href="#section-Media">媒体</a></li>
+                            <li><a href="#section-contact">联系方式</a></li>
+                            <li><a href="https://medium.com/brahmalabs" target="_blank">博客</a></li>
+                            <li><a href="/">EN&nbsp;&nbsp;<span style="font-size: 14px; height: 14px; overflow: hidden; display: inline-block;">|</span>&nbsp;&nbsp;<span style="color: #ccc">简体中文</span></a></li>
                         </ul>
                     </div>
                 </nav>

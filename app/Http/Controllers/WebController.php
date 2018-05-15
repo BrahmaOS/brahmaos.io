@@ -32,4 +32,9 @@ class WebController extends Controller
     {
 	    return view('site2.Members-details');
     }
+
+    public function index_zh()
+    {
+        return view('site2.indexzh');
+    }
 }
