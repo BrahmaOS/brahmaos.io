@@ -18,7 +18,7 @@
                         </button>
                         <!--=== Site Name ===-->
                         <a class="site-name navbar-brand" href="">
-                            <img src="/logo-512-2.png" style="margin-top: -10px" alt="">
+                            <img src="/logo-512-2.png" alt="">
                         </a>
                     </div>
 
