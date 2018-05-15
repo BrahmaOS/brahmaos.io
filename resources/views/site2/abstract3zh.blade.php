@@ -3,150 +3,156 @@
 @section("docs-content")
 <div>
     <!--Network-->
-    <h1 id="Network">Network</h1>
+    <h1 id="Network">网络</h1>
     <p>
-        Network connectivity will eventually be accessible without barrier.
+        网络的连通最终将是无障碍进行。
     </p>
 
     <!--Role of Network-->
     <br>
-    <h3 id="RoleofNetwork">Role of Network</h3>
+    <h3 id="RoleofNetwork">网络角色</h3>
     <p>
-        At Brahma OS's network layer, we ensure network connectivity and autonomous economic construction by separating different roles.
-        Here, we will distinguish the Meta-network nodes and routing network nodes.
+        在 Brahma OS  的网络层，我们通过分离不同的角色，来确保网络的
+        连通性和相应的自治经济构建。
+        其中，我们会区分出元网络节点和路由网络节点两类。
     </p>
 
     <br>
-    <h3 id="ConstructionofMetaNetwork">Construction of Meta-Network</h3>
+    <h3 id="ConstructionofMetaNetwork">元网络的构建</h3>
     <p>
-        Meta-Network is the smallest unit of a local area network.
+        元网络是一个局域网络的最小单元。
     </p>
     <p>
-        In the meta-network, different nodes are peer-to-peer with each other and do not need additional traffic costs.
-        Therefore, the construction of meta- networks mainly occurs in a small area.
-        The interconnection between devices at a short distance can be achieved directly through Bluetooth and other protocols.
+        在元网络内，不同节点之间是彼此对等，彼此间连通不需要额外的流
+        量成本，所以元网络的构建主要发生在小范围内，甚至是近距离直接
+        通过蓝牙等协议完成设备间互联。
     </p>
     <p>
-        Brahma OS can be interconnected to build a meta-network and diffuse as a minimum unit.
-        When sending data in the meta-network, the application layer protocol itself will do a lot of obfuscation measures,
-        the data will be fragmented, encrypted to ensure that the data transmission in the meta- network will not leak data content.
+        Brahma OS  之间可以互联构建元网络，并以此为最小单位向外扩散。
+        在元网络内传出数据时，应用层协议本身会做诸多的混淆措施，会对
+        数据做分片、加密等处理，从而确保数据在元网络内的传输不会泄漏
+        数据内容。
     </p>
 
     <br>
     <!--Routing-->
-    <h3 id="Routing">Routing</h3>
+    <h3 id="Routing">路由</h3>
     <p>
-        Routing connects to different meta-networks and connectivity to the upper WAN.
-        Multiple routing can form a meta-network structure.
-        They provide data exchange services between different meta-networks.
-        Here can form a non-central traffic market.
+        路由扮演着连接不同元网络及连通到上层广域网络的角色。
+        多个路由本身也可以形成一个元网络的结构。它们为不同的元网络
+        之间提供数据交换的服务。这边可以形成一个无中心的流量市场。
     </p>
     <p>
-        In Brahma OS, nodes connected to different meta-networks act as routing nodes,
-        which provide traffic exchange between different meta-networks and interworking between meta-networks and wide-area networks.
-        Therefore, the device as a routing node also obtains, to a certain extent, some economic return.
+        Brahma OS  中，连通不同元网络的节点作为路由节点，它们为不同
+        元网络之间及元网络与广域网间的互通提供流量交换，因此作为路由
+        节点的设备也会在一定程度上获得网络连通中的经济回报。
     </p>
 
     <br>
     <!--Application Basis-->
-    <h1 id="ApplicationBasis">Application Basis</h1>
+    <h1 id="ApplicationBasis">应用基础</h1>
     <p>
-        The purpose of Brahma OS with decentralized services is to provide a foundation for the above applications,
-        so that D-App developers do not need to think too much about how to access decentralized services but to focus on how to construct application logic .
+        Brahma OS  集成给类去中心化服务的目的，是为之上的应用提供可
+        以基础，让 D-App  开发者可以不必过多的考虑如何接入去中心化服
+        务，只需要关注在如何构建应用逻辑。
     </p>
 
     <br>
     <!--Runtime environment-->
-    <h3 id="Runtimeenvironment">Runtime environment</h3>
+    <h3 id="Runtimeenvironment">运行时环境</h3>
     <p>
-        The Brahma OS runtime environment runs as a sandboxed environment for Native D-App. We should ensure:
+        Brahma OS 运行时环境作为 Native D-App 的运行沙盒环境。运行时环境需要确保几点：
     </p>
     <ul>
-        <li class="li_disc">Completely isolated</li>
+        <li class="li_disc">完全隔离</li>
         {{--bug--}}
-        <li class="li_disc">Completely isolated</li>
-        <li class="li_disc">decentralized component of the call environment</li>
+        <li class="li_disc">执行效率</li>
+        <li class="li_disc">去中心化组件的调用环境</li>
     </ul>
 
     <p>
-        Complete isolation provides safe running space for D-App.
-        The security here is not only that the data of a single App itself cannot be infringed,
-        but also that the operation with other App is isolated from each other.
+        其中，完全的隔离为 D-App  提供安全的运行空间，这里的安全不单
+        单是指单一 App  本身的数据不会被侵犯，同时也指与其他 App 之
+        间运行是彼此隔离。
     </p>
 
     <p>
-        As a Native App, the efficiency of execution is crucial,
-        which is directly related to the quality of the user experience.
-        At the system's priority level,
-        Brahma OS preempts transactions related to user interaction while network-IO-related execution runs in parallel in the background.
+        作为 Native  运行的 App，执行效率至关重要，这直接关系到用户体
+        验的好坏。在系统的线程优先级层面，Brahma OS  会优先处理与用
+        户交互相关的事务，而网络、IO  相关的执行则并行多线程在后台运
+        行。
     </p>
 
     <br>
     <!---->
     {{--bug--}}
-    <h3 id="Applicationstructure">Application structure</h3>
+    <h3 id="Applicationstructure">应用结构</h3>
     <p>
-        The D-App above Brahma OS should include two key components: Brahma OS Services Components, UI Components.
+        Brahma OS  之上的 D-App 应该会包含两个关键部分：Brahma OS
+        服务组件、UI  组件。我们在此更多讨论和关注服务组件。
     </p>
 
     <br>
     <!-- Decentralized Service Components -->
-    <h3 id="DecentralizedServiceComponents">Decentralized Service Components</h3>
+    <h3 id="DecentralizedServiceComponents">去中心化服务组件</h3>
     <p>
-        As mentioned above, many decentralized services above Ethereal are being introduced.
-        For developers, how to interface with best practices is crucial.
-        It affects not only development progress of D-App but also user's asset security or other issues.
+        如上文所提到的，以太坊之上的诸多去中心化服务正在不断推出，而
+        对于开发者而言，如何快速、符合最佳实践方案的对接这些服务至关
+        重要，它不仅仅影响到 D-App  的开发进度，同时也影响着用户的资
+        产安全等问题。
     </p>
     <p>
-        Therefore, Brahma OS is expected to provide developers with:n
+        因此，Brahma OS  预期为开发者提供：
     </p>
     <ul>
-        <li class="li_disc">Components SDK for quick integration</li>
-        <li class="li_disc">Rich documentation</li>
-        <li class="li_disc">Best Practice Access Sample</li>
-        <li class="li_disc">Actively involved developer community</li>
+        <li class="li_disc">便于快速集成的组件  SDK</li>
+        <li class="li_disc">丰富的文档</li>
+        <li class="li_disc">最佳实践的接入  Sample</li>
+        <li class="li_disc">积极参与的开发者社区</li>
     </ul>
 
     <p>
-        For example, when a user in a D-App needs to purchase an item using ETH,
-        he no longer needs to go to the wallet to start a transaction. Instead,
-        he directly calls Brahma OS's payment component in the game to display the requested payment for the user Specific information.
-        User's perception will also change from the logic of the past to the use of payment logic.
-        It brings possibilities for a wider range of scenarios for the use of cryptographic assets.
+        比如，当一个 D-App  中用户需要使用 ETH 购买某个道具时，他不
+        再需要繁琐的跳转到钱包发起交易，而是直接在游戏内调用  Brahma
+        OS  的支付组件，为用户展示请求支付的具体信息，用户的认知也将
+        从过去发送交易的逻辑中变为使用支付的逻辑，为更广泛的密码学资
+        产使用场景带来了可能性。
     </p>
 
     <br>
     <!---->
-    <h3 id="D-AppStore">D-App Store</h3>
+    <h3 id="D-AppStore">D-App Store的可能性</h3>
     <p>
-        In addition to bringing a lot of technological breakthroughs,
-        Brahma OS brings a huge possibility for next possible new ecology, D-App Store.
+        Brahma OS  除了在技术上带来诸多的突破，还在为未来可能的新生
+        态带来另一个巨大的可能性，D-App Store。
     </p>
 
     <p>
-        Unlike App Store or Google Play, we do not expect DApp to be a centralized operator,
-        but a decentralized market where users are directly involved in operations.
-        Many new business models can be built on it. For example,
-        the revenue of D-App may be related to the rating users or recommended users with any intermediate role to deprive D-App's revenue.
+        D-App Store  不同于当前当前我们已知的给类 App Store 或  Google
+        Play，我们预期它不是一个中心化的运营主体，而是一个由用户直接
+        参与运营和筛选的去中心化集市。其上可以构建和尝试很多新的商业模式，比如 D-App  的收益可能可
+        以直接与评分用户或推荐用户直接关联，不再存在中间的角色剥夺
+        D-App  主体的收入。
     </p>
 
     <p>
-        Moreover, since user-identity data is no longer in different central systems,
-        different D-apps can more human-based and personalized based on the same user identity.
-        Developers can find users that meet their target audience by paying the D-App Store's recommender system,
-        who not only receive payment directly (in fact, users think they did nothing but received a token),
-        but also will promote the high conversion rate of D-App.
+        而且，因为用户身份的数据不再是分裂在不同的中心系统中，所以不
+        同的 D-App  之间可以基于同一个用户身份作出更为人性化的定制，
+        甚至于从 D-App Store  时这些数据就已经起到作用，而开发者可以
+        通过付费给 D-App Store  的推荐系统，来寻找到符合其目标群体的
+        用户，这些用户不但会直接收到收益（事实上用户会认为他们什么都
+        没做就收到了代币），而且还会促进 D-App  的高转化率。
     </p>
 
     <br>
     <!-- Conclusion-->
-    <h1 id="Conclusion"> Conclusion</h1>
+    <h1 id="Conclusion"> 总结</h1>
     <p>
-        Brahma OS is stepping into a whole new area which cryptocurrency has never touched before.
-        It will act as a central role in connecting end-users to the blockchain network.
-        It not only integrates many of the existing decentralized services but also provides
-        its developers with an infrastructure and a complete ecosystem to quickly build applications.
-        It shows an important advance in the exploration of blockchain technology.
+        Brahma OS  踏入了一个全新的、密码学货币至今从未被触及过的领
+        域。它将作为连通终端用户和区块链网络的核心角色，它不仅仅集成
+        了已有的诸多去中心化服务，还为其上的开发者提供了便于快速构建
+        应用的底层架构和一个完整的生态系统。它代表了区块链技术从探
+        索到蓬勃发展的重要进步。
     </p>
 </div>
 
