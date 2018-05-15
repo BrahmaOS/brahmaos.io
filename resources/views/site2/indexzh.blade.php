@@ -123,6 +123,7 @@
                     <div class="sign-up">
                         <div  class="single-title">
                             <p>无障碍网络通信</p>
+                            <p>&nbsp;</p>
                         </div>
                         <a href="/zh/abstract/1.html#AccessibleNetworkCommunication"  target="_blank" class="fancy-button button-line btn-col zoom">
                             详细信息
@@ -143,6 +144,7 @@
                     <div class="sign-up">
                         <div  class="single-title">
                             <p>自治经济系统</p>
+                            <p>&nbsp;</p>
                         </div>
                         <a href="/zh/abstract/1.html#AutonomousEconomicSystem" target="_blank" class="fancy-button button-line btn-col zoom">
                             详细信息
@@ -162,6 +164,7 @@
                     <div class="sign-up">
                         <div  class="single-title">
                             <p>加密资产管理</p>
+                            <p>&nbsp;</p>
                         </div>
                         <a href="/zh/abstract/1.html#ManagementofCryptographicAssets" target="_blank" class="fancy-button button-line btn-col zoom">
                             Details

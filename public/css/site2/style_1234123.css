@@ -302,6 +302,8 @@ font-weight: 700;
 	right: 0;
 	top: 0;
 	padding-top: 13px;
+	padding-left: 0;
+	padding-right: 0;
 	z-index: 1025;
 }
 
