@@ -1,4 +1,4 @@
-@extends('site2.abstract')
+@extends('site2.abstractzh')
 
 @section("docs-content")
 <div>

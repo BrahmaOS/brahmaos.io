@@ -52,8 +52,7 @@
 
                 <div class="col-md-8 col-md-offset-2">
                     <p class="intro-message" >
-                        Brahma OS 是一种承载去中心化网络的操作系统，它通过解构已有服务并使用各类去中心化服务和
-                        组件得以实现，确保用户可以安全、无障碍的使用区块链之上的服务和应用。
+                        Brahma OS 是一种承载去中心化网络的操作系统，它通过解构已有服务并使用各类去中心化服务和组件得以实现，确保用户可以安全、无障碍的使用区块链之上的服务和应用。
                     </p>
 
                     <div class="home-buttons" style="margin-bottom: 20px">
@@ -143,7 +142,7 @@
 
                     <div class="sign-up">
                         <div  class="single-title">
-                            <p>自治经济系统</p>
+                            <p>自治的经济系统</p>
                             <p>&nbsp;</p>
                         </div>
                         <a href="/zh/abstract/1.html#AutonomousEconomicSystem" target="_blank" class="fancy-button button-line btn-col zoom">
@@ -296,8 +295,7 @@
                                     工程师主管
                                 </h4>
                                 <p class="service-description justify">
-                                    在数据分析、商业智能、人工智能领域具有深厚的专业知识。在零售、电子上午、制造业、批发等
-                                    多个行业中拥有超过12年的相关经验。
+                                    在数据分析、商业智能、人工智能领域具有深厚的专业知识。在零售、电子商务、制造业、批发等行业中拥有超过12年的相关经验。
                                 </p>
                             </div>
                         </div>
@@ -318,7 +316,7 @@
                                 </h4>
                                 <p class="service-description justify">
                                     爱丁堡大学博士学位。
-                                    Salesforce和Oracle的早期iOS开发者之一.
+                                    Salesforce和Oracle的早期iOS开发者之一。
                                     他还从事IOS和Android应用的早期原型，并促进产品的推出和运营，
                                     同时擅长web原型设计和计算机算法。目前正从事区块链研究工作。
                                 </p>
@@ -847,7 +845,7 @@
                 </div>
 
                 <div class="center section-title" style="margin-bottom: 50px;">
-                    <h5 style="color: #7F8C8D; font-size: 20px">Brahma官方唯一指定联系人</h5>
+                    <h5 style="color: #7F8C8D; font-size: 20px">Brahma官方指定联系人</h5>
                 </div>
                 <div>
                         <div class="contact-message " >
