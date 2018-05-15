@@ -872,7 +872,7 @@
                             <div>
                                 Asian Area
                             </div>
-                            Karen LIU : &nbsp; Lynn@brahmalabs.org
+                            Karen LIU : &nbsp; Lynn@brahmaos.io
                         </div>
 
                         <div class="contact-message">
@@ -893,7 +893,7 @@
                             <div>
                                 Other Area
                             </div>
-                            Lynn@brahmalabs.org
+                            Lynn@brahmaos.io
                         </div>
                 </div>
 

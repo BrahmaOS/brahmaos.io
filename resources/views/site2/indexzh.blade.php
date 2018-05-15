@@ -837,7 +837,7 @@
                             <div>
                                 亚洲地区
                             </div>
-                            Karen LIU : &nbsp; Lynn@brahmalabs.org
+                            Karen LIU : &nbsp; Lynn@brahmaos.io
                         </div>
 
                         <div class="contact-message">
@@ -858,7 +858,7 @@
                             <div>
                                 其他地区
                             </div>
-                            Lynn@brahmalabs.org
+                            Lynn@brahmaos.io
                         </div>
                 </div>
 
