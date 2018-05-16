@@ -378,7 +378,7 @@
             <div class="col-md-12">
 
                 <div class="col-md-12 center section-title" data-animation="fadeInUp" data-animation-delay="700" style="margin-bottom: 40px; margin-top: 50px">
-                    <h4 data-animation="fadeInUp" data-animation-delay="700">Team responsibility</h4>
+                    <h4 data-animation="fadeInUp" data-animation-delay="700">团队职责</h4>
                 </div>
 
                 <div class="col-md-12">
