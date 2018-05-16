@@ -307,6 +307,13 @@ font-weight: 700;
 	z-index: 1025;
 }
 
+@media (min-width: 1200px) {
+	.nav-hold{
+		width: 1200px;
+	}
+}
+
+
 ul.nav > li > a {
 	color:#fff;
 	font-size: 16px;
