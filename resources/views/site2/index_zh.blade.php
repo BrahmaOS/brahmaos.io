@@ -166,7 +166,7 @@
                             <p>&nbsp;</p>
                         </div>
                         <a href="/zh/abstract/1.html#ManagementofCryptographicAssets" target="_blank" class="fancy-button button-line btn-col zoom">
-                            Details
+                            详细信息
                             <span class="icon">
                             <i class="fa fa-angle-right"></i>
                         </span>
