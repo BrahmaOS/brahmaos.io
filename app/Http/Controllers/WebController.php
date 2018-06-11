@@ -35,7 +35,7 @@ class WebController extends Controller
 
     public function index_zh()
     {
-        return view('site2.index_zh');
+        return view('site2.indexZh');
     }
 
     public function abstract_zh_1()
