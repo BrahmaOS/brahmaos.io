@@ -292,24 +292,24 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 service animated item" data-animation="fadeInUp" data-animation-delay="700">
-                        <div class="service-desc  members-details">
-                            <div class="detail">
-                                <div class="members-photo"><img src="/images/site2/members/Liu Xingchu.png" alt=""></div>
-                                <h4 class="service-title member-name">
-                                    Liu Xingchu
-                                </h4>
-                                <h4 class="member-position" style="margin-top: -10px">
-                                    Engineer Lead
-                                </h4>
-                                <p class="service-description justify">
-                                    Expert in data analytics, business intelligence and artificial intelligence.
-                                    More than 12 years of related experience in retail,
-                                    ecommerce, manufacturing, wholesale fields.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    {{--<div class="col-md-6 service animated item" data-animation="fadeInUp" data-animation-delay="700">--}}
+                        {{--<div class="service-desc  members-details">--}}
+                            {{--<div class="detail">--}}
+                                {{--<div class="members-photo"><img src="/images/site2/members/Liu Xingchu.png" alt=""></div>--}}
+                                {{--<h4 class="service-title member-name">--}}
+                                    {{--Liu Xingchu--}}
+                                {{--</h4>--}}
+                                {{--<h4 class="member-position" style="margin-top: -10px">--}}
+                                    {{--Engineer Lead--}}
+                                {{--</h4>--}}
+                                {{--<p class="service-description justify">--}}
+                                    {{--Expert in data analytics, business intelligence and artificial intelligence.--}}
+                                    {{--More than 12 years of related experience in retail,--}}
+                                    {{--ecommerce, manufacturing, wholesale fields.--}}
+                                {{--</p>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
 
                 </div>
                 <div class="col-md-12">

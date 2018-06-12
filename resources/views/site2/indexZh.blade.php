@@ -279,22 +279,22 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 service animated item" data-animation="fadeInUp" data-animation-delay="700">
-                        <div class="service-desc  members-details">
-                            <div class="detail">
-                                <div class="members-photo"><img src="/images/site2/members/Liu Xingchu.png" alt=""></div>
-                                <h4 class="service-title member-name">
-                                    Liu Xingchu
-                                </h4>
-                                <h4 class="member-position" style="margin-top: -10px">
-                                    工程师主管
-                                </h4>
-                                <p class="service-description justify">
-                                    在数据分析、商业智能、人工智能领域具有深厚的专业知识。在零售、电子商务、制造业、批发等行业中拥有超过12年的相关经验。
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    {{--<div class="col-md-6 service animated item" data-animation="fadeInUp" data-animation-delay="700">--}}
+                        {{--<div class="service-desc  members-details">--}}
+                            {{--<div class="detail">--}}
+                                {{--<div class="members-photo"><img src="/images/site2/members/Liu Xingchu.png" alt=""></div>--}}
+                                {{--<h4 class="service-title member-name">--}}
+                                    {{--Liu Xingchu--}}
+                                {{--</h4>--}}
+                                {{--<h4 class="member-position" style="margin-top: -10px">--}}
+                                    {{--工程师主管--}}
+                                {{--</h4>--}}
+                                {{--<p class="service-description justify">--}}
+                                    {{--在数据分析、商业智能、人工智能领域具有深厚的专业知识。在零售、电子商务、制造业、批发等行业中拥有超过12年的相关经验。--}}
+                                {{--</p>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
 
                 </div>
                 <div class="col-md-12">
