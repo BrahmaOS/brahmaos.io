@@ -296,9 +296,6 @@
                         {{--</div>--}}
                     {{--</div>--}}
 
-                </div>
-                <div class="col-md-12">
-
                     <div class="col-md-6 service animated item" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="service-desc  members-details">
                             <div class="detail">
@@ -315,6 +312,11 @@
                             </div>
                         </div>
                     </div>
+
+                </div>
+                <div class="col-md-12">
+
+
 
                     <div class="col-md-6 service animated item" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="service-desc  members-details">
@@ -333,9 +335,6 @@
                         </div>
                     </div>
 
-                </div>
-                <div class="col-md-12">
-
                     <div class="col-md-6 service animated item" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="service-desc  members-details">
                             <div class="detail">
@@ -352,6 +351,10 @@
                             </div>
                         </div>
                     </div>
+
+                </div>
+                <div class="col-md-12">
+
 
                     <div class="col-md-6 service animated item" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="service-desc  members-details">
