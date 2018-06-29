@@ -56,7 +56,7 @@
                         <li><a target="_blank" href="https://t.me/BrahmaOS"><img src="/images/site2/footer-logo/telegram copy.png" style="width: 28px; height: 28px" alt=""></a></li>
                         <li><a target="_blank" href="https://bitcointalk.org/index.php?topic=2992872.new#new"><img src="/images/site2/footer-logo/bitcoin-2.png" style="width: 28px; height: 28px" alt=""></a></li>
                         <li><a target="_blank" href="https://github.com/BrahmaOS/"><img src="/images/site2/footer-logo/github.png" style="width: 28px; height: 28px" alt=""></a></li>
-                        <li><a target="_blank" href="https://open.kakao.com/o/gdqRKcQ"><img src="/images/site2/footer-logo/kakao-talk-88.png" style="width: 28px; height: 28px" alt=""></a></li>
+                        <li><a target="_blank" href="https://open.kakao.com/o/gdqRKcQ"><img src="/images/site2/footer-logo/kakao-talk.png" style="width: 28px; height: 28px" alt=""></a></li>
                     </ul>
                 </div>
 
